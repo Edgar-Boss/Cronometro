@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Cronometro.MainPage">
+
+    <Grid RowSpacing="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height=".32*"/>
+            <RowDefinition Height=".43*"/>
+            <RowDefinition Height=".25*"/>
+        </Grid.RowDefinitions>
+        <StackLayout Grid.Row="1" BackgroundColor="Transparent">
+            
+        </StackLayout>
+
+        <AbsoluteLayout x:Name="abl" Grid.RowSpan="3" BackgroundColor="Transparent">
+            <Grid  x:Name="grd_base" AbsoluteLayout.LayoutFlags="PositionProportional" AbsoluteLayout.LayoutBounds="0.5,0.3" BackgroundColor="Transparent" Padding="0" >
+                <Frame x:Name="frm_anim" BackgroundColor="Transparent" HasShadow="False" Padding="0">
+                    <Grid>
+                        
+                        <Label  x:Name="timerLabel"
+                                Text="00:00:00.00" 
+                                FontSize="30" 
+                                HorizontalOptions="Center" 
+                                VerticalOptions="Center"/>
+                        <Frame   x:Name="frm_circulo" HeightRequest="200" WidthRequest="300" HasShadow="False" BackgroundColor="Transparent">
+                            <Grid RowDefinitions="Auto">
+                                
+                                <Ellipse    Fill="Transparent"
+                                            VerticalOptions="CenterAndExpand"
+                                            WidthRequest="200"
+                                            HeightRequest="200"
+                                            HorizontalOptions="Center" 
+                                            StrokeThickness="4"
+                                            Stroke ="#34768C"
+                                >
+                                   
+                                </Ellipse>
+                                <Ellipse    Fill="#34768C"
+                                            VerticalOptions="End"
+                                            HorizontalOptions="Center"
+                                            HeightRequest="20"
+                                            WidthRequest="20"
+                                            Margin="0,0,0,-7"
+                                >
+                                </Ellipse>
+
+                            </Grid>
+                        </Frame>
+                        <Frame x:Name="frm_tap" BackgroundColor="Transparent">
+                            
+                        </Frame>
+
+                    </Grid>
+                </Frame>
+            </Grid>
+            <Frame x:Name="frm_botones" 
+                   AbsoluteLayout.LayoutFlags="PositionProportional" 
+                   AbsoluteLayout.LayoutBounds="0.5,0.7" 
+                   HasShadow="False"
+                   HorizontalOptions="FillAndExpand"
+                   BackgroundColor="Transparent"
+                   >
+                <StackLayout Orientation="Horizontal">
+                    <Button x:Name="startButton" 
+                                Text="Start" 
+                                Clicked="StartButton_Clicked" 
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"
+                                BackgroundColor="Transparent" 
+                                BorderWidth="1" 
+                                BorderColor="#34768C"
+                                CornerRadius="14"/>
+                    <Button x:Name="stopButton" 
+                                Text="Stop" 
+                                Clicked="StopButton_Clicked" 
+                                HorizontalOptions="Center" 
+                                VerticalOptions="Center"
+                                IsEnabled="True" 
+                                BackgroundColor="Transparent" 
+                                BorderWidth="1" 
+                                BorderColor="#C59D9D"
+                                CornerRadius="14"/>
+                    <ImageButton    x:Name="LapButton" 
+                                    Source="bandera.png"
+                                    Padding="8"
+                                    WidthRequest="40"
+                                    Clicked="LapButton_Clicked" 
+                                    HorizontalOptions="End" 
+                                    VerticalOptions="Center"
+                                    IsEnabled="True"
+                                    BackgroundColor="Transparent" 
+                                    BorderWidth="1" 
+                                    BorderColor="#34768C"
+                                    CornerRadius="14"/>
+                </StackLayout>
+            </Frame>
+            
+        </AbsoluteLayout>
+        
+    </Grid>
+</ContentPage>

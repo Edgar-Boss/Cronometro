@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "+owm4tr2zZX8PKquQ5k0o9AkMjmLDFMjoSF0R1eJG5hTK8nXAUEcEI43B9hqsI8qvhbPd/wcjdjkKeS/m59FiQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Edgar\\source\\repos\\Cronometro\\Cronometro\\Cronometro\\Cronometro.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Edgar\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Edgar\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Edgar\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Edgar\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Edgar\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
