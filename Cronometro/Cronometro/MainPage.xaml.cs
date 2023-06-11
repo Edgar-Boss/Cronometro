@@ -21,23 +21,21 @@ namespace Cronometro
         {
             InitializeComponent();
             TapGestureRecognizer tap = new TapGestureRecognizer();
-            tap.Tapped += TapGestureRecognizer_Tapped;
+            tap.Tapped += Tap_circulo;
             frm_tap.GestureRecognizers.Add(tap);
 
         }
 
-        async private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        private void Tap_circulo(object sender, EventArgs e)
         {
+            Pausa_resume();
+            AnimCirculo();
+           
             
-            await frm_circulo.ScaleTo(1.1,170,null);
-            await frm_circulo.ScaleTo(1, 170, null);
         }
 
-        private async void StartButton_Clicked(object sender, EventArgs e)
+        private void Pausa_resume()
         {
-            await startButton.ScaleTo(1.05, 100);
-            await startButton.ScaleTo(1, 100);
-            stopButton.IsEnabled = true;
             if (isRunning)
             {
                 isRunning = false;
@@ -48,9 +46,28 @@ namespace Cronometro
                 isRunning = true;
                 iniciar_tiempo();
                 startButton.Text = "Pause";
-            }  
+            }
         }
 
+        
+        private void StartButton_Clicked(object sender, EventArgs e)
+        {
+            Pausa_resume();
+            AnimStart();
+            stopButton.IsEnabled = true;
+            
+        }
+        private async void AnimCirculo()
+        {
+            await frm_circulo.ScaleTo(0.97, 110, null);
+            await frm_circulo.ScaleTo(1.05, 170, null);
+            await frm_circulo.ScaleTo(1, 170, null);
+        }
+        private async void AnimStart()
+        {
+            await startButton.ScaleTo(1.05, 100);
+            await startButton.ScaleTo(1, 100);
+        }
         private async void StopButton_Clicked(object sender, EventArgs e)
         {
             await stopButton.ScaleTo(1.05, 100);
