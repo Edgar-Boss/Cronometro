@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Cronometro.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -8,15 +9,18 @@ using System.Threading.Tasks;
 using System.Xml.Linq;
 using Xamarin.Forms;
 using Xamarin.Forms.PlatformConfiguration.GTKSpecific;
+using Cronometro.ViewModel;
 
 namespace Cronometro
 {
     public partial class MainPage : ContentPage
     {
+        List<TiempoCLS> ListaTiempos = new List<TiempoCLS>();
         private bool isRunning = false;
         private TimeSpan elapsedTime = TimeSpan.Zero;
         private DateTime startTime;
         bool giro = false;
+
         public MainPage()
         {
             InitializeComponent();
@@ -59,8 +63,8 @@ namespace Cronometro
         }
         private async void AnimCirculo()
         {
-            await frm_circulo.ScaleTo(0.97, 110, null);
-            await frm_circulo.ScaleTo(1.05, 170, null);
+            await frm_circulo.ScaleTo(0.99, 110, null);
+            await frm_circulo.ScaleTo(1.03, 170, null);
             await frm_circulo.ScaleTo(1, 170, null);
         }
         private async void AnimStart()
@@ -111,11 +115,7 @@ namespace Cronometro
             
         }
 
-        private void LapButton_Clicked(object sender, EventArgs e)
-        {
-            MoverCirculo();
-            MoverBotones();
-        }
+       
 
 
         private async void MoverCirculo()
@@ -127,6 +127,28 @@ namespace Cronometro
         private async void MoverBotones()
         {
             await frm_botones.TranslateTo(0, 100, 500);
+           
+            await stk_lap.FadeTo(1, 150);
+            
+        }
+        private async void LapButton_Clicked(object sender, EventArgs e)
+        {
+            MoverCirculo();
+            MoverBotones();
+            
+            TiempoCLS t = new TiempoCLS();
+            t.Total = 1.2;
+            t.Vuelta = 1;
+            t.Parcial = 1.01;
+
+            ListaTiempos.Add(t);
+            stk_lap.IsVisible = true;
+            stk_lap.IsEnabled = true;
+            await stk_lap.FadeTo(0,0);
+            BindingContext = new TiemposVM(ListaTiempos);
+
+
+
         }
     }
 }
