@@ -99,7 +99,9 @@
             
         </AbsoluteLayout>
         <StackLayout x:Name="stk_lap" Grid.Row="1" BackgroundColor="Transparent" Spacing="0" IsEnabled="False" IsVisible="False">
-            
+            <StackLayout HorizontalOptions="FillAndExpand">
+                <Label x:Name="LblParcial" HorizontalOptions="Center" BackgroundColor="Transparent"/>
+            </StackLayout>
             <Frame BackgroundColor="Transparent"  HasShadow="True">
                 <Grid BackgroundColor="Transparent" VerticalOptions="Fill">
                     <Grid.ColumnDefinitions>

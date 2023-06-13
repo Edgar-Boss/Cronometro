@@ -19,7 +19,10 @@ namespace Cronometro
         private bool isRunning = false;
         private TimeSpan elapsedTime = TimeSpan.Zero;
         private DateTime startTime;
+        private DateTime StartLap;
         bool giro = false;
+        bool f_lap = true;
+        TimeSpan parcial = TimeSpan.Zero;
 
         public MainPage()
         {
@@ -52,8 +55,7 @@ namespace Cronometro
                 startButton.Text = "Pause";
             }
         }
-
-        
+  
         private void StartButton_Clicked(object sender, EventArgs e)
         {
             Pausa_resume();
@@ -77,9 +79,12 @@ namespace Cronometro
             await stopButton.ScaleTo(1.05, 100);
             await stopButton.ScaleTo(1, 100);
             isRunning = false;
+            f_lap = true;
             elapsedTime = TimeSpan.Zero;
+            parcial = TimeSpan.Zero;
 
             timerLabel.Text = elapsedTime.ToString(@"hh\:mm\:ss\.ff");
+            LblParcial.Text = parcial.ToString(@"hh\:mm\:ss\.ff");
 
             startButton.IsEnabled = true;
             stopButton.IsEnabled = false;
@@ -90,13 +95,16 @@ namespace Cronometro
         {
             Girar();
             startTime = DateTime.Now - elapsedTime;
+            StartLap = DateTime.Now - parcial;
             Device.StartTimer(TimeSpan.FromMilliseconds(10), () =>
             {
                 if (!isRunning)
                     return false;
                
-                elapsedTime = DateTime.Now - startTime ;
+                elapsedTime = DateTime.Now - startTime;
+                parcial = DateTime.Now - StartLap;
                 timerLabel.Text = elapsedTime.ToString(@"hh\:mm\:ss\.ff");
+                LblParcial.Text = parcial.ToString(@"hh\:mm\:ss\.ff");
                 return true;
             });
         }
@@ -115,9 +123,6 @@ namespace Cronometro
             
         }
 
-       
-
-
         private async void MoverCirculo()
         {
             var altura = abl.Height / 10;
@@ -133,19 +138,39 @@ namespace Cronometro
         }
         private async void LapButton_Clicked(object sender, EventArgs e)
         {
-            MoverCirculo();
-            MoverBotones();
-            
-            TiempoCLS t = new TiempoCLS();
-            t.Total = 1.2;
-            t.Vuelta = 1;
-            t.Parcial = 1.01;
+            if (f_lap)
+            {
+                StartLap = DateTime.Now;
+                MoverCirculo();
+                MoverBotones();
 
-            ListaTiempos.Add(t);
-            stk_lap.IsVisible = true;
-            stk_lap.IsEnabled = true;
-            await stk_lap.FadeTo(0,0);
-            BindingContext = new TiemposVM(ListaTiempos);
+                TiempoCLS t = new TiempoCLS();
+                t.Total = elapsedTime;
+                t.Vuelta = ListaTiempos.Count + 1;
+                t.Parcial = elapsedTime;
+
+                ListaTiempos.Add(t);
+                stk_lap.IsVisible = true;
+                stk_lap.IsEnabled = true;
+                await stk_lap.FadeTo(0, 0);
+                BindingContext = new TiemposVM(ListaTiempos);
+                f_lap = false;
+            }
+            else 
+            {
+
+                //parcial =  DateTime.Now - StartLap;
+                TiempoCLS t = new TiempoCLS();
+                t.Total = elapsedTime;
+                t.Vuelta = ListaTiempos.Count + 1;
+                t.Parcial = parcial;
+                StartLap = DateTime.Now;
+                ListaTiempos.Add(t);
+                stk_lap.IsVisible = true;
+                stk_lap.IsEnabled = true;
+                BindingContext = new TiemposVM(ListaTiempos);
+            }
+            
 
 
 
