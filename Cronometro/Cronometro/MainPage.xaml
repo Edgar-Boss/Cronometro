@@ -94,13 +94,26 @@
                                     BorderWidth="1" 
                                     BorderColor="#34768C"
                                     CornerRadius="14"/>
+                    <Button x:Name="BtnSave" 
+                                Text="Save" 
+                                Clicked="BtnSave_Clicked" 
+                                HorizontalOptions="Center" 
+                                VerticalOptions="Center"
+                                IsEnabled="True" 
+                                BackgroundColor="Transparent" 
+                                BorderWidth="1" 
+                                BorderColor="#C59D9D"
+                                CornerRadius="14"/>
                 </StackLayout>
             </Frame>
             
         </AbsoluteLayout>
         <StackLayout x:Name="stk_lap" Grid.Row="1" BackgroundColor="Transparent" Spacing="0" IsEnabled="False" IsVisible="False">
             <StackLayout HorizontalOptions="FillAndExpand">
-                <Label x:Name="LblParcial" HorizontalOptions="Center" BackgroundColor="Transparent"/>
+                <Label x:Name="LblParcial"
+                       FontSize="20"
+                       HorizontalOptions="Center" 
+                       BackgroundColor="Transparent"/>
             </StackLayout>
             <Frame BackgroundColor="Transparent"  HasShadow="True">
                 <Grid BackgroundColor="Transparent" VerticalOptions="Fill">
@@ -117,7 +130,6 @@
                     <Label Grid.Column="2" Text="Total"  HorizontalTextAlignment="Center" />
                 </Grid>
             </Frame>
-
             <Frame  BackgroundColor="Transparent" HasShadow="True" >
 
                 <CollectionView  ItemsSource="{Binding tiempos}" >

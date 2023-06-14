@@ -8,7 +8,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 using Xamarin.Forms;
-using Xamarin.Forms.PlatformConfiguration.GTKSpecific;
+using System.IO;
 using Cronometro.ViewModel;
 
 namespace Cronometro
@@ -32,15 +32,7 @@ namespace Cronometro
             frm_tap.GestureRecognizers.Add(tap);
 
         }
-
-        private void Tap_circulo(object sender, EventArgs e)
-        {
-            Pausa_resume();
-            AnimCirculo();
-           
-            
-        }
-
+       
         private void Pausa_resume()
         {
             if (isRunning)
@@ -55,14 +47,6 @@ namespace Cronometro
                 startButton.Text = "Pause";
             }
         }
-  
-        private void StartButton_Clicked(object sender, EventArgs e)
-        {
-            Pausa_resume();
-            AnimStart();
-            stopButton.IsEnabled = true;
-            
-        }
         private async void AnimCirculo()
         {
             await frm_circulo.ScaleTo(0.99, 110, null);
@@ -74,23 +58,6 @@ namespace Cronometro
             await startButton.ScaleTo(1.05, 100);
             await startButton.ScaleTo(1, 100);
         }
-        private async void StopButton_Clicked(object sender, EventArgs e)
-        {
-            await stopButton.ScaleTo(1.05, 100);
-            await stopButton.ScaleTo(1, 100);
-            isRunning = false;
-            f_lap = true;
-            elapsedTime = TimeSpan.Zero;
-            parcial = TimeSpan.Zero;
-
-            timerLabel.Text = elapsedTime.ToString(@"hh\:mm\:ss\.ff");
-            LblParcial.Text = parcial.ToString(@"hh\:mm\:ss\.ff");
-
-            startButton.IsEnabled = true;
-            stopButton.IsEnabled = false;
-            startButton.Text = "Start";
-        }
-
         private void iniciar_tiempo()
         {
             Girar();
@@ -108,7 +75,6 @@ namespace Cronometro
                 return true;
             });
         }
-
         private async void Girar()
         {
             if (giro == false)
@@ -122,58 +88,146 @@ namespace Cronometro
             }
             
         }
-
-        private async void MoverCirculo()
+        private async void MoverCirculo(bool mov)
         {
-            var altura = abl.Height / 10;
-            await grd_base.TranslateTo(0,  -altura*2, 500);
-        }
-
-        private async void MoverBotones()
-        {
-            await frm_botones.TranslateTo(0, 100, 500);
-           
-            await stk_lap.FadeTo(1, 150);
+            if (mov)
+            {
+                var altura = abl.Height / 10;
+                await grd_base.TranslateTo(0, -altura * 2, 500);
+            }
+            else
+            {
+                await grd_base.TranslateTo(0, 0, 500);
+            }
             
+        }
+        private async void MoverBotones(bool mov)
+        {
+            if (mov)
+            {
+                await frm_botones.TranslateTo(0, 100, 500);
+
+                await stk_lap.FadeTo(1, 150);
+            }
+            else
+            {
+                await frm_botones.TranslateTo(0, 0, 500);
+            }
+            
+            
+        }
+        private void Tap_circulo(object sender, EventArgs e)
+        {
+            Pausa_resume();
+            AnimCirculo();
         }
         private async void LapButton_Clicked(object sender, EventArgs e)
         {
+            TiempoCLS t = new TiempoCLS();
+            t.Total = elapsedTime;
+            t.Vuelta = ListaTiempos.Count + 1;
+            StartLap = DateTime.Now;
+            
+            stk_lap.IsVisible = true;
+            stk_lap.IsEnabled = true;
             if (f_lap)
             {
-                StartLap = DateTime.Now;
-                MoverCirculo();
-                MoverBotones();
-
-                TiempoCLS t = new TiempoCLS();
-                t.Total = elapsedTime;
-                t.Vuelta = ListaTiempos.Count + 1;
+                MoverCirculo(true);
+                MoverBotones(true);
                 t.Parcial = elapsedTime;
-
-                ListaTiempos.Add(t);
-                stk_lap.IsVisible = true;
-                stk_lap.IsEnabled = true;
                 await stk_lap.FadeTo(0, 0);
-                BindingContext = new TiemposVM(ListaTiempos);
                 f_lap = false;
             }
             else 
             {
-
-                //parcial =  DateTime.Now - StartLap;
-                TiempoCLS t = new TiempoCLS();
-                t.Total = elapsedTime;
-                t.Vuelta = ListaTiempos.Count + 1;
                 t.Parcial = parcial;
-                StartLap = DateTime.Now;
-                ListaTiempos.Add(t);
-                stk_lap.IsVisible = true;
-                stk_lap.IsEnabled = true;
-                BindingContext = new TiemposVM(ListaTiempos);
             }
+            ListaTiempos.Add(t);
+            BindingContext = new TiemposVM(ListaTiempos);
+
+
+
+        }
+        private async void StopButton_Clicked(object sender, EventArgs e)
+        {
+            await stopButton.ScaleTo(1.05, 100);
+            await stopButton.ScaleTo(1, 100);
+            isRunning = false;
+            f_lap = true;
+            elapsedTime = TimeSpan.Zero;
+            parcial = TimeSpan.Zero;
+
+            timerLabel.Text = elapsedTime.ToString(@"hh\:mm\:ss\.ff");
+            LblParcial.Text = parcial.ToString(@"hh\:mm\:ss\.ff");
+
+            startButton.IsEnabled = true;
+            stopButton.IsEnabled = false;
+            startButton.Text = "Start";
+            ListaTiempos.Clear();
+            BindingContext = new TiemposVM(ListaTiempos);
+            MoverBotones(false);
+            MoverCirculo(false);
+            stk_lap.IsVisible = false;
+            stk_lap.IsEnabled = false;
+        }
+        private void StartButton_Clicked(object sender, EventArgs e)
+        {
+            Pausa_resume();
+            AnimStart();
+            stopButton.IsEnabled = true;
+
+        }
+
+        private void BtnSave_Clicked(object sender, EventArgs e)
+        {
             
+            // Ruta del archivo
+            string pathTime = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "tiempos.txt");
+            //string pathDate = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Fecha.txt");
+            //leer
+            string readtime = File.ReadAllText(pathTime);
+            //string readdate = File.ReadAllText(pathDate);
+            // Escribir datos en el archivo
+
+            string datatime = readtime + elapsedTime.ToString() + "\n";//readData + elapsedTime.ToString()+"\n";
+            //string datadate = readdate + DateTime.Now + "\n";
+            File.WriteAllText(pathTime, datatime);
+            //File.WriteAllText(pathDate, datadate);
+
+
+            DisplayAlert(null,datatime,"ok");
+            //DisplayAlert(null,datadate, "ok");
+
+
+
+
 
 
 
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
