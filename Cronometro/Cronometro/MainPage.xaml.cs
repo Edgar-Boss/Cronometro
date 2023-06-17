@@ -1,20 +1,17 @@
 ﻿using Cronometro.Model;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
-using System.Xml.Linq;
 using Xamarin.Forms;
 using System.IO;
 using Cronometro.ViewModel;
+using System.Linq;
+using System.Runtime.InteropServices.ComTypes;
 
 namespace Cronometro
 {
     public partial class MainPage : ContentPage
     {
+        List<DateTime> Tiemposguardados;
         List<TiempoCLS> ListaTiempos = new List<TiempoCLS>();
         private bool isRunning = false;
         private TimeSpan elapsedTime = TimeSpan.Zero;
@@ -35,16 +32,30 @@ namespace Cronometro
        
         private void Pausa_resume()
         {
-            if (isRunning)
+            if (isRunning)//pausar
             {
                 isRunning = false;
                 startButton.Text = "Start";
+                stopButton.IsEnabled = true;
+                stopButton.IsVisible = true;
+                LapButton.IsEnabled = false;
+                LapButton.IsVisible = false;
+                BtnSave.IsEnabled = true;
+                BtnSave.IsVisible = true;
+
+
             }
-            else
+            else//iniciar
             {
                 isRunning = true;
                 iniciar_tiempo();
                 startButton.Text = "Pause";
+                LapButton.IsEnabled = true;
+                LapButton.IsVisible = true;
+                stopButton.IsEnabled = false;
+                stopButton.IsVisible = false;
+                BtnSave.IsEnabled = false;
+                BtnSave.IsVisible = false;
             }
         }
         private async void AnimCirculo()
@@ -53,10 +64,22 @@ namespace Cronometro
             await frm_circulo.ScaleTo(1.03, 170, null);
             await frm_circulo.ScaleTo(1, 170, null);
         }
-        private async void AnimStart()
+
+        private async void AnimBoton(object sender)
         {
-            await startButton.ScaleTo(1.05, 100);
-            await startButton.ScaleTo(1, 100);
+            Button boton = (Button)sender;
+
+            await boton.ScaleTo(1.1, 100);
+            await boton.ScaleTo(1, 100);
+
+        }
+        private async void AnimImageBoton(object sender)
+        {
+            ImageButton boton = (ImageButton)sender;
+
+            await boton.ScaleTo(1.1,100);
+            await boton.ScaleTo(1,100);
+
         }
         private void iniciar_tiempo()
         {
@@ -123,6 +146,7 @@ namespace Cronometro
         }
         private async void LapButton_Clicked(object sender, EventArgs e)
         {
+            AnimImageBoton(sender);
             TiempoCLS t = new TiempoCLS();
             t.Total = elapsedTime;
             t.Vuelta = ListaTiempos.Count + 1;
@@ -148,10 +172,9 @@ namespace Cronometro
 
 
         }
-        private async void StopButton_Clicked(object sender, EventArgs e)
+        private void StopButton_Clicked(object sender, EventArgs e)
         {
-            await stopButton.ScaleTo(1.05, 100);
-            await stopButton.ScaleTo(1, 100);
+            AnimBoton(sender);
             isRunning = false;
             f_lap = true;
             elapsedTime = TimeSpan.Zero;
@@ -160,8 +183,7 @@ namespace Cronometro
             timerLabel.Text = elapsedTime.ToString(@"hh\:mm\:ss\.ff");
             LblParcial.Text = parcial.ToString(@"hh\:mm\:ss\.ff");
 
-            startButton.IsEnabled = true;
-            stopButton.IsEnabled = false;
+           
             startButton.Text = "Start";
             ListaTiempos.Clear();
             BindingContext = new TiemposVM(ListaTiempos);
@@ -169,34 +191,51 @@ namespace Cronometro
             MoverCirculo(false);
             stk_lap.IsVisible = false;
             stk_lap.IsEnabled = false;
+            startButton.IsEnabled = true;
+            stopButton.IsEnabled = false;
+            stopButton.IsVisible = false;
+            BtnSave.IsEnabled = false;
+            BtnSave.IsVisible = false;
+
         }
         private void StartButton_Clicked(object sender, EventArgs e)
         {
             Pausa_resume();
-            AnimStart();
+            AnimBoton(sender);
             stopButton.IsEnabled = true;
 
         }
-
+        
         private void BtnSave_Clicked(object sender, EventArgs e)
         {
+           
+            AnimImageBoton(sender);
+            string filePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "tiempos.txt");
+            string[] lines;
+            try
+            {
+                lines = File.ReadAllLines(filePath); // Leer datos desde el archivo
+            }
+            catch (FileNotFoundException ex)
+            {
+                List<string> lista = new List<string>();    
+                File.WriteAllLines(filePath,lista );//Escribir datos en el archivo
+                DisplayAlert(null,"archivo no encontrado","ok");
+            }
+
+
+            lines = File.ReadAllLines(filePath);
             
-            // Ruta del archivo
-            string pathTime = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "tiempos.txt");
-            //string pathDate = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Fecha.txt");
-            //leer
-            string readtime = File.ReadAllText(pathTime);
-            //string readdate = File.ReadAllText(pathDate);
-            // Escribir datos en el archivo
+            List<TimeSpan> readDateList = lines.Select(line => TimeSpan.Parse(line)).ToList();// Convertir las cadenas a una lista de DateTime
 
-            string datatime = readtime + elapsedTime.ToString() + "\n";//readData + elapsedTime.ToString()+"\n";
-            //string datadate = readdate + DateTime.Now + "\n";
-            File.WriteAllText(pathTime, datatime);
-            //File.WriteAllText(pathDate, datadate);
+            readDateList.Add(elapsedTime);
+
+            // Convertir la lista de DateTime a una lista de cadenas
+            List<string> dateStringList = readDateList.Select(dt => dt.ToString()).ToList();
 
 
-            DisplayAlert(null,datatime,"ok");
-            //DisplayAlert(null,datadate, "ok");
+            //// Escribir datos en el archivo
+            File.WriteAllLines(filePath, dateStringList);
 
 
 
@@ -204,6 +243,26 @@ namespace Cronometro
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }
+
+        private void historial_Clicked(object sender, EventArgs e)
+        {
+            DisplayAlert(null,"historial","ok");
         }
     }
 }

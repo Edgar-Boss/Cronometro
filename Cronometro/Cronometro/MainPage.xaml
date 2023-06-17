@@ -5,6 +5,7 @@
 
     <Grid RowSpacing="0">
         <Grid.RowDefinitions>
+            <RowDefinition Height=".1*"/>
             <RowDefinition Height=".32*"/>
             <RowDefinition Height=".43*"/>
             <RowDefinition Height=".25*"/>
@@ -13,7 +14,6 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         
-
         <AbsoluteLayout x:Name="abl" Grid.RowSpan="3" BackgroundColor="Transparent">
             <Grid  x:Name="grd_base" AbsoluteLayout.LayoutFlags="PositionProportional" AbsoluteLayout.LayoutBounds="0.5,0.3" BackgroundColor="Transparent" Padding="0" >
                 <Frame x:Name="frm_anim" BackgroundColor="Transparent" HasShadow="False" Padding="0">
@@ -61,9 +61,39 @@
                    HasShadow="False"
                    HorizontalOptions="FillAndExpand"
                    BackgroundColor="Transparent"
+                   Margin="0,10,0,0"
                    >
-                <StackLayout Orientation="Horizontal">
-                    <Button x:Name="startButton" 
+                <StackLayout Spacing="15">
+                    <StackLayout HorizontalOptions="Center">
+                        <ImageButton    x:Name="LapButton" 
+                                    Source="bandera.png"
+                                    Padding="8"
+                                    WidthRequest="40"
+                                    Clicked="LapButton_Clicked" 
+                                    HorizontalOptions="Center" 
+                                    VerticalOptions="Center"
+                                    IsEnabled="True"
+                                    IsVisible="False"
+                                    BackgroundColor="Transparent" 
+                                    BorderWidth="1" 
+                                    BorderColor="#00ACEA"
+                                    CornerRadius="14"/>
+                        <ImageButton x:Name="BtnSave"
+                                    Source="guardar.png"
+                                    Clicked="BtnSave_Clicked"
+                                    Padding="9"
+                                    WidthRequest="40"
+                                    HorizontalOptions="Center" 
+                                    VerticalOptions="Center"
+                                    IsEnabled="False"
+                                    IsVisible="False"
+                                    BackgroundColor="Transparent" 
+                                    BorderWidth="1" 
+                                    BorderColor="#00ACEA"
+                                    CornerRadius="14"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Button x:Name="startButton" 
                                 Text="Start" 
                                 Clicked="StartButton_Clicked" 
                                 HorizontalOptions="Center"
@@ -72,41 +102,22 @@
                                 BorderWidth="1" 
                                 BorderColor="#34768C"
                                 CornerRadius="14"/>
-                    <Button x:Name="stopButton" 
+                        <Button x:Name="stopButton" 
                                 Text="Stop" 
                                 Clicked="StopButton_Clicked" 
                                 HorizontalOptions="Center" 
                                 VerticalOptions="Center"
-                                IsEnabled="True" 
+                                IsEnabled="False" 
+                                IsVisible="False"
                                 BackgroundColor="Transparent" 
                                 BorderWidth="1" 
                                 BorderColor="#C59D9D"
                                 CornerRadius="14"/>
-                    <ImageButton    x:Name="LapButton" 
-                                    Source="bandera.png"
-                                    Padding="8"
-                                    WidthRequest="40"
-                                    Clicked="LapButton_Clicked" 
-                                    HorizontalOptions="End" 
-                                    VerticalOptions="Center"
-                                    IsEnabled="True"
-                                    BackgroundColor="Transparent" 
-                                    BorderWidth="1" 
-                                    BorderColor="#34768C"
-                                    CornerRadius="14"/>
-                    <Button x:Name="BtnSave" 
-                                Text="Save" 
-                                Clicked="BtnSave_Clicked" 
-                                HorizontalOptions="Center" 
-                                VerticalOptions="Center"
-                                IsEnabled="True" 
-                                BackgroundColor="Transparent" 
-                                BorderWidth="1" 
-                                BorderColor="#C59D9D"
-                                CornerRadius="14"/>
+                       
+                    </StackLayout>
                 </StackLayout>
+               
             </Frame>
-            
         </AbsoluteLayout>
         <StackLayout x:Name="stk_lap" Grid.Row="1" BackgroundColor="Transparent" Spacing="0" IsEnabled="False" IsVisible="False">
             <StackLayout HorizontalOptions="FillAndExpand">
@@ -157,6 +168,12 @@
 
 
             </Frame>
+        </StackLayout>
+        <StackLayout Grid.Row="0" HorizontalOptions="End">
+            <ImageButton  x:Name="historial" 
+                          Source="estadisticas" 
+                          HeightRequest="40"
+                          Clicked="historial_Clicked"/>
         </StackLayout>
 
 

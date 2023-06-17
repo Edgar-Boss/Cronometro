@@ -632,3 +632,5 @@ C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro.Android\obj\Debug\1
 C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro.Android\obj\Debug\120\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro.Android\obj\Debug\120\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro.Android\obj\Debug\120\res\drawable\bandera.png
+C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro.Android\obj\Debug\120\res\drawable\guardar.png
+C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro.Android\obj\Debug\120\res\drawable\estadisticas.png
