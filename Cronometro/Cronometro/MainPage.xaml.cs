@@ -5,13 +5,12 @@ using Xamarin.Forms;
 using System.IO;
 using Cronometro.ViewModel;
 using System.Linq;
-using System.Runtime.InteropServices.ComTypes;
+using Cronometro.View;
 
 namespace Cronometro
 {
     public partial class MainPage : ContentPage
     {
-        List<DateTime> Tiemposguardados;
         List<TiempoCLS> ListaTiempos = new List<TiempoCLS>();
         private bool isRunning = false;
         private TimeSpan elapsedTime = TimeSpan.Zero;
@@ -220,7 +219,6 @@ namespace Cronometro
             {
                 List<string> lista = new List<string>();    
                 File.WriteAllLines(filePath,lista );//Escribir datos en el archivo
-                DisplayAlert(null,"archivo no encontrado","ok");
             }
 
 
@@ -237,32 +235,11 @@ namespace Cronometro
             //// Escribir datos en el archivo
             File.WriteAllLines(filePath, dateStringList);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         }
 
-        private void historial_Clicked(object sender, EventArgs e)
+        async private void BtnEstadisticas_Clicked(object sender, EventArgs e)
         {
-            DisplayAlert(null,"historial","ok");
+            await Navigation.PushAsync(new PaginaEstadisticas());
         }
     }
 }

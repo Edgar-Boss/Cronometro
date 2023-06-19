@@ -13,3 +13,4 @@ C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro\obj\Debug\netstanda
 C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro\obj\Debug\netstandard2.0\refint\Cronometro.dll
 C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro\obj\Debug\netstandard2.0\Cronometro.pdb
 C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro\obj\Debug\netstandard2.0\ref\Cronometro.dll
+C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro\obj\Debug\netstandard2.0\View\PaginaEstadisticas.xaml.g.cs

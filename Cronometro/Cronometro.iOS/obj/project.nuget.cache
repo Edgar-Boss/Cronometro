@@ -1,10 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "G26OZMvf954lpgwdgl8n7vETkxgyRh082zKZ3GTpSXwtzXFh8upxxInNEMMBJ1gcGIu5KF9ByzlDzB0D75SL/g==",
+  "dgSpecHash": "qBg9A1ac9wqayKOdvPvoeT4LHOfVBbqjfATEBniRVhKR9AOK/OFgm2n0imSlVoJ26mFPyZxPf/aQPktkBMIAVw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Edgar\\source\\repos\\Cronometro\\Cronometro\\Cronometro.iOS\\Cronometro.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Edgar\\.nuget\\packages\\microcharts\\0.9.5.9\\microcharts.0.9.5.9.nupkg.sha512",
+    "C:\\Users\\Edgar\\.nuget\\packages\\microcharts.forms\\0.9.5.9\\microcharts.forms.0.9.5.9.nupkg.sha512",
+    "C:\\Users\\Edgar\\.nuget\\packages\\skiasharp\\2.80.2\\skiasharp.2.80.2.nupkg.sha512",
+    "C:\\Users\\Edgar\\.nuget\\packages\\skiasharp.views\\2.80.2\\skiasharp.views.2.80.2.nupkg.sha512",
+    "C:\\Users\\Edgar\\.nuget\\packages\\skiasharp.views.forms\\2.80.2\\skiasharp.views.forms.2.80.2.nupkg.sha512",
+    "C:\\Users\\Edgar\\.nuget\\packages\\syncfusion.licensing\\21.2.10\\syncfusion.licensing.21.2.10.nupkg.sha512",
+    "C:\\Users\\Edgar\\.nuget\\packages\\syncfusion.xamarin.core\\21.2.10\\syncfusion.xamarin.core.21.2.10.nupkg.sha512",
+    "C:\\Users\\Edgar\\.nuget\\packages\\syncfusion.xamarin.sfchart\\21.2.10\\syncfusion.xamarin.sfchart.21.2.10.nupkg.sha512",
     "C:\\Users\\Edgar\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Edgar\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
     "C:\\Users\\Edgar\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\Edgar\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
