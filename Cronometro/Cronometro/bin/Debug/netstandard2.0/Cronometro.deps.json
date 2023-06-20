@@ -9,15 +9,26 @@
     ".NETStandard,Version=v2.0/": {
       "Cronometro/1.0.0": {
         "dependencies": {
+          "CardsView": "2.8.1",
           "Microcharts": "0.9.5.9",
           "Microcharts.Forms": "0.9.5.9",
           "NETStandard.Library": "2.0.3",
+          "Sharpnado.MaterialFrame": "1.3.0",
+          "Sharpnado.Shadows": "1.2.1",
           "Syncfusion.Xamarin.SfChart": "21.2.10",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196"
         },
         "runtime": {
           "Cronometro.dll": {}
+        }
+      },
+      "CardsView/2.8.1": {
+        "runtime": {
+          "lib/netstandard2.0/PanCardView.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Microcharts/0.9.5.9": {
@@ -55,6 +66,29 @@
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Sharpnado.MaterialFrame/1.3.0": {
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2196"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Sharpnado.MaterialFrame.dll": {
+            "assemblyVersion": "1.3.0.0",
+            "fileVersion": "1.3.0.0"
+          }
+        }
+      },
+      "Sharpnado.Shadows/1.2.1": {
+        "dependencies": {
+          "ThomasLevesque.WeakEvent": "4.1.0",
+          "Xamarin.Forms": "5.0.0.2196"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Sharpnado.Shadows.dll": {
+            "assemblyVersion": "1.2.1.0",
+            "fileVersion": "1.2.1.0"
+          }
         }
       },
       "SkiaSharp/2.80.2": {
@@ -144,6 +178,14 @@
         }
       },
       "System.ValueTuple/4.5.0": {},
+      "ThomasLevesque.WeakEvent/4.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/WeakEvent.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.1.0.0"
+          }
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -179,6 +221,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "CardsView/2.8.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9v8ua+0QZ0ucyK5b1BUlAnVZLKH45r+uSvzA5CLNWnEUsSFKXudNCwhKuu5Cc7NZ4Flb6JuMDcndBmQJ6zOxhw==",
+      "path": "cardsview/2.8.1",
+      "hashPath": "cardsview.2.8.1.nupkg.sha512"
+    },
     "Microcharts/0.9.5.9": {
       "type": "package",
       "serviceable": true,
@@ -206,6 +255,20 @@
       "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Sharpnado.MaterialFrame/1.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uj2qykF4DM8TihMgv0YPfFD7+Jkz3cEWNrEKDlJ5j/v7mTZZ30Pc3Z4lHmk+mhLDBRQiePvvgXqby+KpmJkm3Q==",
+      "path": "sharpnado.materialframe/1.3.0",
+      "hashPath": "sharpnado.materialframe.1.3.0.nupkg.sha512"
+    },
+    "Sharpnado.Shadows/1.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ERDGqFJIZpXRNnB/zTg4+cL/Uw73UTtmGEl0Og6pNTWN+NLh254rsVPY+sQ4Hi6qhvmsFgsTEOh7v3iRWT8egw==",
+      "path": "sharpnado.shadows/1.2.1",
+      "hashPath": "sharpnado.shadows.1.2.1.nupkg.sha512"
     },
     "SkiaSharp/2.80.2": {
       "type": "package",
@@ -276,6 +339,13 @@
       "sha512": "sha512-okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
       "path": "system.valuetuple/4.5.0",
       "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
+    },
+    "ThomasLevesque.WeakEvent/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mcp8UoYXWvPmud7UJmREULQLxLmX6SYet2pyZUHpcmIiku3JoqEilPUu9QeUZrV7fOCp0Pfva/VDhG+n3afGyg==",
+      "path": "thomaslevesque.weakevent/4.1.0",
+      "hashPath": "thomaslevesque.weakevent.4.1.0.nupkg.sha512"
     },
     "Xamarin.Essentials/1.7.0": {
       "type": "package",

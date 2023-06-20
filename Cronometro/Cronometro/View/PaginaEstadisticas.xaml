@@ -2,16 +2,52 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:microcharts="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
-             x:Class="Cronometro.View.PaginaEstadisticas">
+             x:Class="Cronometro.View.PaginaEstadisticas"
+             xmlns:cardview="clr-namespace:PanCardView;assembly=PanCardView"
+             xmlns:proc="clr-namespace:PanCardView.Processors;assembly=PanCardView"
+            >
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height=".3*"/>
-            <RowDefinition Height=".3*"/>
-            <RowDefinition Height=".3*"/>
+            
+            <RowDefinition Height=".4*"/>
+            <RowDefinition Height=".6*"/>
         </Grid.RowDefinitions>
         <microcharts:ChartView  x:Name="grafica"  
-                                Grid.Row="1"
+                                Grid.Row="0"
                                 HeightRequest="150"/>
+
+        
+        <cardview:CoverFlowView x:Name="CarreteTiempos"
+                                IsCyclical="False" 
+                                Margin="0,50" 
+                                ItemsSource="{Binding Registros_}" 
+                                PositionShiftValue="150" 
+                                Grid.Row="1" 
+                                
+                                ItemAppeared="CarreteTiempos_ItemAppeared" >
+            <x:Arguments>
+                <proc:CoverFlowProcessor ScaleFactor="0.65"/>
+            </x:Arguments>
+            <cardview:CoverFlowView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Padding="40" Margin=" 50,0" BackgroundColor="Transparent">
+                        <Frame CornerRadius="18" Padding="0" BackgroundColor="Transparent">
+                            <Ellipse    Fill="Transparent"
+                                        VerticalOptions="CenterAndExpand"
+                                        WidthRequest="200"
+                                        HeightRequest="200"
+                                        HorizontalOptions="Center"
+                                        StrokeThickness="4"
+                                        Stroke ="#34768C"/>
+                            
+                        </Frame>
+                        <Label Text="{Binding Tiempo}"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center"/>
+                    </Grid>
+                </DataTemplate>
+            </cardview:CoverFlowView.ItemTemplate>
+        </cardview:CoverFlowView>
 
     </Grid>
     

@@ -2,6 +2,17 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "CardsView/2.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/PanCardView.dll": {},
+          "lib/Xamarin.iOS10/PanCardView.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/PanCardView.dll": {},
+          "lib/Xamarin.iOS10/PanCardView.iOS.dll": {}
+        }
+      },
       "Microcharts/0.9.5.9": {
         "type": "package",
         "dependencies": {
@@ -33,6 +44,51 @@
         "runtime": {
           "lib/netstandard2.0/Microcharts.Forms.dll": {},
           "lib/netstandard2.0/Microcharts.dll": {}
+        }
+      },
+      "Sharpnado.MaterialFrame/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.5.0.356"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Sharpnado.MaterialFrame.dll": {
+            "related": ".iOS.pdb;.pdb"
+          },
+          "lib/Xamarin.iOS10/Sharpnado.MaterialFrame.iOS.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Sharpnado.MaterialFrame.dll": {
+            "related": ".iOS.pdb;.pdb"
+          },
+          "lib/Xamarin.iOS10/Sharpnado.MaterialFrame.iOS.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "Sharpnado.Shadows/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "ThomasLevesque.WeakEvent": "4.1.0",
+          "Xamarin.Forms": "3.6.0.220655"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Sharpnado.Shadows.dll": {
+            "related": ".iOS.pdb;.pdb"
+          },
+          "lib/Xamarin.iOS10/Sharpnado.Shadows.iOS.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Sharpnado.Shadows.dll": {
+            "related": ".iOS.pdb;.pdb"
+          },
+          "lib/Xamarin.iOS10/Sharpnado.Shadows.iOS.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "SkiaSharp/2.80.2": {
@@ -168,6 +224,19 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "ThomasLevesque.WeakEvent/4.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/WeakEvent.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/WeakEvent.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -332,8 +401,11 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "CardsView": "2.8.1",
           "Microcharts": "0.9.5.9",
           "Microcharts.Forms": "0.9.5.9",
+          "Sharpnado.MaterialFrame": "1.3.0",
+          "Sharpnado.Shadows": "1.2.1",
           "Syncfusion.Xamarin.SfChart": "21.2.10",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196"
@@ -347,6 +419,17 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "CardsView/2.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/PanCardView.dll": {},
+          "lib/Xamarin.iOS10/PanCardView.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/PanCardView.dll": {},
+          "lib/Xamarin.iOS10/PanCardView.iOS.dll": {}
+        }
+      },
       "Microcharts/0.9.5.9": {
         "type": "package",
         "dependencies": {
@@ -378,6 +461,51 @@
         "runtime": {
           "lib/netstandard2.0/Microcharts.Forms.dll": {},
           "lib/netstandard2.0/Microcharts.dll": {}
+        }
+      },
+      "Sharpnado.MaterialFrame/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.5.0.356"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Sharpnado.MaterialFrame.dll": {
+            "related": ".iOS.pdb;.pdb"
+          },
+          "lib/Xamarin.iOS10/Sharpnado.MaterialFrame.iOS.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Sharpnado.MaterialFrame.dll": {
+            "related": ".iOS.pdb;.pdb"
+          },
+          "lib/Xamarin.iOS10/Sharpnado.MaterialFrame.iOS.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "Sharpnado.Shadows/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "ThomasLevesque.WeakEvent": "4.1.0",
+          "Xamarin.Forms": "3.6.0.220655"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Sharpnado.Shadows.dll": {
+            "related": ".iOS.pdb;.pdb"
+          },
+          "lib/Xamarin.iOS10/Sharpnado.Shadows.iOS.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Sharpnado.Shadows.dll": {
+            "related": ".iOS.pdb;.pdb"
+          },
+          "lib/Xamarin.iOS10/Sharpnado.Shadows.iOS.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "SkiaSharp/2.80.2": {
@@ -495,6 +623,19 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "ThomasLevesque.WeakEvent/4.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/WeakEvent.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/WeakEvent.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -659,8 +800,11 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "CardsView": "2.8.1",
           "Microcharts": "0.9.5.9",
           "Microcharts.Forms": "0.9.5.9",
+          "Sharpnado.MaterialFrame": "1.3.0",
+          "Sharpnado.Shadows": "1.2.1",
           "Syncfusion.Xamarin.SfChart": "21.2.10",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196"
@@ -674,6 +818,17 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "CardsView/2.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/PanCardView.dll": {},
+          "lib/Xamarin.iOS10/PanCardView.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/PanCardView.dll": {},
+          "lib/Xamarin.iOS10/PanCardView.iOS.dll": {}
+        }
+      },
       "Microcharts/0.9.5.9": {
         "type": "package",
         "dependencies": {
@@ -705,6 +860,51 @@
         "runtime": {
           "lib/netstandard2.0/Microcharts.Forms.dll": {},
           "lib/netstandard2.0/Microcharts.dll": {}
+        }
+      },
+      "Sharpnado.MaterialFrame/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.5.0.356"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Sharpnado.MaterialFrame.dll": {
+            "related": ".iOS.pdb;.pdb"
+          },
+          "lib/Xamarin.iOS10/Sharpnado.MaterialFrame.iOS.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Sharpnado.MaterialFrame.dll": {
+            "related": ".iOS.pdb;.pdb"
+          },
+          "lib/Xamarin.iOS10/Sharpnado.MaterialFrame.iOS.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "Sharpnado.Shadows/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "ThomasLevesque.WeakEvent": "4.1.0",
+          "Xamarin.Forms": "3.6.0.220655"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Sharpnado.Shadows.dll": {
+            "related": ".iOS.pdb;.pdb"
+          },
+          "lib/Xamarin.iOS10/Sharpnado.Shadows.iOS.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Sharpnado.Shadows.dll": {
+            "related": ".iOS.pdb;.pdb"
+          },
+          "lib/Xamarin.iOS10/Sharpnado.Shadows.iOS.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "SkiaSharp/2.80.2": {
@@ -825,6 +1025,19 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "ThomasLevesque.WeakEvent/4.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/WeakEvent.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/WeakEvent.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -989,8 +1202,11 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "CardsView": "2.8.1",
           "Microcharts": "0.9.5.9",
           "Microcharts.Forms": "0.9.5.9",
+          "Sharpnado.MaterialFrame": "1.3.0",
+          "Sharpnado.Shadows": "1.2.1",
           "Syncfusion.Xamarin.SfChart": "21.2.10",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196"
@@ -1004,6 +1220,17 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "CardsView/2.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/PanCardView.dll": {},
+          "lib/Xamarin.iOS10/PanCardView.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/PanCardView.dll": {},
+          "lib/Xamarin.iOS10/PanCardView.iOS.dll": {}
+        }
+      },
       "Microcharts/0.9.5.9": {
         "type": "package",
         "dependencies": {
@@ -1035,6 +1262,51 @@
         "runtime": {
           "lib/netstandard2.0/Microcharts.Forms.dll": {},
           "lib/netstandard2.0/Microcharts.dll": {}
+        }
+      },
+      "Sharpnado.MaterialFrame/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.5.0.356"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Sharpnado.MaterialFrame.dll": {
+            "related": ".iOS.pdb;.pdb"
+          },
+          "lib/Xamarin.iOS10/Sharpnado.MaterialFrame.iOS.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Sharpnado.MaterialFrame.dll": {
+            "related": ".iOS.pdb;.pdb"
+          },
+          "lib/Xamarin.iOS10/Sharpnado.MaterialFrame.iOS.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "Sharpnado.Shadows/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "ThomasLevesque.WeakEvent": "4.1.0",
+          "Xamarin.Forms": "3.6.0.220655"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Sharpnado.Shadows.dll": {
+            "related": ".iOS.pdb;.pdb"
+          },
+          "lib/Xamarin.iOS10/Sharpnado.Shadows.iOS.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Sharpnado.Shadows.dll": {
+            "related": ".iOS.pdb;.pdb"
+          },
+          "lib/Xamarin.iOS10/Sharpnado.Shadows.iOS.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "SkiaSharp/2.80.2": {
@@ -1155,6 +1427,19 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "ThomasLevesque.WeakEvent/4.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/WeakEvent.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/WeakEvent.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -1319,8 +1604,11 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "CardsView": "2.8.1",
           "Microcharts": "0.9.5.9",
           "Microcharts.Forms": "0.9.5.9",
+          "Sharpnado.MaterialFrame": "1.3.0",
+          "Sharpnado.Shadows": "1.2.1",
           "Syncfusion.Xamarin.SfChart": "21.2.10",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196"
@@ -1335,6 +1623,33 @@
     }
   },
   "libraries": {
+    "CardsView/2.8.1": {
+      "sha512": "9v8ua+0QZ0ucyK5b1BUlAnVZLKH45r+uSvzA5CLNWnEUsSFKXudNCwhKuu5Cc7NZ4Flb6JuMDcndBmQJ6zOxhw==",
+      "type": "package",
+      "path": "cardsview/2.8.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "cardsview.2.8.1.nupkg.sha512",
+        "cardsview.nuspec",
+        "images/Cardsview-logotype-main.png",
+        "lib/MonoAndroid10/PanCardView.Droid.dll",
+        "lib/MonoAndroid10/PanCardView.dll",
+        "lib/Xamarin.Mac20/PanCardView.dll",
+        "lib/Xamarin.iOS10/PanCardView.dll",
+        "lib/Xamarin.iOS10/PanCardView.iOS.dll",
+        "lib/XamarinTVOS/PanCardView.dll",
+        "lib/net45/PanCardView.dll",
+        "lib/net46/PanCardView.dll",
+        "lib/netstandard1.0/PanCardView.dll",
+        "lib/netstandard2.0/PanCardView.dll",
+        "lib/tizen40/PanCardView.Tizen.dll",
+        "lib/tizen40/PanCardView.dll",
+        "lib/uap/PanCardView.dll",
+        "lib/win81/PanCardView.dll",
+        "lib/wpa81/PanCardView.dll"
+      ]
+    },
     "Microcharts/0.9.5.9": {
       "sha512": "oiaPjsC+l211tRXw17bxT7D1uPHLZG4wZq7w9h9w7LFX76s4ppLN9UGVkUQJ2vBammdFH0JXtbvEUVtbOq85UQ==",
       "type": "package",
@@ -1366,6 +1681,68 @@
         "lib/netstandard2.0/Microcharts.dll",
         "microcharts.forms.0.9.5.9.nupkg.sha512",
         "microcharts.forms.nuspec"
+      ]
+    },
+    "Sharpnado.MaterialFrame/1.3.0": {
+      "sha512": "uj2qykF4DM8TihMgv0YPfFD7+Jkz3cEWNrEKDlJ5j/v7mTZZ30Pc3Z4lHmk+mhLDBRQiePvvgXqby+KpmJkm3Q==",
+      "type": "package",
+      "path": "sharpnado.materialframe/1.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "images/material_frame.png",
+        "lib/MonoAndroid10.0/Sharpnado.MaterialFrame.Android.dll",
+        "lib/MonoAndroid10.0/Sharpnado.MaterialFrame.Android.pdb",
+        "lib/MonoAndroid10.0/Sharpnado.MaterialFrame.dll",
+        "lib/MonoAndroid10.0/Sharpnado.MaterialFrame.pdb",
+        "lib/Xamarin.Mac/Sharpnado.MaterialFrame.dll",
+        "lib/Xamarin.Mac/Sharpnado.MaterialFrame.macOS.dll",
+        "lib/Xamarin.Mac/Sharpnado.MaterialFrame.macOS.pdb",
+        "lib/Xamarin.Mac/Sharpnado.MaterialFrame.pdb",
+        "lib/Xamarin.iOS10/Sharpnado.MaterialFrame.dll",
+        "lib/Xamarin.iOS10/Sharpnado.MaterialFrame.iOS.dll",
+        "lib/Xamarin.iOS10/Sharpnado.MaterialFrame.iOS.pdb",
+        "lib/Xamarin.iOS10/Sharpnado.MaterialFrame.pdb",
+        "lib/netstandard2.0/Sharpnado.MaterialFrame.dll",
+        "lib/netstandard2.0/Sharpnado.MaterialFrame.pdb",
+        "lib/uap10.0.16299/Sharpnado.MaterialFrame.UWP.dll",
+        "lib/uap10.0.16299/Sharpnado.MaterialFrame.UWP.pdb",
+        "lib/uap10.0.16299/Sharpnado.MaterialFrame.dll",
+        "lib/uap10.0.16299/Sharpnado.MaterialFrame.pdb",
+        "sharpnado.materialframe.1.3.0.nupkg.sha512",
+        "sharpnado.materialframe.nuspec"
+      ]
+    },
+    "Sharpnado.Shadows/1.2.1": {
+      "sha512": "ERDGqFJIZpXRNnB/zTg4+cL/Uw73UTtmGEl0Og6pNTWN+NLh254rsVPY+sQ4Hi6qhvmsFgsTEOh7v3iRWT8egw==",
+      "type": "package",
+      "path": "sharpnado.shadows/1.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "images/shadows.png",
+        "lib/MonoAndroid10/Sharpnado.Shadows.Android.dll",
+        "lib/MonoAndroid10/Sharpnado.Shadows.Android.pdb",
+        "lib/MonoAndroid10/Sharpnado.Shadows.dll",
+        "lib/MonoAndroid10/Sharpnado.Shadows.pdb",
+        "lib/Xamarin.iOS10/Sharpnado.Shadows.dll",
+        "lib/Xamarin.iOS10/Sharpnado.Shadows.iOS.dll",
+        "lib/Xamarin.iOS10/Sharpnado.Shadows.iOS.pdb",
+        "lib/Xamarin.iOS10/Sharpnado.Shadows.pdb",
+        "lib/netstandard2.0/Sharpnado.Shadows.dll",
+        "lib/netstandard2.0/Sharpnado.Shadows.pdb",
+        "lib/tizen40/Sharpnado.Shadows.Tizen.dll",
+        "lib/tizen40/Sharpnado.Shadows.Tizen.pdb",
+        "lib/tizen40/Sharpnado.Shadows.dll",
+        "lib/tizen40/Sharpnado.Shadows.pdb",
+        "lib/uap10.0.16299/Sharpnado.Shadows.UWP.dll",
+        "lib/uap10.0.16299/Sharpnado.Shadows.UWP.pdb",
+        "lib/uap10.0.16299/Sharpnado.Shadows.dll",
+        "lib/uap10.0.16299/Sharpnado.Shadows.pdb",
+        "sharpnado.shadows.1.2.1.nupkg.sha512",
+        "sharpnado.shadows.nuspec"
       ]
     },
     "SkiaSharp/2.80.2": {
@@ -1700,6 +2077,30 @@
         "version.txt"
       ]
     },
+    "ThomasLevesque.WeakEvent/4.1.0": {
+      "sha512": "mcp8UoYXWvPmud7UJmREULQLxLmX6SYet2pyZUHpcmIiku3JoqEilPUu9QeUZrV7fOCp0Pfva/VDhG+n3afGyg==",
+      "type": "package",
+      "path": "thomaslevesque.weakevent/4.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "assets/weakevent.png",
+        "lib/net40/WeakEvent.dll",
+        "lib/net40/WeakEvent.pdb",
+        "lib/net40/WeakEvent.xml",
+        "lib/net45/WeakEvent.dll",
+        "lib/net45/WeakEvent.pdb",
+        "lib/net45/WeakEvent.xml",
+        "lib/netstandard1.3/WeakEvent.dll",
+        "lib/netstandard1.3/WeakEvent.pdb",
+        "lib/netstandard1.3/WeakEvent.xml",
+        "lib/netstandard2.0/WeakEvent.dll",
+        "lib/netstandard2.0/WeakEvent.pdb",
+        "lib/netstandard2.0/WeakEvent.xml",
+        "thomaslevesque.weakevent.4.1.0.nupkg.sha512",
+        "thomaslevesque.weakevent.nuspec"
+      ]
+    },
     "Xamarin.Essentials/1.7.0": {
       "sha512": "xfUJNxtfMC05VBej7fVUg6Zd9VwM2kqW9LH0tcrSA6IsBTl0EsIGkYUOz1BoKT2rseWW8o3kTi5WH/yZV4GgJw==",
       "type": "package",
@@ -1966,9 +2367,12 @@
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
+      "CardsView >= 2.8.1",
       "Cronometro >= 1.0.0",
       "Microcharts >= 0.9.5.9",
       "Microcharts.Forms >= 0.9.5.9",
+      "Sharpnado.MaterialFrame >= 1.3.0",
+      "Sharpnado.Shadows >= 1.2.1",
       "Syncfusion.Xamarin.SfChart >= 21.2.10",
       "Xamarin.Essentials >= 1.7.0",
       "Xamarin.Forms >= 5.0.0.2196"
@@ -2016,6 +2420,10 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
+          "CardsView": {
+            "target": "Package",
+            "version": "[2.8.1, )"
+          },
           "Microcharts": {
             "target": "Package",
             "version": "[0.9.5.9, )"
@@ -2023,6 +2431,14 @@
           "Microcharts.Forms": {
             "target": "Package",
             "version": "[0.9.5.9, )"
+          },
+          "Sharpnado.MaterialFrame": {
+            "target": "Package",
+            "version": "[1.3.0, )"
+          },
+          "Sharpnado.Shadows": {
+            "target": "Package",
+            "version": "[1.2.1, )"
           },
           "Syncfusion.Xamarin.SfChart": {
             "target": "Package",

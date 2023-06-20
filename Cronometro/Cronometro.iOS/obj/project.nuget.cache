@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "qBg9A1ac9wqayKOdvPvoeT4LHOfVBbqjfATEBniRVhKR9AOK/OFgm2n0imSlVoJ26mFPyZxPf/aQPktkBMIAVw==",
+  "dgSpecHash": "sKJwlHMB6DXiqMwdXZIL4dBG+m6TDEQgtKNGStCHLYPPFI9GYlZjMUN51VAV+PEWhMF5+ww/ERWydODogwa1og==",
   "success": true,
   "projectFilePath": "C:\\Users\\Edgar\\source\\repos\\Cronometro\\Cronometro\\Cronometro.iOS\\Cronometro.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Edgar\\.nuget\\packages\\cardsview\\2.8.1\\cardsview.2.8.1.nupkg.sha512",
     "C:\\Users\\Edgar\\.nuget\\packages\\microcharts\\0.9.5.9\\microcharts.0.9.5.9.nupkg.sha512",
     "C:\\Users\\Edgar\\.nuget\\packages\\microcharts.forms\\0.9.5.9\\microcharts.forms.0.9.5.9.nupkg.sha512",
+    "C:\\Users\\Edgar\\.nuget\\packages\\sharpnado.materialframe\\1.3.0\\sharpnado.materialframe.1.3.0.nupkg.sha512",
+    "C:\\Users\\Edgar\\.nuget\\packages\\sharpnado.shadows\\1.2.1\\sharpnado.shadows.1.2.1.nupkg.sha512",
     "C:\\Users\\Edgar\\.nuget\\packages\\skiasharp\\2.80.2\\skiasharp.2.80.2.nupkg.sha512",
     "C:\\Users\\Edgar\\.nuget\\packages\\skiasharp.views\\2.80.2\\skiasharp.views.2.80.2.nupkg.sha512",
     "C:\\Users\\Edgar\\.nuget\\packages\\skiasharp.views.forms\\2.80.2\\skiasharp.views.forms.2.80.2.nupkg.sha512",
@@ -14,6 +17,7 @@
     "C:\\Users\\Edgar\\.nuget\\packages\\syncfusion.xamarin.sfchart\\21.2.10\\syncfusion.xamarin.sfchart.21.2.10.nupkg.sha512",
     "C:\\Users\\Edgar\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Edgar\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
+    "C:\\Users\\Edgar\\.nuget\\packages\\thomaslevesque.weakevent\\4.1.0\\thomaslevesque.weakevent.4.1.0.nupkg.sha512",
     "C:\\Users\\Edgar\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\Edgar\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],

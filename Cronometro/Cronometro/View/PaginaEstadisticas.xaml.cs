@@ -11,17 +11,21 @@ using Microcharts;
 using Microcharts.Forms;
 using SkiaSharp;
 using System.IO;
+using Cronometro.Model;
+using Cronometro.ViewModel;
+using PanCardView;
 
 namespace Cronometro.View
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PaginaEstadisticas : ContentPage
     {
-       
+
         public PaginaEstadisticas()
         {
             InitializeComponent();
-            Mostrar_grafica();
+            Mostrar_grafica(0);
+            ListaRegistros();
         }
 
         private List<TimeSpan> ObetenerTiempos()
@@ -44,12 +48,12 @@ namespace Cronometro.View
             List<TimeSpan> readDateList = lines.Select(line => TimeSpan.Parse(line)).ToList();// Convertir las cadenas a una lista de DateTime
 
             // Convertir la lista de DateTime a una lista de cadenas
-            
-           
+
+
             return readDateList;
         }
-       
-        private void Mostrar_grafica()
+
+        private void Mostrar_grafica(int ind)
         {
             List<TimeSpan> tiempos = ObetenerTiempos();
 
@@ -57,13 +61,19 @@ namespace Cronometro.View
 
             /////////////////////////////////////////////////////////////////////////////////
             var entries = new List<ChartEntry>();
+            string col = "#19AEF9";//
 
             for (int i = 0; i < tiempos.Count; i++)
             {
-                  
+
+                if (i == ind)
+                    col = "#FF93D773";
+                else
+                    col = "#19AEF9";
+
                 var entry = new ChartEntry((float)tiempos[i].TotalSeconds)
                 {
-                    Color = SKColor.Parse("#19AEF9"),
+                    Color = SKColor.Parse(col),
                     Label = tiempos.ElementAt(i).ToString(@"hh\:mm\:ss\.ff"),
                     ValueLabel = tiempos[i].TotalSeconds.ToString()
                 };
@@ -77,57 +87,44 @@ namespace Cronometro.View
             // Crea el objeto LineChart y configúralo
             var chart = new LineChart()
             {
-                LabelTextSize=25,
+                LabelTextSize = 25,
                 Entries = entriesArray,
-                LineMode = LineMode.Straight,
+                LineMode = LineMode.Spline,
                 LineSize = 8,
-                PointMode = PointMode.Square,
+                PointMode = PointMode.Circle,
                 PointSize = 18,
             };
 
             var chartview = new ChartView { Chart = chart };
             grafica.Chart = chartview.Chart;
 
-            /////////////////////////////////////////////////////////////////////////////////
-            //var entries = new[]
-            //{
-            //    new ChartEntry(tot_poc)
-            //    {
-            //        Color = SKColor.Parse("#19AEF9"),
-            //        Label = tiempos.ElementAt(0),
-            //        ValueLabel = "50",
-            //    },
-            //    new ChartEntry(tot_poc)
-            //    {
-            //        Color = SKColor.Parse("#34768C"),
-            //        Label = tiempos.ElementAt(1),
-            //        ValueLabel = "50",
-            //    },
-            //    new ChartEntry(tot_poc + 10)
-            //    {
-            //        Color = SKColor.Parse("#FF0000"),
-            //        Label = tiempos.ElementAt(2),
-            //        ValueLabel = "60",
-            //    },
-            //    new ChartEntry(tot_poc - 20)
-            //    {
-            //        Color = SKColor.Parse("#00FF00"),
-            //        Label = tiempos.ElementAt(3),
-            //        ValueLabel = "30",
-            //    }
-            //};
+
+        }
+
+
+        public void ListaRegistros()
+        {
+            List<TimeSpan> tiempos = ObetenerTiempos();
+            var lista = new List<RegistrosCLS>();
+
+            tiempos.ForEach(i => 
+            {
+                lista.Add(new RegistrosCLS 
+                {
+                    Tiempo = i.ToString(@"hh\:mm\:ss\.ff"),
+                });
+            });
+
             
-            //var chart = new LineChart()
-            //{
-            //    Entries = entries,
-            //    LineMode = LineMode.Spline,
-            //    LineSize = 8,
-            //    PointMode = PointMode.Circle,
-            //    PointSize = 18,
-            //};
-            
-            //var chartview = new ChartView { Chart = chart };
-            //grafica.Chart = chartview.Chart;
+           
+            BindingContext =new RegistrosVM(lista);
+
+        }
+
+       
+        private void CarreteTiempos_ItemAppeared(CardsView view, PanCardView.EventArgs.ItemAppearedEventArgs args)
+        {
+            Mostrar_grafica(view.SelectedIndex);
         }
     }
 }
