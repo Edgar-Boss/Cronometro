@@ -24,7 +24,9 @@ namespace Cronometro.View
         public PaginaEstadisticas()
         {
             InitializeComponent();
-            Mostrar_grafica(0);
+            
+            
+            Mostrar_grafica(ObtenerFecha().Count);
             ListaRegistros();
         }
 
@@ -53,13 +55,42 @@ namespace Cronometro.View
             return readDateList;
         }
 
+        private List<DateTime> ObtenerFecha()
+        {
+            string filePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "fechas.txt");
+            string[] lines;
+            try
+            {
+                lines = File.ReadAllLines(filePath); // Leer datos desde el archivo
+            }
+            catch (FileNotFoundException ex)
+            {
+                List<string> lista = new List<string>();
+                File.WriteAllLines(filePath, lista);//Escribir datos en el archivo
+            }
+
+
+            lines = File.ReadAllLines(filePath);
+
+            List<DateTime> readDateList = lines.Select(line => DateTime.Parse(line)).ToList();// Convertir las cadenas a una lista de DateTime
+
+            // Convertir la lista de DateTime a una lista de cadenas
+
+
+            return readDateList;
+
+
+        }
         private void Mostrar_grafica(int ind)
         {
+            DisplayAlert(null,ind.ToString(),"ok");
             List<TimeSpan> tiempos = ObetenerTiempos();
-
+            List<DateTime> fechas = ObtenerFecha();
             List<string> tiempos_string = tiempos.Select(dt => dt.ToString()).ToList();
-
+            List<string> fechas_string = fechas.Select(dt => dt.ToString()).ToList();
             /////////////////////////////////////////////////////////////////////////////////
+            
+            
             var entries = new List<ChartEntry>();
             string col = "#19AEF9";//
 
@@ -75,9 +106,8 @@ namespace Cronometro.View
                 {
                     Color = SKColor.Parse(col),
                     Label = tiempos.ElementAt(i).ToString(@"hh\:mm\:ss\.ff"),
-                    ValueLabel = tiempos[i].TotalSeconds.ToString()
+                    ValueLabel = i.ToString()
                 };
-
                 entries.Add(entry);
             }
 
@@ -96,6 +126,7 @@ namespace Cronometro.View
             };
 
             var chartview = new ChartView { Chart = chart };
+            
             grafica.Chart = chartview.Chart;
 
 
@@ -105,20 +136,20 @@ namespace Cronometro.View
         public void ListaRegistros()
         {
             List<TimeSpan> tiempos = ObetenerTiempos();
+            List<DateTime> fechas = ObtenerFecha();
+
             var lista = new List<RegistrosCLS>();
 
-            tiempos.ForEach(i => 
+            for (int k = 0; k < tiempos.Count(); k++)
             {
-                lista.Add(new RegistrosCLS 
+                lista.Add(new RegistrosCLS
                 {
-                    Tiempo = i.ToString(@"hh\:mm\:ss\.ff"),
+                    Tiempo = tiempos.ElementAt(k).ToString(@"hh\:mm\:ss\.ff"),
+                    Fecha = fechas.ElementAt(k).ToString()
                 });
-            });
+            }
 
-            
-           
             BindingContext =new RegistrosVM(lista);
-
         }
 
        

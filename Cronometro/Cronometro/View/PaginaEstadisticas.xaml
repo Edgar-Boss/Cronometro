@@ -6,7 +6,7 @@
              xmlns:cardview="clr-namespace:PanCardView;assembly=PanCardView"
              xmlns:proc="clr-namespace:PanCardView.Processors;assembly=PanCardView"
             >
-    <Grid>
+    <Grid BackgroundColor="White">
         <Grid.RowDefinitions>
             
             <RowDefinition Height=".4*"/>
@@ -23,7 +23,7 @@
                                 ItemsSource="{Binding Registros_}" 
                                 PositionShiftValue="150" 
                                 Grid.Row="1" 
-                                
+                                BackgroundColor="Transparent"
                                 ItemAppeared="CarreteTiempos_ItemAppeared" >
             <x:Arguments>
                 <proc:CoverFlowProcessor ScaleFactor="0.65"/>
@@ -31,7 +31,15 @@
             <cardview:CoverFlowView.ItemTemplate>
                 <DataTemplate>
                     <Grid Padding="40" Margin=" 50,0" BackgroundColor="Transparent">
-                        <Frame CornerRadius="18" Padding="0" BackgroundColor="Transparent">
+                        <Grid.RowDefinitions>
+                            <RowDefinition  Height="0.1*"/>
+                            <RowDefinition  Height="0.9*"/>
+                        </Grid.RowDefinitions>
+                        <StackLayout Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Center">
+                            <Label Text="{Binding Fecha}"/>
+                        </StackLayout>
+                        
+                        <Frame Grid.Row="1" CornerRadius="18" Padding="0" BackgroundColor="Transparent" HasShadow="True">
                             <Ellipse    Fill="Transparent"
                                         VerticalOptions="CenterAndExpand"
                                         WidthRequest="200"
@@ -41,9 +49,10 @@
                                         Stroke ="#34768C"/>
                             
                         </Frame>
-                        <Label Text="{Binding Tiempo}"
-                               HorizontalOptions="Center"
-                               VerticalOptions="Center"/>
+                        <Label  Grid.Row="1"
+                                Text="{Binding Tiempo}"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"/>
                     </Grid>
                 </DataTemplate>
             </cardview:CoverFlowView.ItemTemplate>

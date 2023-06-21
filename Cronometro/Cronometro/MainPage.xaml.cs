@@ -6,6 +6,7 @@ using System.IO;
 using Cronometro.ViewModel;
 using System.Linq;
 using Cronometro.View;
+using Xamarin.Forms.Internals;
 
 namespace Cronometro
 {
@@ -207,33 +208,43 @@ namespace Cronometro
         
         private void BtnSave_Clicked(object sender, EventArgs e)
         {
-           
+
             AnimImageBoton(sender);
             string filePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "tiempos.txt");
+            string filePath_date = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "fechas.txt");
             string[] lines;
+            string[] lines_date;
+
             try
             {
                 lines = File.ReadAllLines(filePath); // Leer datos desde el archivo
+                lines_date = File.ReadAllLines(filePath_date);
             }
             catch (FileNotFoundException ex)
             {
-                List<string> lista = new List<string>();    
-                File.WriteAllLines(filePath,lista );//Escribir datos en el archivo
+                List<string> lista = new List<string>();
+                List<string> lista_date = new List<string>();
+                File.WriteAllLines(filePath, lista);//Escribir datos en el archivo
+                File.WriteAllLines(filePath_date, lista_date);
             }
 
 
             lines = File.ReadAllLines(filePath);
-            
+            lines_date = File.ReadAllLines(filePath_date);
+           
             List<TimeSpan> readDateList = lines.Select(line => TimeSpan.Parse(line)).ToList();// Convertir las cadenas a una lista de DateTime
+            List<DateTime> readdateList_date = lines_date.Select(line => DateTime.Parse(line)).ToList();
 
+            readdateList_date.Add(DateTime.Now);
             readDateList.Add(elapsedTime);
 
             // Convertir la lista de DateTime a una lista de cadenas
             List<string> dateStringList = readDateList.Select(dt => dt.ToString()).ToList();
-
+            List<string> datetringlist_date = readdateList_date.Select(dt => dt.ToString()).ToList();
 
             //// Escribir datos en el archivo
             File.WriteAllLines(filePath, dateStringList);
+            File.WriteAllLines(filePath_date, datetringlist_date);
 
         }
 

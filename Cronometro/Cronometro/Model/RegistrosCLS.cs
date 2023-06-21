@@ -8,5 +8,6 @@ namespace Cronometro.Model
     {
         public string Tiempo { get; set; }
         public string Fecha { get; set; }
+            
     }
 }
