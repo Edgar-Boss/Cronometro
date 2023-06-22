@@ -746,3 +746,4 @@ C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro.Android\obj\Debug\1
 C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro.Android\obj\Debug\120\android\src\crc64994682affb61faca\ShadowView.java
 C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro.Android\obj\Debug\120\android\src\mono\androidx\mediarouter\media\RemotePlaybackClient_OnMessageReceivedListenerImplementor.java
 C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro.Android\obj\Debug\120\android\src\mono\androidx\palette\graphics\Palette_PaletteAsyncListenerImplementor.java
+C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro.Android\obj\Debug\120\res\drawable\delete.png

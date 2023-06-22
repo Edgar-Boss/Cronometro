@@ -14,22 +14,31 @@ using System.IO;
 using Cronometro.Model;
 using Cronometro.ViewModel;
 using PanCardView;
+using System.Runtime.InteropServices.ComTypes;
+using System.Collections;
 
 namespace Cronometro.View
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PaginaEstadisticas : ContentPage
     {
+        List<TimeSpan> tiempos;
+        List<DateTime> fechas;
 
         public PaginaEstadisticas()
-        {
+        { 
             InitializeComponent();
-            
-            
-            Mostrar_grafica(ObtenerFecha().Count);
-            ListaRegistros();
+            DescargarDatos();
+            int cont = ObetenerTiempos().Count-1;
+            CarreteTiempos.SelectedIndex = cont;
+            Mostrargrafica(cont);
+            ListaRegistros();   
         }
-
+        private void DescargarDatos()
+        {
+            tiempos = ObetenerTiempos();
+            fechas = ObtenerFecha();
+        }
         private List<TimeSpan> ObetenerTiempos()
         {
             string filePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "tiempos.txt");
@@ -48,10 +57,7 @@ namespace Cronometro.View
             lines = File.ReadAllLines(filePath);
 
             List<TimeSpan> readDateList = lines.Select(line => TimeSpan.Parse(line)).ToList();// Convertir las cadenas a una lista de DateTime
-
             // Convertir la lista de DateTime a una lista de cadenas
-
-
             return readDateList;
         }
 
@@ -81,24 +87,21 @@ namespace Cronometro.View
 
 
         }
-        private void Mostrar_grafica(int ind)
+        private void Mostrargrafica(int ind)
         {
-            DisplayAlert(null,ind.ToString(),"ok");
-            List<TimeSpan> tiempos = ObetenerTiempos();
-            List<DateTime> fechas = ObtenerFecha();
+            
             List<string> tiempos_string = tiempos.Select(dt => dt.ToString()).ToList();
             List<string> fechas_string = fechas.Select(dt => dt.ToString()).ToList();
             /////////////////////////////////////////////////////////////////////////////////
             
-            
             var entries = new List<ChartEntry>();
             string col = "#19AEF9";//
-
+    
             for (int i = 0; i < tiempos.Count; i++)
             {
 
                 if (i == ind)
-                    col = "#FF93D773";
+                    col = "#9AE349";
                 else
                     col = "#19AEF9";
 
@@ -128,8 +131,6 @@ namespace Cronometro.View
             var chartview = new ChartView { Chart = chart };
             
             grafica.Chart = chartview.Chart;
-
-
         }
 
 
@@ -144,6 +145,7 @@ namespace Cronometro.View
             {
                 lista.Add(new RegistrosCLS
                 {
+                    Id = k,
                     Tiempo = tiempos.ElementAt(k).ToString(@"hh\:mm\:ss\.ff"),
                     Fecha = fechas.ElementAt(k).ToString()
                 });
@@ -154,8 +156,45 @@ namespace Cronometro.View
 
        
         private void CarreteTiempos_ItemAppeared(CardsView view, PanCardView.EventArgs.ItemAppearedEventArgs args)
+        {  
+            Mostrargrafica(view.SelectedIndex);
+        }
+
+        private void BtnEliminar_Clicked(object sender, EventArgs e)
         {
-            Mostrar_grafica(view.SelectedIndex);
+            ImageButton btn = (ImageButton)sender;
+            tiempos.RemoveAt(int.Parse(btn.ClassId));
+            fechas.RemoveAt(int.Parse(btn.ClassId));
+            GuardarDatos();
+            if (int.Parse(btn.ClassId) < tiempos.Count())
+            {
+                
+                Mostrargrafica(int.Parse(btn.ClassId));
+                CarreteTiempos.SelectedIndex = int.Parse(btn.ClassId);
+            }
+            else
+            {
+                Mostrargrafica(tiempos.Count() - 1);
+                CarreteTiempos.SelectedIndex = tiempos.Count() - 1;
+            }
+            
+            ListaRegistros();
+        }
+
+
+        private void GuardarDatos()
+        {
+            string filePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "tiempos.txt");
+            string filePath_date = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "fechas.txt");
+            
+
+            // Convertir la lista de DateTime a una lista de cadenas
+            List<string> dateStringList = tiempos.Select(dt => dt.ToString()).ToList();
+            List<string> datetringlist_date = fechas.Select(dt => dt.ToString()).ToList();
+
+            //// Escribir datos en el archivo
+            File.WriteAllLines(filePath, dateStringList);
+            File.WriteAllLines(filePath_date, datetringlist_date);
         }
     }
 }

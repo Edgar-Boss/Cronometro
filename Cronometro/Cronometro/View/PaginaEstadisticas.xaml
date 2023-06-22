@@ -5,7 +5,7 @@
              x:Class="Cronometro.View.PaginaEstadisticas"
              xmlns:cardview="clr-namespace:PanCardView;assembly=PanCardView"
              xmlns:proc="clr-namespace:PanCardView.Processors;assembly=PanCardView"
-            >
+             NavigationPage.HasNavigationBar="False">
     <Grid BackgroundColor="White">
         <Grid.RowDefinitions>
             
@@ -33,7 +33,8 @@
                     <Grid Padding="40" Margin=" 50,0" BackgroundColor="Transparent">
                         <Grid.RowDefinitions>
                             <RowDefinition  Height="0.1*"/>
-                            <RowDefinition  Height="0.9*"/>
+                            <RowDefinition  Height="0.8*"/>
+                            <RowDefinition  Height="0.1*"/>
                         </Grid.RowDefinitions>
                         <StackLayout Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Center">
                             <Label Text="{Binding Fecha}"/>
@@ -53,6 +54,16 @@
                                 Text="{Binding Tiempo}"
                                 HorizontalOptions="Center"
                                 VerticalOptions="Center"/>
+                        <StackLayout Grid.Row="2">
+                            <ImageButton    x:Name="BtnEliminar"
+                                            ClassId="{Binding Id}"
+                                            Source="delete"
+                                            HorizontalOptions="End"
+                                            VerticalOptions="End"
+                                            HeightRequest="30"
+                                            BackgroundColor="Transparent"
+                                            Clicked="BtnEliminar_Clicked"/>
+                        </StackLayout>
                     </Grid>
                 </DataTemplate>
             </cardview:CoverFlowView.ItemTemplate>
