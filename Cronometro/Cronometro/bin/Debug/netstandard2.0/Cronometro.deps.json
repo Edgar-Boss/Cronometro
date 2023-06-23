@@ -10,14 +10,15 @@
       "Cronometro/1.0.0": {
         "dependencies": {
           "CardsView": "2.8.1",
+          "MarcTron.Admob": "1.9.0.6",
           "Microcharts": "0.9.5.9",
           "Microcharts.Forms": "0.9.5.9",
           "NETStandard.Library": "2.0.3",
           "Sharpnado.MaterialFrame": "1.3.0",
           "Sharpnado.Shadows": "1.2.1",
-          "Syncfusion.Xamarin.SfChart": "21.2.10",
-          "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Syncfusion.Xamarin.SfChart": "22.1.34",
+          "Xamarin.Essentials": "1.7.6",
+          "Xamarin.Forms": "5.0.0.2578"
         },
         "runtime": {
           "Cronometro.dll": {}
@@ -28,6 +29,18 @@
           "lib/netstandard2.0/PanCardView.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MarcTron.Admob/1.9.0.6": {
+        "dependencies": {
+          "Xamarin.Build.Download": "0.11.4",
+          "Xamarin.Forms": "5.0.0.2578"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.MtAdmob.dll": {
+            "assemblyVersion": "1.9.0.6",
+            "fileVersion": "1.9.0.6"
           }
         }
       },
@@ -49,7 +62,7 @@
           "SkiaSharp": "2.80.2",
           "SkiaSharp.Views.Forms": "2.80.2",
           "System.ValueTuple": "4.5.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Forms": "5.0.0.2578"
         },
         "runtime": {
           "lib/netstandard2.0/Microcharts.Forms.dll": {
@@ -70,7 +83,7 @@
       },
       "Sharpnado.MaterialFrame/1.3.0": {
         "dependencies": {
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Forms": "5.0.0.2578"
         },
         "runtime": {
           "lib/netstandard2.0/Sharpnado.MaterialFrame.dll": {
@@ -82,7 +95,7 @@
       "Sharpnado.Shadows/1.2.1": {
         "dependencies": {
           "ThomasLevesque.WeakEvent": "4.1.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Forms": "5.0.0.2578"
         },
         "runtime": {
           "lib/netstandard2.0/Sharpnado.Shadows.dll": {
@@ -105,38 +118,38 @@
       "SkiaSharp.Views.Forms/2.80.2": {
         "dependencies": {
           "SkiaSharp": "2.80.2",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Forms": "5.0.0.2578"
         }
       },
-      "Syncfusion.Licensing/21.2.10": {
+      "Syncfusion.Licensing/22.1.34": {
         "runtime": {
           "lib/netstandard2.0/Syncfusion.Licensing.dll": {
-            "assemblyVersion": "21.2.10.0",
-            "fileVersion": "21.2.10.0"
+            "assemblyVersion": "22.1.34.0",
+            "fileVersion": "22.1.34.0"
           }
         }
       },
-      "Syncfusion.Xamarin.Core/21.2.10": {
+      "Syncfusion.Xamarin.Core/22.1.34": {
         "dependencies": {
-          "Syncfusion.Licensing": "21.2.10",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Syncfusion.Licensing": "22.1.34",
+          "Xamarin.Forms": "5.0.0.2578"
         },
         "runtime": {
           "lib/netstandard2.0/Syncfusion.Core.XForms.dll": {
-            "assemblyVersion": "21.2.10.0",
-            "fileVersion": "21.2.10.0"
+            "assemblyVersion": "22.1.34.0",
+            "fileVersion": "22.1.34.0"
           }
         }
       },
-      "Syncfusion.Xamarin.SfChart/21.2.10": {
+      "Syncfusion.Xamarin.SfChart/22.1.34": {
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "21.2.10",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Syncfusion.Xamarin.Core": "22.1.34",
+          "Xamarin.Forms": "5.0.0.2578"
         },
         "runtime": {
           "lib/netstandard2.0/Syncfusion.SfChart.XForms.dll": {
-            "assemblyVersion": "21.2.10.0",
-            "fileVersion": "21.2.10.0"
+            "assemblyVersion": "22.1.34.0",
+            "fileVersion": "22.1.34.0"
           }
         }
       },
@@ -186,7 +199,8 @@
           }
         }
       },
-      "Xamarin.Essentials/1.7.0": {
+      "Xamarin.Build.Download/0.11.4": {},
+      "Xamarin.Essentials/1.7.6": {
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
         },
@@ -197,19 +211,19 @@
           }
         }
       },
-      "Xamarin.Forms/5.0.0.2196": {
+      "Xamarin.Forms/5.0.0.2578": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "5.0.0.786"
+            "fileVersion": "5.0.0.978"
           },
           "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "5.0.0.786"
+            "fileVersion": "5.0.0.978"
           },
           "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "5.0.0.786"
+            "fileVersion": "5.0.0.978"
           }
         }
       }
@@ -227,6 +241,13 @@
       "sha512": "sha512-9v8ua+0QZ0ucyK5b1BUlAnVZLKH45r+uSvzA5CLNWnEUsSFKXudNCwhKuu5Cc7NZ4Flb6JuMDcndBmQJ6zOxhw==",
       "path": "cardsview/2.8.1",
       "hashPath": "cardsview.2.8.1.nupkg.sha512"
+    },
+    "MarcTron.Admob/1.9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EFh84R1+vGU9d1ue0eKj/ZcKCqHqi2Q6aHmWZF+NQEHFSrYqWVz2Jk2M91so2bwuljU7yWCwnt2dC8VYT/URIQ==",
+      "path": "marctron.admob/1.9.0.6",
+      "hashPath": "marctron.admob.1.9.0.6.nupkg.sha512"
     },
     "Microcharts/0.9.5.9": {
       "type": "package",
@@ -284,26 +305,26 @@
       "path": "skiasharp.views.forms/2.80.2",
       "hashPath": "skiasharp.views.forms.2.80.2.nupkg.sha512"
     },
-    "Syncfusion.Licensing/21.2.10": {
+    "Syncfusion.Licensing/22.1.34": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-4rVUsFp5OrxQZYrM5P1Qpvle3rmtT8Aa12McU8MeZntNSxYC4i925sEoKaX6muPuWHuF3PHDY5pLibDzoKm0dQ==",
-      "path": "syncfusion.licensing/21.2.10",
-      "hashPath": "syncfusion.licensing.21.2.10.nupkg.sha512"
+      "sha512": "sha512-jsvGrJgBc2KUMhUbLc1QPTqZkSHEZsUiPOcmu6DDvhYIV9cv1z83gohwHfmtFaRfBVezW7Dhn1qehHSOPIMo/w==",
+      "path": "syncfusion.licensing/22.1.34",
+      "hashPath": "syncfusion.licensing.22.1.34.nupkg.sha512"
     },
-    "Syncfusion.Xamarin.Core/21.2.10": {
+    "Syncfusion.Xamarin.Core/22.1.34": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ibCEJytKK2N3kJM4oHXL9edDH6VN7Nrs6BiH5b4M3yNlbWCOV+QVxvDDvE3tMa5Rz8M7KsjkN+BNgmb3Z2B9qA==",
-      "path": "syncfusion.xamarin.core/21.2.10",
-      "hashPath": "syncfusion.xamarin.core.21.2.10.nupkg.sha512"
+      "sha512": "sha512-0oVFUk80eLYJHy9iDYW7w1rBnQJSkI+dXkkAR/mqA/E4To+vutOX3SkIHd5ckC7cauq3XyZgCsa/Z5bCQPQTGg==",
+      "path": "syncfusion.xamarin.core/22.1.34",
+      "hashPath": "syncfusion.xamarin.core.22.1.34.nupkg.sha512"
     },
-    "Syncfusion.Xamarin.SfChart/21.2.10": {
+    "Syncfusion.Xamarin.SfChart/22.1.34": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-xDAnNoyNM0gjlWTwIpICe9jwRRJYLdTQaebFDH/5En5zYza+FubrE36Xw/4DsdmwbruTQ1er9aOqHhZv+LgQaA==",
-      "path": "syncfusion.xamarin.sfchart/21.2.10",
-      "hashPath": "syncfusion.xamarin.sfchart.21.2.10.nupkg.sha512"
+      "sha512": "sha512-Idfi2XeWFMwBILsgYwDbdvmbP4/qa4q2KNex8i4l+ovy8YW/9EN8+qdwf3/m3zt3yPU8awzaQlsbAt0WBjXtlQ==",
+      "path": "syncfusion.xamarin.sfchart/22.1.34",
+      "hashPath": "syncfusion.xamarin.sfchart.22.1.34.nupkg.sha512"
     },
     "System.Buffers/4.4.0": {
       "type": "package",
@@ -347,19 +368,26 @@
       "path": "thomaslevesque.weakevent/4.1.0",
       "hashPath": "thomaslevesque.weakevent.4.1.0.nupkg.sha512"
     },
-    "Xamarin.Essentials/1.7.0": {
+    "Xamarin.Build.Download/0.11.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-xfUJNxtfMC05VBej7fVUg6Zd9VwM2kqW9LH0tcrSA6IsBTl0EsIGkYUOz1BoKT2rseWW8o3kTi5WH/yZV4GgJw==",
-      "path": "xamarin.essentials/1.7.0",
-      "hashPath": "xamarin.essentials.1.7.0.nupkg.sha512"
+      "sha512": "sha512-u2ROt0h6P7mfs0jbmgvmTrqU/YEpEZcf16xcHa78GSEp7fOZunNtJLCZxooeI1V5p+lrr9kYdg3Pa8FoTbgcXQ==",
+      "path": "xamarin.build.download/0.11.4",
+      "hashPath": "xamarin.build.download.0.11.4.nupkg.sha512"
     },
-    "Xamarin.Forms/5.0.0.2196": {
+    "Xamarin.Essentials/1.7.6": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-zSXDiZukojtEBmZKUUG1yYBwlB9tI8JLPkc6n+Sm1PAX01QyzErWE9AaFJgP7usyoGHn92l4HnQF7A+/MPI6VA==",
-      "path": "xamarin.forms/5.0.0.2196",
-      "hashPath": "xamarin.forms.5.0.0.2196.nupkg.sha512"
+      "sha512": "sha512-Le5qvBRXvL9c5of/3Si+13mdJ9+2hjQi0vFQ2sOLH7N2CZx7ATtfGF10oJiYF0zFzBEbdVzdBCWYwZgjUp9+YQ==",
+      "path": "xamarin.essentials/1.7.6",
+      "hashPath": "xamarin.essentials.1.7.6.nupkg.sha512"
+    },
+    "Xamarin.Forms/5.0.0.2578": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cUjv81PVlNKqAYA9k8WV0JZiCxjuCLqpICfaumHeJvEBxo7qUrEIXHCyS9+tAAV1JL/qwzD/FnkdVy8gO9TWrA==",
+      "path": "xamarin.forms/5.0.0.2578",
+      "hashPath": "xamarin.forms.5.0.0.2578.nupkg.sha512"
     }
   }
 }

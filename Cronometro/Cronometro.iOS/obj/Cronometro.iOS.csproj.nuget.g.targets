@@ -1,7 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)xamarin.forms\5.0.0.2196\buildTransitive\Xamarin.Forms.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.forms\5.0.0.2196\buildTransitive\Xamarin.Forms.targets')" />
+    <Import Project="$(NuGetPackageRoot)xamarin.build.download\0.11.4\buildTransitive\Xamarin.Build.Download.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.build.download\0.11.4\buildTransitive\Xamarin.Build.Download.targets')" />
+    <Import Project="$(NuGetPackageRoot)xamarin.firebase.ios.core\8.10.0.3\buildTransitive\Xamarin.Firebase.iOS.Core.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.firebase.ios.core\8.10.0.3\buildTransitive\Xamarin.Firebase.iOS.Core.targets')" />
+    <Import Project="$(NuGetPackageRoot)xamarin.google.ios.mobileads\8.13.0.3\buildTransitive\Xamarin.Google.iOS.MobileAds.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.google.ios.mobileads\8.13.0.3\buildTransitive\Xamarin.Google.iOS.MobileAds.targets')" />
+    <Import Project="$(NuGetPackageRoot)xamarin.forms\5.0.0.2578\buildTransitive\Xamarin.Forms.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.forms\5.0.0.2578\buildTransitive\Xamarin.Forms.targets')" />
     <Import Project="$(NuGetPackageRoot)skiasharp\2.80.2\buildTransitive\xamarinios1.0\SkiaSharp.targets" Condition="Exists('$(NuGetPackageRoot)skiasharp\2.80.2\buildTransitive\xamarinios1.0\SkiaSharp.targets')" />
   </ImportGroup>
 </Project>

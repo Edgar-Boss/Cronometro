@@ -5,8 +5,9 @@ using Xamarin.Forms;
 using System.IO;
 using Cronometro.ViewModel;
 using System.Linq;
+using MarcTron.Plugin;
 using Cronometro.View;
-using Xamarin.Forms.Internals;
+
 
 namespace Cronometro
 {
@@ -23,6 +24,7 @@ namespace Cronometro
 
         public MainPage()
         {
+            CrossMTAdmob.Current.OnInterstitialLoaded += (sender, e) => { CrossMTAdmob.Current.ShowInterstitial(); };
             InitializeComponent();
             TapGestureRecognizer tap = new TapGestureRecognizer();
             tap.Tapped += Tap_circulo;
@@ -250,6 +252,8 @@ namespace Cronometro
 
         async private void BtnEstadisticas_Clicked(object sender, EventArgs e)
         {
+            CrossMTAdmob.Current.LoadInterstitial("ca-app-pub-8967169262052512/3216972468");
+
             await Navigation.PushAsync(new PaginaEstadisticas());
         }
     }
