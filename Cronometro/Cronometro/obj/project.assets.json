@@ -11,6 +11,19 @@
           "lib/netstandard2.0/PanCardView.dll": {}
         }
       },
+      "MarcTron.Admob/1.9.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Build.Download": "0.11.0",
+          "Xamarin.Forms": "5.0.0.2478"
+        },
+        "compile": {
+          "lib/netstandard2.0/Plugin.MtAdmob.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.MtAdmob.dll": {}
+        }
+      },
       "Microcharts/0.9.5.9": {
         "type": "package",
         "dependencies": {
@@ -267,6 +280,13 @@
           }
         }
       },
+      "Xamarin.Build.Download/0.11.0": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Xamarin.Build.Download.props": {},
+          "buildTransitive/Xamarin.Build.Download.targets": {}
+        }
+      },
       "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -283,7 +303,7 @@
           }
         }
       },
-      "Xamarin.Forms/5.0.0.2196": {
+      "Xamarin.Forms/5.0.0.2545": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
@@ -336,6 +356,23 @@
         "lib/uap/PanCardView.dll",
         "lib/win81/PanCardView.dll",
         "lib/wpa81/PanCardView.dll"
+      ]
+    },
+    "MarcTron.Admob/1.9.0.3": {
+      "sha512": "HFFU+Q8Fi7MqDDol5nkQw4esMbFf3fTHcT/5/Wn0r3ArgXC2mR8VTZxITPxQmePIMaiirCHVL8VzkgBfU5P9bg==",
+      "type": "package",
+      "path": "marctron.admob/1.9.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid12.0/Plugin.MtAdmob.dll",
+        "lib/netstandard2.0/Plugin.MtAdmob.dll",
+        "lib/uap10.0.18362/Plugin.MtAdmob.dll",
+        "lib/uap10.0.18362/Plugin.MtAdmob.pri",
+        "lib/xamarinios10/Plugin.MtAdmob.dll",
+        "marctron.admob.1.9.0.3.nupkg.sha512",
+        "marctron.admob.nuspec",
+        "readme.txt"
       ]
     },
     "Microcharts/0.9.5.9": {
@@ -972,6 +1009,28 @@
         "thomaslevesque.weakevent.nuspec"
       ]
     },
+    "Xamarin.Build.Download/0.11.0": {
+      "sha512": "35/X1Lz4KNoD0VjmDRO/Ap8U823odTUVWGnAmdoweFvjbE3CJ+B8zzOAp+MzvheuEBYlGfX5P4gjvLRZhVTCDg==",
+      "type": "package",
+      "path": "xamarin.build.download/0.11.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "THIRD-PARTY-NOTICE.txt",
+        "build/Microsoft.Win32.Registry.dll",
+        "build/Newtonsoft.Json.dll",
+        "build/Xamarin.Build.Download.dll",
+        "build/Xamarin.Build.Download.props",
+        "build/Xamarin.Build.Download.targets",
+        "buildTransitive/Microsoft.Win32.Registry.dll",
+        "buildTransitive/Newtonsoft.Json.dll",
+        "buildTransitive/Xamarin.Build.Download.dll",
+        "buildTransitive/Xamarin.Build.Download.props",
+        "buildTransitive/Xamarin.Build.Download.targets",
+        "xamarin.build.download.0.11.0.nupkg.sha512",
+        "xamarin.build.download.nuspec"
+      ]
+    },
     "Xamarin.Essentials/1.7.0": {
       "sha512": "xfUJNxtfMC05VBej7fVUg6Zd9VwM2kqW9LH0tcrSA6IsBTl0EsIGkYUOz1BoKT2rseWW8o3kTi5WH/yZV4GgJw==",
       "type": "package",
@@ -1014,10 +1073,10 @@
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/5.0.0.2196": {
-      "sha512": "zSXDiZukojtEBmZKUUG1yYBwlB9tI8JLPkc6n+Sm1PAX01QyzErWE9AaFJgP7usyoGHn92l4HnQF7A+/MPI6VA==",
+    "Xamarin.Forms/5.0.0.2545": {
+      "sha512": "mjfNx4Y/RD0FYjrBfETT2iNdFD1WCXN5wNHPhQaXm3k0u5XYJaOx5K83EZ8nVun+FPi7Wo3rQPIN0DLCs5PG4A==",
       "type": "package",
-      "path": "xamarin.forms/5.0.0.2196",
+      "path": "xamarin.forms/5.0.0.2545",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1226,7 +1285,7 @@
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.5.0.0.2196.nupkg.sha512",
+        "xamarin.forms.5.0.0.2545.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     }
@@ -1234,6 +1293,7 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "CardsView >= 2.8.1",
+      "MarcTron.Admob >= 1.9.0.3",
       "Microcharts >= 0.9.5.9",
       "Microcharts.Forms >= 0.9.5.9",
       "NETStandard.Library >= 2.0.3",
@@ -1241,7 +1301,7 @@
       "Sharpnado.Shadows >= 1.2.1",
       "Syncfusion.Xamarin.SfChart >= 21.2.10",
       "Xamarin.Essentials >= 1.7.0",
-      "Xamarin.Forms >= 5.0.0.2196"
+      "Xamarin.Forms >= 5.0.0.2545"
     ]
   },
   "packageFolders": {
@@ -1295,6 +1355,10 @@
             "target": "Package",
             "version": "[2.8.1, )"
           },
+          "MarcTron.Admob": {
+            "target": "Package",
+            "version": "[1.9.0.3, )"
+          },
           "Microcharts": {
             "target": "Package",
             "version": "[0.9.5.9, )"
@@ -1327,7 +1391,7 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[5.0.0.2196, )"
+            "version": "[5.0.0.2545, )"
           }
         },
         "imports": [

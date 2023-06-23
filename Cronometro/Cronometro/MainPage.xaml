@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Cronometro.MainPage"
+             xmlns:controls="clr-namespace:MarcTron.Plugin.Controls;assembly=Plugin.MtAdmob"
              NavigationPage.HasNavigationBar="False">
     <Grid BackgroundColor="Transparent">
         <Grid.RowDefinitions>

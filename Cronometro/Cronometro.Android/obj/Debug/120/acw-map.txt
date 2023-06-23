@@ -10,6 +10,36 @@ pancardview.droid.CardsViewRenderer;crc64208e3b354a871c0e.CardsViewRenderer
 PanCardView.Droid.CardsGestureListener, PanCardView.Droid;crc64208e3b354a871c0e.CardsGestureListener
 PanCardView.Droid.CardsGestureListener;crc64208e3b354a871c0e.CardsGestureListener
 pancardview.droid.CardsGestureListener;crc64208e3b354a871c0e.CardsGestureListener
+Android.Gms.Ads.Hack.InterstitialAd, Plugin.MtAdmob;crc645803eb4022a7c101.InterstitialAd
+Android.Gms.Ads.Hack.InterstitialAd;crc645803eb4022a7c101.InterstitialAd
+android.gms.ads.hack.InterstitialAd;crc645803eb4022a7c101.InterstitialAd
+Android.Gms.Ads.Hack.RewardedAd, Plugin.MtAdmob;crc645803eb4022a7c101.RewardedAd
+Android.Gms.Ads.Hack.RewardedAd;crc645803eb4022a7c101.RewardedAd
+android.gms.ads.hack.RewardedAd;crc645803eb4022a7c101.RewardedAd
+Android.Gms.Ads.Hack.RewardedInterstitialAd, Plugin.MtAdmob;crc645803eb4022a7c101.RewardedInterstitialAd
+Android.Gms.Ads.Hack.RewardedInterstitialAd;crc645803eb4022a7c101.RewardedInterstitialAd
+android.gms.ads.hack.RewardedInterstitialAd;crc645803eb4022a7c101.RewardedInterstitialAd
+MarcTron.Plugin.MTAdmobImplementation, Plugin.MtAdmob;crc643a9b29aa33f10ca3.MTAdmobImplementation
+MarcTron.Plugin.MTAdmobImplementation;crc643a9b29aa33f10ca3.MTAdmobImplementation
+marctron.plugin.MTAdmobImplementation;crc643a9b29aa33f10ca3.MTAdmobImplementation
+MarcTron.Plugin.Services.InterstitialService, Plugin.MtAdmob;crc64fa6bcdce5dc76621.InterstitialService
+MarcTron.Plugin.Services.InterstitialService;crc64fa6bcdce5dc76621.InterstitialService
+marctron.plugin.services.InterstitialService;crc64fa6bcdce5dc76621.InterstitialService
+MarcTron.Plugin.Services.MyFullScreenContentCallback, Plugin.MtAdmob;crc64fa6bcdce5dc76621.MyFullScreenContentCallback
+MarcTron.Plugin.Services.MyFullScreenContentCallback;crc64fa6bcdce5dc76621.MyFullScreenContentCallback
+marctron.plugin.services.MyFullScreenContentCallback;crc64fa6bcdce5dc76621.MyFullScreenContentCallback
+MarcTron.Plugin.Services.RewardInterstitialService, Plugin.MtAdmob;crc64fa6bcdce5dc76621.RewardInterstitialService
+MarcTron.Plugin.Services.RewardInterstitialService;crc64fa6bcdce5dc76621.RewardInterstitialService
+marctron.plugin.services.RewardInterstitialService;crc64fa6bcdce5dc76621.RewardInterstitialService
+MarcTron.Plugin.Services.RewardService, Plugin.MtAdmob;crc64fa6bcdce5dc76621.RewardService
+MarcTron.Plugin.Services.RewardService;crc64fa6bcdce5dc76621.RewardService
+marctron.plugin.services.RewardService;crc64fa6bcdce5dc76621.RewardService
+MarcTron.Plugin.Renderers.AdViewRenderer, Plugin.MtAdmob;crc649c8245f99e045deb.AdViewRenderer
+MarcTron.Plugin.Renderers.AdViewRenderer;crc649c8245f99e045deb.AdViewRenderer
+marctron.plugin.renderers.AdViewRenderer;crc649c8245f99e045deb.AdViewRenderer
+MarcTron.Plugin.Listeners.MyAdBannerListener, Plugin.MtAdmob;crc647f13a2a9ff69f8e5.MyAdBannerListener
+MarcTron.Plugin.Listeners.MyAdBannerListener;crc647f13a2a9ff69f8e5.MyAdBannerListener
+marctron.plugin.listeners.MyAdBannerListener;crc647f13a2a9ff69f8e5.MyAdBannerListener
 Sharpnado.MaterialFrame.Droid.AndroidMaterialFrameRenderer, Sharpnado.MaterialFrame.Android;crc64986003de7f435920.AndroidMaterialFrameRenderer
 Sharpnado.MaterialFrame.Droid.AndroidMaterialFrameRenderer;crc64986003de7f435920.AndroidMaterialFrameRenderer
 sharpnado.materialframe.droid.AndroidMaterialFrameRenderer;crc64986003de7f435920.AndroidMaterialFrameRenderer
@@ -1414,6 +1444,93 @@ mono.androidx.recyclerview.widget.RecyclerView_RecyclerListenerImplementor;mono.
 AndroidX.RecyclerView.Widget.RecyclerView+SmoothScroller+IScrollVectorProvider, Xamarin.AndroidX.RecyclerView;androidx.recyclerview.widget.RecyclerView$SmoothScroller$ScrollVectorProvider
 AndroidX.RecyclerView.Widget.RecyclerView.SmoothScroller.IScrollVectorProvider;androidx.recyclerview.widget.RecyclerView$SmoothScroller$ScrollVectorProvider
 androidx.recyclerview.widget.RecyclerView$SmoothScroller$ScrollVectorProvider;androidx.recyclerview.widget.RecyclerView$SmoothScroller$ScrollVectorProvider
+AndroidX.Room.IColumnInfoCollate, Xamarin.AndroidX.Room.Common;androidx.room.ColumnInfo$Collate
+AndroidX.Room.IColumnInfoCollate;androidx.room.ColumnInfo$Collate
+androidx.room.ColumnInfo$Collate;androidx.room.ColumnInfo$Collate
+AndroidX.Room.IColumnInfoSQLiteTypeAffinity, Xamarin.AndroidX.Room.Common;androidx.room.ColumnInfo$SQLiteTypeAffinity
+AndroidX.Room.IColumnInfoSQLiteTypeAffinity;androidx.room.ColumnInfo$SQLiteTypeAffinity
+androidx.room.ColumnInfo$SQLiteTypeAffinity;androidx.room.ColumnInfo$SQLiteTypeAffinity
+AndroidX.Room.IColumnInfo, Xamarin.AndroidX.Room.Common;androidx.room.ColumnInfo
+AndroidX.Room.IColumnInfo;androidx.room.ColumnInfo
+androidx.room.ColumnInfo;androidx.room.ColumnInfo
+AndroidX.Room.IDao, Xamarin.AndroidX.Room.Common;androidx.room.Dao
+AndroidX.Room.IDao;androidx.room.Dao
+androidx.room.Dao;androidx.room.Dao
+AndroidX.Room.IDatabase, Xamarin.AndroidX.Room.Common;androidx.room.Database
+AndroidX.Room.IDatabase;androidx.room.Database
+androidx.room.Database;androidx.room.Database
+AndroidX.Room.IDatabaseView, Xamarin.AndroidX.Room.Common;androidx.room.DatabaseView
+AndroidX.Room.IDatabaseView;androidx.room.DatabaseView
+androidx.room.DatabaseView;androidx.room.DatabaseView
+AndroidX.Room.IDelete, Xamarin.AndroidX.Room.Common;androidx.room.Delete
+AndroidX.Room.IDelete;androidx.room.Delete
+androidx.room.Delete;androidx.room.Delete
+AndroidX.Room.IEmbedded, Xamarin.AndroidX.Room.Common;androidx.room.Embedded
+AndroidX.Room.IEmbedded;androidx.room.Embedded
+androidx.room.Embedded;androidx.room.Embedded
+AndroidX.Room.IEntity, Xamarin.AndroidX.Room.Common;androidx.room.Entity
+AndroidX.Room.IEntity;androidx.room.Entity
+androidx.room.Entity;androidx.room.Entity
+AndroidX.Room.IForeignKeyAction, Xamarin.AndroidX.Room.Common;androidx.room.ForeignKey$Action
+AndroidX.Room.IForeignKeyAction;androidx.room.ForeignKey$Action
+androidx.room.ForeignKey$Action;androidx.room.ForeignKey$Action
+AndroidX.Room.IForeignKey, Xamarin.AndroidX.Room.Common;androidx.room.ForeignKey
+AndroidX.Room.IForeignKey;androidx.room.ForeignKey
+androidx.room.ForeignKey;androidx.room.ForeignKey
+AndroidX.Room.IFts3, Xamarin.AndroidX.Room.Common;androidx.room.Fts3
+AndroidX.Room.IFts3;androidx.room.Fts3
+androidx.room.Fts3;androidx.room.Fts3
+AndroidX.Room.IFts4, Xamarin.AndroidX.Room.Common;androidx.room.Fts4
+AndroidX.Room.IFts4;androidx.room.Fts4
+androidx.room.Fts4;androidx.room.Fts4
+AndroidX.Room.IIgnore, Xamarin.AndroidX.Room.Common;androidx.room.Ignore
+AndroidX.Room.IIgnore;androidx.room.Ignore
+androidx.room.Ignore;androidx.room.Ignore
+AndroidX.Room.IIndex, Xamarin.AndroidX.Room.Common;androidx.room.Index
+AndroidX.Room.IIndex;androidx.room.Index
+androidx.room.Index;androidx.room.Index
+AndroidX.Room.IInsert, Xamarin.AndroidX.Room.Common;androidx.room.Insert
+AndroidX.Room.IInsert;androidx.room.Insert
+androidx.room.Insert;androidx.room.Insert
+AndroidX.Room.IJunction, Xamarin.AndroidX.Room.Common;androidx.room.Junction
+AndroidX.Room.IJunction;androidx.room.Junction
+androidx.room.Junction;androidx.room.Junction
+AndroidX.Room.IOnConflictStrategy, Xamarin.AndroidX.Room.Common;androidx.room.OnConflictStrategy
+AndroidX.Room.IOnConflictStrategy;androidx.room.OnConflictStrategy
+androidx.room.OnConflictStrategy;androidx.room.OnConflictStrategy
+AndroidX.Room.IPrimaryKey, Xamarin.AndroidX.Room.Common;androidx.room.PrimaryKey
+AndroidX.Room.IPrimaryKey;androidx.room.PrimaryKey
+androidx.room.PrimaryKey;androidx.room.PrimaryKey
+AndroidX.Room.IQuery, Xamarin.AndroidX.Room.Common;androidx.room.Query
+AndroidX.Room.IQuery;androidx.room.Query
+androidx.room.Query;androidx.room.Query
+AndroidX.Room.IRawQuery, Xamarin.AndroidX.Room.Common;androidx.room.RawQuery
+AndroidX.Room.IRawQuery;androidx.room.RawQuery
+androidx.room.RawQuery;androidx.room.RawQuery
+AndroidX.Room.IRelation, Xamarin.AndroidX.Room.Common;androidx.room.Relation
+AndroidX.Room.IRelation;androidx.room.Relation
+androidx.room.Relation;androidx.room.Relation
+AndroidX.Room.ISkipQueryVerification, Xamarin.AndroidX.Room.Common;androidx.room.SkipQueryVerification
+AndroidX.Room.ISkipQueryVerification;androidx.room.SkipQueryVerification
+androidx.room.SkipQueryVerification;androidx.room.SkipQueryVerification
+AndroidX.Room.ITransaction, Xamarin.AndroidX.Room.Common;androidx.room.Transaction
+AndroidX.Room.ITransaction;androidx.room.Transaction
+androidx.room.Transaction;androidx.room.Transaction
+AndroidX.Room.ITypeConverter, Xamarin.AndroidX.Room.Common;androidx.room.TypeConverter
+AndroidX.Room.ITypeConverter;androidx.room.TypeConverter
+androidx.room.TypeConverter;androidx.room.TypeConverter
+AndroidX.Room.ITypeConverters, Xamarin.AndroidX.Room.Common;androidx.room.TypeConverters
+AndroidX.Room.ITypeConverters;androidx.room.TypeConverters
+androidx.room.TypeConverters;androidx.room.TypeConverters
+AndroidX.Room.IUpdate, Xamarin.AndroidX.Room.Common;androidx.room.Update
+AndroidX.Room.IUpdate;androidx.room.Update
+androidx.room.Update;androidx.room.Update
+AndroidX.Room.IMultiInstanceInvalidationCallback, Xamarin.AndroidX.Room.Runtime;androidx.room.IMultiInstanceInvalidationCallback
+AndroidX.Room.IMultiInstanceInvalidationCallback;androidx.room.IMultiInstanceInvalidationCallback
+androidx.room.IMultiInstanceInvalidationCallback;androidx.room.IMultiInstanceInvalidationCallback
+AndroidX.Room.IMultiInstanceInvalidationService, Xamarin.AndroidX.Room.Runtime;androidx.room.IMultiInstanceInvalidationService
+AndroidX.Room.IMultiInstanceInvalidationService;androidx.room.IMultiInstanceInvalidationService
+androidx.room.IMultiInstanceInvalidationService;androidx.room.IMultiInstanceInvalidationService
 AndroidX.SavedState.ISavedStateRegistryOwner, Xamarin.AndroidX.SavedState;androidx.savedstate.SavedStateRegistryOwner
 AndroidX.SavedState.ISavedStateRegistryOwner;androidx.savedstate.SavedStateRegistryOwner
 androidx.savedstate.SavedStateRegistryOwner;androidx.savedstate.SavedStateRegistryOwner
@@ -1429,6 +1546,24 @@ androidx.slidingpanelayout.widget.SlidingPaneLayout$PanelSlideListener;androidx.
 AndroidX.SlidingPaneLayout.Widget.SlidingPaneLayout+IPanelSlideListenerImplementor, Xamarin.AndroidX.SlidingPaneLayout;mono.androidx.slidingpanelayout.widget.SlidingPaneLayout_PanelSlideListenerImplementor
 AndroidX.SlidingPaneLayout.Widget.SlidingPaneLayout.IPanelSlideListenerImplementor;mono.androidx.slidingpanelayout.widget.SlidingPaneLayout_PanelSlideListenerImplementor
 mono.androidx.slidingpanelayout.widget.SlidingPaneLayout_PanelSlideListenerImplementor;mono.androidx.slidingpanelayout.widget.SlidingPaneLayout_PanelSlideListenerImplementor
+AndroidX.Sqlite.Db.ISupportSQLiteDatabase, Xamarin.AndroidX.Sqlite;androidx.sqlite.db.SupportSQLiteDatabase
+AndroidX.Sqlite.Db.ISupportSQLiteDatabase;androidx.sqlite.db.SupportSQLiteDatabase
+androidx.sqlite.db.SupportSQLiteDatabase;androidx.sqlite.db.SupportSQLiteDatabase
+AndroidX.Sqlite.Db.ISupportSQLiteOpenHelperFactory, Xamarin.AndroidX.Sqlite;androidx.sqlite.db.SupportSQLiteOpenHelper$Factory
+AndroidX.Sqlite.Db.ISupportSQLiteOpenHelperFactory;androidx.sqlite.db.SupportSQLiteOpenHelper$Factory
+androidx.sqlite.db.SupportSQLiteOpenHelper$Factory;androidx.sqlite.db.SupportSQLiteOpenHelper$Factory
+AndroidX.Sqlite.Db.ISupportSQLiteOpenHelper, Xamarin.AndroidX.Sqlite;androidx.sqlite.db.SupportSQLiteOpenHelper
+AndroidX.Sqlite.Db.ISupportSQLiteOpenHelper;androidx.sqlite.db.SupportSQLiteOpenHelper
+androidx.sqlite.db.SupportSQLiteOpenHelper;androidx.sqlite.db.SupportSQLiteOpenHelper
+AndroidX.Sqlite.Db.ISupportSQLiteProgram, Xamarin.AndroidX.Sqlite;androidx.sqlite.db.SupportSQLiteProgram
+AndroidX.Sqlite.Db.ISupportSQLiteProgram;androidx.sqlite.db.SupportSQLiteProgram
+androidx.sqlite.db.SupportSQLiteProgram;androidx.sqlite.db.SupportSQLiteProgram
+AndroidX.Sqlite.Db.ISupportSQLiteQuery, Xamarin.AndroidX.Sqlite;androidx.sqlite.db.SupportSQLiteQuery
+AndroidX.Sqlite.Db.ISupportSQLiteQuery;androidx.sqlite.db.SupportSQLiteQuery
+androidx.sqlite.db.SupportSQLiteQuery;androidx.sqlite.db.SupportSQLiteQuery
+AndroidX.Sqlite.Db.ISupportSQLiteStatement, Xamarin.AndroidX.Sqlite;androidx.sqlite.db.SupportSQLiteStatement
+AndroidX.Sqlite.Db.ISupportSQLiteStatement;androidx.sqlite.db.SupportSQLiteStatement
+androidx.sqlite.db.SupportSQLiteStatement;androidx.sqlite.db.SupportSQLiteStatement
 AndroidX.SwipeRefreshLayout.Widget.SwipeRefreshLayout+IOnChildScrollUpCallback, Xamarin.AndroidX.SwipeRefreshLayout;androidx.swiperefreshlayout.widget.SwipeRefreshLayout$OnChildScrollUpCallback
 AndroidX.SwipeRefreshLayout.Widget.SwipeRefreshLayout.IOnChildScrollUpCallback;androidx.swiperefreshlayout.widget.SwipeRefreshLayout$OnChildScrollUpCallback
 androidx.swiperefreshlayout.widget.SwipeRefreshLayout$OnChildScrollUpCallback;androidx.swiperefreshlayout.widget.SwipeRefreshLayout$OnChildScrollUpCallback
@@ -1516,6 +1651,78 @@ androidx.viewpager2.widget.ViewPager2$ScrollState;androidx.viewpager2.widget.Vie
 AndroidX.ViewPager2.Adapter.IStatefulAdapter, Xamarin.AndroidX.ViewPager2;androidx.viewpager2.adapter.StatefulAdapter
 AndroidX.ViewPager2.Adapter.IStatefulAdapter;androidx.viewpager2.adapter.StatefulAdapter
 androidx.viewpager2.adapter.StatefulAdapter;androidx.viewpager2.adapter.StatefulAdapter
+AndroidX.Work.Configuration+IProvider, Xamarin.AndroidX.Work.Runtime;androidx.work.Configuration$Provider
+AndroidX.Work.Configuration.IProvider;androidx.work.Configuration$Provider
+androidx.work.Configuration$Provider;androidx.work.Configuration$Provider
+AndroidX.Work.IForegroundUpdater, Xamarin.AndroidX.Work.Runtime;androidx.work.ForegroundUpdater
+AndroidX.Work.IForegroundUpdater;androidx.work.ForegroundUpdater
+androidx.work.ForegroundUpdater;androidx.work.ForegroundUpdater
+AndroidX.Work.IInitializationExceptionHandler, Xamarin.AndroidX.Work.Runtime;androidx.work.InitializationExceptionHandler
+AndroidX.Work.IInitializationExceptionHandler;androidx.work.InitializationExceptionHandler
+androidx.work.InitializationExceptionHandler;androidx.work.InitializationExceptionHandler
+AndroidX.Work.IOperation, Xamarin.AndroidX.Work.Runtime;androidx.work.Operation
+AndroidX.Work.IOperation;androidx.work.Operation
+androidx.work.Operation;androidx.work.Operation
+AndroidX.Work.IProgressUpdater, Xamarin.AndroidX.Work.Runtime;androidx.work.ProgressUpdater
+AndroidX.Work.IProgressUpdater;androidx.work.ProgressUpdater
+androidx.work.ProgressUpdater;androidx.work.ProgressUpdater
+AndroidX.Work.IRunnableScheduler, Xamarin.AndroidX.Work.Runtime;androidx.work.RunnableScheduler
+AndroidX.Work.IRunnableScheduler;androidx.work.RunnableScheduler
+androidx.work.RunnableScheduler;androidx.work.RunnableScheduler
+AndroidX.Work.MultiProcess.IWorkManagerImpl, Xamarin.AndroidX.Work.Runtime;androidx.work.multiprocess.IWorkManagerImpl
+AndroidX.Work.MultiProcess.IWorkManagerImpl;androidx.work.multiprocess.IWorkManagerImpl
+androidx.work.multiprocess.IWorkManagerImpl;androidx.work.multiprocess.IWorkManagerImpl
+AndroidX.Work.MultiProcess.IWorkManagerImplCallback, Xamarin.AndroidX.Work.Runtime;androidx.work.multiprocess.IWorkManagerImplCallback
+AndroidX.Work.MultiProcess.IWorkManagerImplCallback;androidx.work.multiprocess.IWorkManagerImplCallback
+androidx.work.multiprocess.IWorkManagerImplCallback;androidx.work.multiprocess.IWorkManagerImplCallback
+AndroidX.Work.Impl.Utils.WorkTimer+ITimeLimitExceededListener, Xamarin.AndroidX.Work.Runtime;androidx.work.impl.utils.WorkTimer$TimeLimitExceededListener
+AndroidX.Work.Impl.Utils.WorkTimer.ITimeLimitExceededListener;androidx.work.impl.utils.WorkTimer$TimeLimitExceededListener
+androidx.work.impl.utils.WorkTimer$TimeLimitExceededListener;androidx.work.impl.utils.WorkTimer$TimeLimitExceededListener
+AndroidX.Work.Impl.Utils.WorkTimer+ITimeLimitExceededListenerImplementor, Xamarin.AndroidX.Work.Runtime;mono.androidx.work.impl.utils.WorkTimer_TimeLimitExceededListenerImplementor
+AndroidX.Work.Impl.Utils.WorkTimer.ITimeLimitExceededListenerImplementor;mono.androidx.work.impl.utils.WorkTimer_TimeLimitExceededListenerImplementor
+mono.androidx.work.impl.utils.WorkTimer_TimeLimitExceededListenerImplementor;mono.androidx.work.impl.utils.WorkTimer_TimeLimitExceededListenerImplementor
+AndroidX.Work.Impl.Utils.TaskExecutor.ITaskExecutor, Xamarin.AndroidX.Work.Runtime;androidx.work.impl.utils.taskexecutor.TaskExecutor
+AndroidX.Work.Impl.Utils.TaskExecutor.ITaskExecutor;androidx.work.impl.utils.taskexecutor.TaskExecutor
+androidx.work.impl.utils.taskexecutor.TaskExecutor;androidx.work.impl.utils.taskexecutor.TaskExecutor
+AndroidX.Work.Impl.Model.IDependencyDao, Xamarin.AndroidX.Work.Runtime;androidx.work.impl.model.DependencyDao
+AndroidX.Work.Impl.Model.IDependencyDao;androidx.work.impl.model.DependencyDao
+androidx.work.impl.model.DependencyDao;androidx.work.impl.model.DependencyDao
+AndroidX.Work.Impl.Model.IPreferenceDao, Xamarin.AndroidX.Work.Runtime;androidx.work.impl.model.PreferenceDao
+AndroidX.Work.Impl.Model.IPreferenceDao;androidx.work.impl.model.PreferenceDao
+androidx.work.impl.model.PreferenceDao;androidx.work.impl.model.PreferenceDao
+AndroidX.Work.Impl.Model.IRawWorkInfoDao, Xamarin.AndroidX.Work.Runtime;androidx.work.impl.model.RawWorkInfoDao
+AndroidX.Work.Impl.Model.IRawWorkInfoDao;androidx.work.impl.model.RawWorkInfoDao
+androidx.work.impl.model.RawWorkInfoDao;androidx.work.impl.model.RawWorkInfoDao
+AndroidX.Work.Impl.Model.ISystemIdInfoDao, Xamarin.AndroidX.Work.Runtime;androidx.work.impl.model.SystemIdInfoDao
+AndroidX.Work.Impl.Model.ISystemIdInfoDao;androidx.work.impl.model.SystemIdInfoDao
+androidx.work.impl.model.SystemIdInfoDao;androidx.work.impl.model.SystemIdInfoDao
+AndroidX.Work.Impl.Model.IWorkNameDao, Xamarin.AndroidX.Work.Runtime;androidx.work.impl.model.WorkNameDao
+AndroidX.Work.Impl.Model.IWorkNameDao;androidx.work.impl.model.WorkNameDao
+androidx.work.impl.model.WorkNameDao;androidx.work.impl.model.WorkNameDao
+AndroidX.Work.Impl.Model.IWorkProgressDao, Xamarin.AndroidX.Work.Runtime;androidx.work.impl.model.WorkProgressDao
+AndroidX.Work.Impl.Model.IWorkProgressDao;androidx.work.impl.model.WorkProgressDao
+androidx.work.impl.model.WorkProgressDao;androidx.work.impl.model.WorkProgressDao
+AndroidX.Work.Impl.Model.IWorkSpecDao, Xamarin.AndroidX.Work.Runtime;androidx.work.impl.model.WorkSpecDao
+AndroidX.Work.Impl.Model.IWorkSpecDao;androidx.work.impl.model.WorkSpecDao
+androidx.work.impl.model.WorkSpecDao;androidx.work.impl.model.WorkSpecDao
+AndroidX.Work.Impl.Model.IWorkTagDao, Xamarin.AndroidX.Work.Runtime;androidx.work.impl.model.WorkTagDao
+AndroidX.Work.Impl.Model.IWorkTagDao;androidx.work.impl.model.WorkTagDao
+androidx.work.impl.model.WorkTagDao;androidx.work.impl.model.WorkTagDao
+AndroidX.Work.Impl.Foreground.IForegroundProcessor, Xamarin.AndroidX.Work.Runtime;androidx.work.impl.foreground.ForegroundProcessor
+AndroidX.Work.Impl.Foreground.IForegroundProcessor;androidx.work.impl.foreground.ForegroundProcessor
+androidx.work.impl.foreground.ForegroundProcessor;androidx.work.impl.foreground.ForegroundProcessor
+AndroidX.Work.Impl.Constraints.IConstraintListener, Xamarin.AndroidX.Work.Runtime;androidx.work.impl.constraints.ConstraintListener
+AndroidX.Work.Impl.Constraints.IConstraintListener;androidx.work.impl.constraints.ConstraintListener
+androidx.work.impl.constraints.ConstraintListener;androidx.work.impl.constraints.ConstraintListener
+AndroidX.Work.Impl.Constraints.IConstraintListenerImplementor, Xamarin.AndroidX.Work.Runtime;mono.androidx.work.impl.constraints.ConstraintListenerImplementor
+AndroidX.Work.Impl.Constraints.IConstraintListenerImplementor;mono.androidx.work.impl.constraints.ConstraintListenerImplementor
+mono.androidx.work.impl.constraints.ConstraintListenerImplementor;mono.androidx.work.impl.constraints.ConstraintListenerImplementor
+AndroidX.Work.Impl.Constraints.IWorkConstraintsCallback, Xamarin.AndroidX.Work.Runtime;androidx.work.impl.constraints.WorkConstraintsCallback
+AndroidX.Work.Impl.Constraints.IWorkConstraintsCallback;androidx.work.impl.constraints.WorkConstraintsCallback
+androidx.work.impl.constraints.WorkConstraintsCallback;androidx.work.impl.constraints.WorkConstraintsCallback
+AndroidX.Work.Impl.Constraints.Controllers.ConstraintController+IOnConstraintUpdatedCallback, Xamarin.AndroidX.Work.Runtime;androidx.work.impl.constraints.controllers.ConstraintController$OnConstraintUpdatedCallback
+AndroidX.Work.Impl.Constraints.Controllers.ConstraintController.IOnConstraintUpdatedCallback;androidx.work.impl.constraints.controllers.ConstraintController$OnConstraintUpdatedCallback
+androidx.work.impl.constraints.controllers.ConstraintController$OnConstraintUpdatedCallback;androidx.work.impl.constraints.controllers.ConstraintController$OnConstraintUpdatedCallback
 Xamarin.Essentials.AccelerometerListener, Xamarin.Essentials;crc64a0e0a82d0db9a07d.AccelerometerListener
 Xamarin.Essentials.AccelerometerListener;crc64a0e0a82d0db9a07d.AccelerometerListener
 xamarin.essentials.AccelerometerListener;crc64a0e0a82d0db9a07d.AccelerometerListener
@@ -1609,21 +1816,36 @@ xamarin.forms.platform.android.RadioButtonRenderer;crc643f46942d9dd1fff9.RadioBu
 Xamarin.Forms.Platform.Android.CellAdapter, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.CellAdapter
 Xamarin.Forms.Platform.Android.CellAdapter;crc643f46942d9dd1fff9.CellAdapter
 xamarin.forms.platform.android.CellAdapter;crc643f46942d9dd1fff9.CellAdapter
+Xamarin.Forms.Platform.Android.BaseCellAppCompatView, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.BaseCellAppCompatView
+Xamarin.Forms.Platform.Android.BaseCellAppCompatView;crc643f46942d9dd1fff9.BaseCellAppCompatView
+xamarin.forms.platform.android.BaseCellAppCompatView;crc643f46942d9dd1fff9.BaseCellAppCompatView
 Xamarin.Forms.Platform.Android.BaseCellView, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.BaseCellView
 Xamarin.Forms.Platform.Android.BaseCellView;crc643f46942d9dd1fff9.BaseCellView
 xamarin.forms.platform.android.BaseCellView;crc643f46942d9dd1fff9.BaseCellView
 Xamarin.Forms.Platform.Android.CellRenderer+RendererHolder, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.CellRenderer_RendererHolder
 Xamarin.Forms.Platform.Android.CellRenderer.RendererHolder;crc643f46942d9dd1fff9.CellRenderer_RendererHolder
 xamarin.forms.platform.android.CellRenderer_RendererHolder;crc643f46942d9dd1fff9.CellRenderer_RendererHolder
+Xamarin.Forms.Platform.Android.EntryCellAppCompatEditText, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.EntryCellAppCompatEditText
+Xamarin.Forms.Platform.Android.EntryCellAppCompatEditText;crc643f46942d9dd1fff9.EntryCellAppCompatEditText
+xamarin.forms.platform.android.EntryCellAppCompatEditText;crc643f46942d9dd1fff9.EntryCellAppCompatEditText
+Xamarin.Forms.Platform.Android.EntryCellAppCompatView, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.EntryCellAppCompatView
+Xamarin.Forms.Platform.Android.EntryCellAppCompatView;crc643f46942d9dd1fff9.EntryCellAppCompatView
+xamarin.forms.platform.android.EntryCellAppCompatView;crc643f46942d9dd1fff9.EntryCellAppCompatView
 Xamarin.Forms.Platform.Android.EntryCellEditText, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.EntryCellEditText
 Xamarin.Forms.Platform.Android.EntryCellEditText;crc643f46942d9dd1fff9.EntryCellEditText
 xamarin.forms.platform.android.EntryCellEditText;crc643f46942d9dd1fff9.EntryCellEditText
 Xamarin.Forms.Platform.Android.EntryCellView, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.EntryCellView
 Xamarin.Forms.Platform.Android.EntryCellView;crc643f46942d9dd1fff9.EntryCellView
 xamarin.forms.platform.android.EntryCellView;crc643f46942d9dd1fff9.EntryCellView
+Xamarin.Forms.Platform.Android.SwitchCellAppCompatView, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.SwitchCellAppCompatView
+Xamarin.Forms.Platform.Android.SwitchCellAppCompatView;crc643f46942d9dd1fff9.SwitchCellAppCompatView
+xamarin.forms.platform.android.SwitchCellAppCompatView;crc643f46942d9dd1fff9.SwitchCellAppCompatView
 Xamarin.Forms.Platform.Android.SwitchCellView, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.SwitchCellView
 Xamarin.Forms.Platform.Android.SwitchCellView;crc643f46942d9dd1fff9.SwitchCellView
 xamarin.forms.platform.android.SwitchCellView;crc643f46942d9dd1fff9.SwitchCellView
+Xamarin.Forms.Platform.Android.TextCellAppCompatRenderer+TextCellAppCompatView, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.TextCellAppCompatRenderer_TextCellAppCompatView
+Xamarin.Forms.Platform.Android.TextCellAppCompatRenderer.TextCellAppCompatView;crc643f46942d9dd1fff9.TextCellAppCompatRenderer_TextCellAppCompatView
+xamarin.forms.platform.android.TextCellAppCompatRenderer_TextCellAppCompatView;crc643f46942d9dd1fff9.TextCellAppCompatRenderer_TextCellAppCompatView
 Xamarin.Forms.Platform.Android.TextCellRenderer+TextCellView, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.TextCellRenderer_TextCellView
 Xamarin.Forms.Platform.Android.TextCellRenderer.TextCellView;crc643f46942d9dd1fff9.TextCellRenderer_TextCellView
 xamarin.forms.platform.android.TextCellRenderer_TextCellView;crc643f46942d9dd1fff9.TextCellRenderer_TextCellView
@@ -1849,12 +2071,18 @@ xamarin.forms.platform.android.DatePickerRendererBase_1;crc643f46942d9dd1fff9.Da
 Xamarin.Forms.Platform.Android.DatePickerRenderer, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.DatePickerRenderer
 Xamarin.Forms.Platform.Android.DatePickerRenderer;crc643f46942d9dd1fff9.DatePickerRenderer
 xamarin.forms.platform.android.DatePickerRenderer;crc643f46942d9dd1fff9.DatePickerRenderer
+Xamarin.Forms.Platform.Android.EditorAppCompatRenderer, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.EditorAppCompatRenderer
+Xamarin.Forms.Platform.Android.EditorAppCompatRenderer;crc643f46942d9dd1fff9.EditorAppCompatRenderer
+xamarin.forms.platform.android.EditorAppCompatRenderer;crc643f46942d9dd1fff9.EditorAppCompatRenderer
 Xamarin.Forms.Platform.Android.EditorRenderer, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.EditorRenderer
 Xamarin.Forms.Platform.Android.EditorRenderer;crc643f46942d9dd1fff9.EditorRenderer
 xamarin.forms.platform.android.EditorRenderer;crc643f46942d9dd1fff9.EditorRenderer
 Xamarin.Forms.Platform.Android.EditorRendererBase`1, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.EditorRendererBase_1
 Xamarin.Forms.Platform.Android.EditorRendererBase`1;crc643f46942d9dd1fff9.EditorRendererBase_1
 xamarin.forms.platform.android.EditorRendererBase_1;crc643f46942d9dd1fff9.EditorRendererBase_1
+Xamarin.Forms.Platform.Android.EntryAppCompatRenderer, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.EntryAppCompatRenderer
+Xamarin.Forms.Platform.Android.EntryAppCompatRenderer;crc643f46942d9dd1fff9.EntryAppCompatRenderer
+xamarin.forms.platform.android.EntryAppCompatRenderer;crc643f46942d9dd1fff9.EntryAppCompatRenderer
 Xamarin.Forms.Platform.Android.EntryRenderer, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.EntryRenderer
 Xamarin.Forms.Platform.Android.EntryRenderer;crc643f46942d9dd1fff9.EntryRenderer
 xamarin.forms.platform.android.EntryRenderer;crc643f46942d9dd1fff9.EntryRenderer
@@ -1873,6 +2101,21 @@ xamarin.forms.platform.android.FormattedStringExtensions_TextDecorationSpan;crc6
 Xamarin.Forms.Platform.Android.FormattedStringExtensions+LineHeightSpan, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.FormattedStringExtensions_LineHeightSpan
 Xamarin.Forms.Platform.Android.FormattedStringExtensions.LineHeightSpan;crc643f46942d9dd1fff9.FormattedStringExtensions_LineHeightSpan
 xamarin.forms.platform.android.FormattedStringExtensions_LineHeightSpan;crc643f46942d9dd1fff9.FormattedStringExtensions_LineHeightSpan
+Xamarin.Forms.Platform.Android.FormsAppCompatEditText, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.FormsAppCompatEditText
+Xamarin.Forms.Platform.Android.FormsAppCompatEditText;crc643f46942d9dd1fff9.FormsAppCompatEditText
+xamarin.forms.platform.android.FormsAppCompatEditText;crc643f46942d9dd1fff9.FormsAppCompatEditText
+Xamarin.Forms.Platform.Android.FormsAppCompatEditTextBase, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.FormsAppCompatEditTextBase
+Xamarin.Forms.Platform.Android.FormsAppCompatEditTextBase;crc643f46942d9dd1fff9.FormsAppCompatEditTextBase
+xamarin.forms.platform.android.FormsAppCompatEditTextBase;crc643f46942d9dd1fff9.FormsAppCompatEditTextBase
+Xamarin.Forms.Platform.Android.EntryAppCompatEditText, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.EntryAppCompatEditText
+Xamarin.Forms.Platform.Android.EntryAppCompatEditText;crc643f46942d9dd1fff9.EntryAppCompatEditText
+xamarin.forms.platform.android.EntryAppCompatEditText;crc643f46942d9dd1fff9.EntryAppCompatEditText
+Xamarin.Forms.Platform.Android.EditorAppCompatEditText, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.EditorAppCompatEditText
+Xamarin.Forms.Platform.Android.EditorAppCompatEditText;crc643f46942d9dd1fff9.EditorAppCompatEditText
+xamarin.forms.platform.android.EditorAppCompatEditText;crc643f46942d9dd1fff9.EditorAppCompatEditText
+Xamarin.Forms.Platform.Android.FormsAppCompatTextView, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.FormsAppCompatTextView
+Xamarin.Forms.Platform.Android.FormsAppCompatTextView;crc643f46942d9dd1fff9.FormsAppCompatTextView
+xamarin.forms.platform.android.FormsAppCompatTextView;crc643f46942d9dd1fff9.FormsAppCompatTextView
 Xamarin.Forms.Platform.Android.FormsEditText, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.FormsEditText
 Xamarin.Forms.Platform.Android.FormsEditText;crc643f46942d9dd1fff9.FormsEditText
 xamarin.forms.platform.android.FormsEditText;crc643f46942d9dd1fff9.FormsEditText
@@ -1963,6 +2206,9 @@ xamarin.forms.platform.android.PageContainer;crc643f46942d9dd1fff9.PageContainer
 Xamarin.Forms.Platform.Android.PageRenderer, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.PageRenderer
 Xamarin.Forms.Platform.Android.PageRenderer;crc643f46942d9dd1fff9.PageRenderer
 xamarin.forms.platform.android.PageRenderer;crc643f46942d9dd1fff9.PageRenderer
+Xamarin.Forms.Platform.Android.PickerAppCompatEditText, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.PickerAppCompatEditText
+Xamarin.Forms.Platform.Android.PickerAppCompatEditText;crc643f46942d9dd1fff9.PickerAppCompatEditText
+xamarin.forms.platform.android.PickerAppCompatEditText;crc643f46942d9dd1fff9.PickerAppCompatEditText
 Xamarin.Forms.Platform.Android.PickerEditText, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.PickerEditText
 Xamarin.Forms.Platform.Android.PickerEditText;crc643f46942d9dd1fff9.PickerEditText
 xamarin.forms.platform.android.PickerEditText;crc643f46942d9dd1fff9.PickerEditText
@@ -1981,6 +2227,9 @@ xamarin.forms.platform.android.ScrollViewContainer;crc643f46942d9dd1fff9.ScrollV
 Xamarin.Forms.Platform.Android.ScrollViewRenderer, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.ScrollViewRenderer
 Xamarin.Forms.Platform.Android.ScrollViewRenderer;crc643f46942d9dd1fff9.ScrollViewRenderer
 xamarin.forms.platform.android.ScrollViewRenderer;crc643f46942d9dd1fff9.ScrollViewRenderer
+Xamarin.Forms.Platform.Android.SearchBarAppCompatRenderer, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.SearchBarAppCompatRenderer
+Xamarin.Forms.Platform.Android.SearchBarAppCompatRenderer;crc643f46942d9dd1fff9.SearchBarAppCompatRenderer
+xamarin.forms.platform.android.SearchBarAppCompatRenderer;crc643f46942d9dd1fff9.SearchBarAppCompatRenderer
 Xamarin.Forms.Platform.Android.SearchBarRenderer, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.SearchBarRenderer
 Xamarin.Forms.Platform.Android.SearchBarRenderer;crc643f46942d9dd1fff9.SearchBarRenderer
 xamarin.forms.platform.android.SearchBarRenderer;crc643f46942d9dd1fff9.SearchBarRenderer
@@ -2152,6 +2401,9 @@ xamarin.forms.platform.android.fastrenderers.FrameRenderer;crc64ee486da937c010f4
 Xamarin.Forms.Platform.Android.FastRenderers.ImageRenderer, Xamarin.Forms.Platform.Android;crc64ee486da937c010f4.ImageRenderer
 Xamarin.Forms.Platform.Android.FastRenderers.ImageRenderer;crc64ee486da937c010f4.ImageRenderer
 xamarin.forms.platform.android.fastrenderers.ImageRenderer;crc64ee486da937c010f4.ImageRenderer
+Xamarin.Forms.Platform.Android.FastRenderers.LabelAppCompatRenderer, Xamarin.Forms.Platform.Android;crc64ee486da937c010f4.LabelAppCompatRenderer
+Xamarin.Forms.Platform.Android.FastRenderers.LabelAppCompatRenderer;crc64ee486da937c010f4.LabelAppCompatRenderer
+xamarin.forms.platform.android.fastrenderers.LabelAppCompatRenderer;crc64ee486da937c010f4.LabelAppCompatRenderer
 Xamarin.Forms.Platform.Android.FastRenderers.LabelRenderer, Xamarin.Forms.Platform.Android;crc64ee486da937c010f4.LabelRenderer
 Xamarin.Forms.Platform.Android.FastRenderers.LabelRenderer;crc64ee486da937c010f4.LabelRenderer
 xamarin.forms.platform.android.fastrenderers.LabelRenderer;crc64ee486da937c010f4.LabelRenderer
@@ -2194,6 +2446,12 @@ xamarin.forms.platform.android.appcompat.NavigationPageRenderer_Container;crc647
 Xamarin.Forms.Platform.Android.AppCompat.NavigationPageRenderer+DrawerMultiplexedListener, Xamarin.Forms.Platform.Android;crc64720bb2db43a66fe9.NavigationPageRenderer_DrawerMultiplexedListener
 Xamarin.Forms.Platform.Android.AppCompat.NavigationPageRenderer.DrawerMultiplexedListener;crc64720bb2db43a66fe9.NavigationPageRenderer_DrawerMultiplexedListener
 xamarin.forms.platform.android.appcompat.NavigationPageRenderer_DrawerMultiplexedListener;crc64720bb2db43a66fe9.NavigationPageRenderer_DrawerMultiplexedListener
+Xamarin.Forms.Platform.Android.AppCompat.PickerAppCompatRendererBase`1, Xamarin.Forms.Platform.Android;crc64720bb2db43a66fe9.PickerAppCompatRendererBase_1
+Xamarin.Forms.Platform.Android.AppCompat.PickerAppCompatRendererBase`1;crc64720bb2db43a66fe9.PickerAppCompatRendererBase_1
+xamarin.forms.platform.android.appcompat.PickerAppCompatRendererBase_1;crc64720bb2db43a66fe9.PickerAppCompatRendererBase_1
+Xamarin.Forms.Platform.Android.AppCompat.PickerAppCompatRenderer, Xamarin.Forms.Platform.Android;crc64720bb2db43a66fe9.PickerAppCompatRenderer
+Xamarin.Forms.Platform.Android.AppCompat.PickerAppCompatRenderer;crc64720bb2db43a66fe9.PickerAppCompatRenderer
+xamarin.forms.platform.android.appcompat.PickerAppCompatRenderer;crc64720bb2db43a66fe9.PickerAppCompatRenderer
 Xamarin.Forms.Platform.Android.AppCompat.PickerRendererBase`1, Xamarin.Forms.Platform.Android;crc64720bb2db43a66fe9.PickerRendererBase_1
 Xamarin.Forms.Platform.Android.AppCompat.PickerRendererBase`1;crc64720bb2db43a66fe9.PickerRendererBase_1
 xamarin.forms.platform.android.appcompat.PickerRendererBase_1;crc64720bb2db43a66fe9.PickerRendererBase_1
@@ -2539,3 +2797,510 @@ com.google.android.material.animation.TransformationCallback;com.google.android.
 Google.Common.Util.Concurrent.IListenableFuture, Xamarin.Google.Guava.ListenableFuture;com.google.common.util.concurrent.ListenableFuture
 Google.Common.Util.Concurrent.IListenableFuture;com.google.common.util.concurrent.ListenableFuture
 com.google.common.util.concurrent.ListenableFuture;com.google.common.util.concurrent.ListenableFuture
+Xamarin.Google.UserMesssagingPlatform.ConsentDebugSettings+IDebugGeography, Xamarin.Google.UserMessagingPlatform;com.google.android.ump.ConsentDebugSettings$DebugGeography
+Xamarin.Google.UserMesssagingPlatform.ConsentDebugSettings.IDebugGeography;com.google.android.ump.ConsentDebugSettings$DebugGeography
+com.google.android.ump.ConsentDebugSettings$DebugGeography;com.google.android.ump.ConsentDebugSettings$DebugGeography
+Xamarin.Google.UserMesssagingPlatform.FormError+IErrorCode, Xamarin.Google.UserMessagingPlatform;com.google.android.ump.FormError$ErrorCode
+Xamarin.Google.UserMesssagingPlatform.FormError.IErrorCode;com.google.android.ump.FormError$ErrorCode
+com.google.android.ump.FormError$ErrorCode;com.google.android.ump.FormError$ErrorCode
+Xamarin.Google.UserMesssagingPlatform.IConsentFormOnConsentFormDismissedListener, Xamarin.Google.UserMessagingPlatform;com.google.android.ump.ConsentForm$OnConsentFormDismissedListener
+Xamarin.Google.UserMesssagingPlatform.IConsentFormOnConsentFormDismissedListener;com.google.android.ump.ConsentForm$OnConsentFormDismissedListener
+com.google.android.ump.ConsentForm$OnConsentFormDismissedListener;com.google.android.ump.ConsentForm$OnConsentFormDismissedListener
+Xamarin.Google.UserMesssagingPlatform.IConsentFormOnConsentFormDismissedListenerImplementor, Xamarin.Google.UserMessagingPlatform;mono.com.google.android.ump.ConsentForm_OnConsentFormDismissedListenerImplementor
+Xamarin.Google.UserMesssagingPlatform.IConsentFormOnConsentFormDismissedListenerImplementor;mono.com.google.android.ump.ConsentForm_OnConsentFormDismissedListenerImplementor
+mono.com.google.android.ump.ConsentForm_OnConsentFormDismissedListenerImplementor;mono.com.google.android.ump.ConsentForm_OnConsentFormDismissedListenerImplementor
+Xamarin.Google.UserMesssagingPlatform.IConsentForm, Xamarin.Google.UserMessagingPlatform;com.google.android.ump.ConsentForm
+Xamarin.Google.UserMesssagingPlatform.IConsentForm;com.google.android.ump.ConsentForm
+com.google.android.ump.ConsentForm;com.google.android.ump.ConsentForm
+Xamarin.Google.UserMesssagingPlatform.IConsentInformationConsentStatus, Xamarin.Google.UserMessagingPlatform;com.google.android.ump.ConsentInformation$ConsentStatus
+Xamarin.Google.UserMesssagingPlatform.IConsentInformationConsentStatus;com.google.android.ump.ConsentInformation$ConsentStatus
+com.google.android.ump.ConsentInformation$ConsentStatus;com.google.android.ump.ConsentInformation$ConsentStatus
+Xamarin.Google.UserMesssagingPlatform.IConsentInformationConsentType, Xamarin.Google.UserMessagingPlatform;com.google.android.ump.ConsentInformation$ConsentType
+Xamarin.Google.UserMesssagingPlatform.IConsentInformationConsentType;com.google.android.ump.ConsentInformation$ConsentType
+com.google.android.ump.ConsentInformation$ConsentType;com.google.android.ump.ConsentInformation$ConsentType
+Xamarin.Google.UserMesssagingPlatform.IConsentInformationOnConsentInfoUpdateFailureListener, Xamarin.Google.UserMessagingPlatform;com.google.android.ump.ConsentInformation$OnConsentInfoUpdateFailureListener
+Xamarin.Google.UserMesssagingPlatform.IConsentInformationOnConsentInfoUpdateFailureListener;com.google.android.ump.ConsentInformation$OnConsentInfoUpdateFailureListener
+com.google.android.ump.ConsentInformation$OnConsentInfoUpdateFailureListener;com.google.android.ump.ConsentInformation$OnConsentInfoUpdateFailureListener
+Xamarin.Google.UserMesssagingPlatform.IConsentInformationOnConsentInfoUpdateFailureListenerImplementor, Xamarin.Google.UserMessagingPlatform;mono.com.google.android.ump.ConsentInformation_OnConsentInfoUpdateFailureListenerImplementor
+Xamarin.Google.UserMesssagingPlatform.IConsentInformationOnConsentInfoUpdateFailureListenerImplementor;mono.com.google.android.ump.ConsentInformation_OnConsentInfoUpdateFailureListenerImplementor
+mono.com.google.android.ump.ConsentInformation_OnConsentInfoUpdateFailureListenerImplementor;mono.com.google.android.ump.ConsentInformation_OnConsentInfoUpdateFailureListenerImplementor
+Xamarin.Google.UserMesssagingPlatform.IConsentInformationOnConsentInfoUpdateSuccessListener, Xamarin.Google.UserMessagingPlatform;com.google.android.ump.ConsentInformation$OnConsentInfoUpdateSuccessListener
+Xamarin.Google.UserMesssagingPlatform.IConsentInformationOnConsentInfoUpdateSuccessListener;com.google.android.ump.ConsentInformation$OnConsentInfoUpdateSuccessListener
+com.google.android.ump.ConsentInformation$OnConsentInfoUpdateSuccessListener;com.google.android.ump.ConsentInformation$OnConsentInfoUpdateSuccessListener
+Xamarin.Google.UserMesssagingPlatform.IConsentInformationOnConsentInfoUpdateSuccessListenerImplementor, Xamarin.Google.UserMessagingPlatform;mono.com.google.android.ump.ConsentInformation_OnConsentInfoUpdateSuccessListenerImplementor
+Xamarin.Google.UserMesssagingPlatform.IConsentInformationOnConsentInfoUpdateSuccessListenerImplementor;mono.com.google.android.ump.ConsentInformation_OnConsentInfoUpdateSuccessListenerImplementor
+mono.com.google.android.ump.ConsentInformation_OnConsentInfoUpdateSuccessListenerImplementor;mono.com.google.android.ump.ConsentInformation_OnConsentInfoUpdateSuccessListenerImplementor
+Xamarin.Google.UserMesssagingPlatform.IConsentInformation, Xamarin.Google.UserMessagingPlatform;com.google.android.ump.ConsentInformation
+Xamarin.Google.UserMesssagingPlatform.IConsentInformation;com.google.android.ump.ConsentInformation
+com.google.android.ump.ConsentInformation;com.google.android.ump.ConsentInformation
+Xamarin.Google.UserMesssagingPlatform.UserMessagingPlatform+IOnConsentFormLoadFailureListener, Xamarin.Google.UserMessagingPlatform;com.google.android.ump.UserMessagingPlatform$OnConsentFormLoadFailureListener
+Xamarin.Google.UserMesssagingPlatform.UserMessagingPlatform.IOnConsentFormLoadFailureListener;com.google.android.ump.UserMessagingPlatform$OnConsentFormLoadFailureListener
+com.google.android.ump.UserMessagingPlatform$OnConsentFormLoadFailureListener;com.google.android.ump.UserMessagingPlatform$OnConsentFormLoadFailureListener
+Xamarin.Google.UserMesssagingPlatform.UserMessagingPlatform+IOnConsentFormLoadFailureListenerImplementor, Xamarin.Google.UserMessagingPlatform;mono.com.google.android.ump.UserMessagingPlatform_OnConsentFormLoadFailureListenerImplementor
+Xamarin.Google.UserMesssagingPlatform.UserMessagingPlatform.IOnConsentFormLoadFailureListenerImplementor;mono.com.google.android.ump.UserMessagingPlatform_OnConsentFormLoadFailureListenerImplementor
+mono.com.google.android.ump.UserMessagingPlatform_OnConsentFormLoadFailureListenerImplementor;mono.com.google.android.ump.UserMessagingPlatform_OnConsentFormLoadFailureListenerImplementor
+Xamarin.Google.UserMesssagingPlatform.UserMessagingPlatform+IOnConsentFormLoadSuccessListener, Xamarin.Google.UserMessagingPlatform;com.google.android.ump.UserMessagingPlatform$OnConsentFormLoadSuccessListener
+Xamarin.Google.UserMesssagingPlatform.UserMessagingPlatform.IOnConsentFormLoadSuccessListener;com.google.android.ump.UserMessagingPlatform$OnConsentFormLoadSuccessListener
+com.google.android.ump.UserMessagingPlatform$OnConsentFormLoadSuccessListener;com.google.android.ump.UserMessagingPlatform$OnConsentFormLoadSuccessListener
+Xamarin.Google.UserMesssagingPlatform.UserMessagingPlatform+IOnConsentFormLoadSuccessListenerImplementor, Xamarin.Google.UserMessagingPlatform;mono.com.google.android.ump.UserMessagingPlatform_OnConsentFormLoadSuccessListenerImplementor
+Xamarin.Google.UserMesssagingPlatform.UserMessagingPlatform.IOnConsentFormLoadSuccessListenerImplementor;mono.com.google.android.ump.UserMessagingPlatform_OnConsentFormLoadSuccessListenerImplementor
+mono.com.google.android.ump.UserMessagingPlatform_OnConsentFormLoadSuccessListenerImplementor;mono.com.google.android.ump.UserMessagingPlatform_OnConsentFormLoadSuccessListenerImplementor
+Google.Ads.Mediation.IMediationAdapter, Xamarin.GooglePlayServices.Ads.Lite;com.google.ads.mediation.MediationAdapter
+Google.Ads.Mediation.IMediationAdapter;com.google.ads.mediation.MediationAdapter
+com.google.ads.mediation.MediationAdapter;com.google.ads.mediation.MediationAdapter
+Google.Ads.Mediation.IMediationBannerAdapter, Xamarin.GooglePlayServices.Ads.Lite;com.google.ads.mediation.MediationBannerAdapter
+Google.Ads.Mediation.IMediationBannerAdapter;com.google.ads.mediation.MediationBannerAdapter
+com.google.ads.mediation.MediationBannerAdapter;com.google.ads.mediation.MediationBannerAdapter
+Google.Ads.Mediation.IMediationBannerListener, Xamarin.GooglePlayServices.Ads.Lite;com.google.ads.mediation.MediationBannerListener
+Google.Ads.Mediation.IMediationBannerListener;com.google.ads.mediation.MediationBannerListener
+com.google.ads.mediation.MediationBannerListener;com.google.ads.mediation.MediationBannerListener
+Google.Ads.Mediation.IMediationBannerListenerImplementor, Xamarin.GooglePlayServices.Ads.Lite;mono.com.google.ads.mediation.MediationBannerListenerImplementor
+Google.Ads.Mediation.IMediationBannerListenerImplementor;mono.com.google.ads.mediation.MediationBannerListenerImplementor
+mono.com.google.ads.mediation.MediationBannerListenerImplementor;mono.com.google.ads.mediation.MediationBannerListenerImplementor
+Google.Ads.Mediation.IMediationInterstitialAdapter, Xamarin.GooglePlayServices.Ads.Lite;com.google.ads.mediation.MediationInterstitialAdapter
+Google.Ads.Mediation.IMediationInterstitialAdapter;com.google.ads.mediation.MediationInterstitialAdapter
+com.google.ads.mediation.MediationInterstitialAdapter;com.google.ads.mediation.MediationInterstitialAdapter
+Google.Ads.Mediation.IMediationInterstitialListener, Xamarin.GooglePlayServices.Ads.Lite;com.google.ads.mediation.MediationInterstitialListener
+Google.Ads.Mediation.IMediationInterstitialListener;com.google.ads.mediation.MediationInterstitialListener
+com.google.ads.mediation.MediationInterstitialListener;com.google.ads.mediation.MediationInterstitialListener
+Google.Ads.Mediation.IMediationInterstitialListenerImplementor, Xamarin.GooglePlayServices.Ads.Lite;mono.com.google.ads.mediation.MediationInterstitialListenerImplementor
+Google.Ads.Mediation.IMediationInterstitialListenerImplementor;mono.com.google.ads.mediation.MediationInterstitialListenerImplementor
+mono.com.google.ads.mediation.MediationInterstitialListenerImplementor;mono.com.google.ads.mediation.MediationInterstitialListenerImplementor
+Google.Ads.Mediation.INetworkExtras, Xamarin.GooglePlayServices.Ads.Lite;com.google.ads.mediation.NetworkExtras
+Google.Ads.Mediation.INetworkExtras;com.google.ads.mediation.NetworkExtras
+com.google.ads.mediation.NetworkExtras;com.google.ads.mediation.NetworkExtras
+Google.Ads.Mediation.MediationServerParameters+IParameter, Xamarin.GooglePlayServices.Ads.Lite;com.google.ads.mediation.MediationServerParameters$Parameter
+Google.Ads.Mediation.MediationServerParameters.IParameter;com.google.ads.mediation.MediationServerParameters$Parameter
+com.google.ads.mediation.MediationServerParameters$Parameter;com.google.ads.mediation.MediationServerParameters$Parameter
+Google.Ads.Mediation.CustomEvent.ICustomEvent, Xamarin.GooglePlayServices.Ads.Lite;com.google.ads.mediation.customevent.CustomEvent
+Google.Ads.Mediation.CustomEvent.ICustomEvent;com.google.ads.mediation.customevent.CustomEvent
+com.google.ads.mediation.customevent.CustomEvent;com.google.ads.mediation.customevent.CustomEvent
+Google.Ads.Mediation.CustomEvent.ICustomEventBanner, Xamarin.GooglePlayServices.Ads.Lite;com.google.ads.mediation.customevent.CustomEventBanner
+Google.Ads.Mediation.CustomEvent.ICustomEventBanner;com.google.ads.mediation.customevent.CustomEventBanner
+com.google.ads.mediation.customevent.CustomEventBanner;com.google.ads.mediation.customevent.CustomEventBanner
+Google.Ads.Mediation.CustomEvent.ICustomEventBannerListener, Xamarin.GooglePlayServices.Ads.Lite;com.google.ads.mediation.customevent.CustomEventBannerListener
+Google.Ads.Mediation.CustomEvent.ICustomEventBannerListener;com.google.ads.mediation.customevent.CustomEventBannerListener
+com.google.ads.mediation.customevent.CustomEventBannerListener;com.google.ads.mediation.customevent.CustomEventBannerListener
+Google.Ads.Mediation.CustomEvent.ICustomEventInterstitial, Xamarin.GooglePlayServices.Ads.Lite;com.google.ads.mediation.customevent.CustomEventInterstitial
+Google.Ads.Mediation.CustomEvent.ICustomEventInterstitial;com.google.ads.mediation.customevent.CustomEventInterstitial
+com.google.ads.mediation.customevent.CustomEventInterstitial;com.google.ads.mediation.customevent.CustomEventInterstitial
+Google.Ads.Mediation.CustomEvent.ICustomEventInterstitialListener, Xamarin.GooglePlayServices.Ads.Lite;com.google.ads.mediation.customevent.CustomEventInterstitialListener
+Google.Ads.Mediation.CustomEvent.ICustomEventInterstitialListener;com.google.ads.mediation.customevent.CustomEventInterstitialListener
+com.google.ads.mediation.customevent.CustomEventInterstitialListener;com.google.ads.mediation.customevent.CustomEventInterstitialListener
+Google.Ads.Mediation.CustomEvent.ICustomEventListener, Xamarin.GooglePlayServices.Ads.Lite;com.google.ads.mediation.customevent.CustomEventListener
+Google.Ads.Mediation.CustomEvent.ICustomEventListener;com.google.ads.mediation.customevent.CustomEventListener
+com.google.ads.mediation.customevent.CustomEventListener;com.google.ads.mediation.customevent.CustomEventListener
+Google.Ads.Mediation.CustomEvent.ICustomEventListenerImplementor, Xamarin.GooglePlayServices.Ads.Lite;mono.com.google.ads.mediation.customevent.CustomEventListenerImplementor
+Google.Ads.Mediation.CustomEvent.ICustomEventListenerImplementor;mono.com.google.ads.mediation.customevent.CustomEventListenerImplementor
+mono.com.google.ads.mediation.customevent.CustomEventListenerImplementor;mono.com.google.ads.mediation.customevent.CustomEventListenerImplementor
+Android.Gms.Ads.AdInspectorError+IAdInspectorErrorCode, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.AdInspectorError$AdInspectorErrorCode
+Android.Gms.Ads.AdInspectorError.IAdInspectorErrorCode;com.google.android.gms.ads.AdInspectorError$AdInspectorErrorCode
+com.google.android.gms.ads.AdInspectorError$AdInspectorErrorCode;com.google.android.gms.ads.AdInspectorError$AdInspectorErrorCode
+Android.Gms.Ads.AdValue+IPrecisionType, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.AdValue$PrecisionType
+Android.Gms.Ads.AdValue.IPrecisionType;com.google.android.gms.ads.AdValue$PrecisionType
+com.google.android.gms.ads.AdValue$PrecisionType;com.google.android.gms.ads.AdValue$PrecisionType
+Android.Gms.Ads.IMediaAspectRatio, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.MediaAspectRatio
+Android.Gms.Ads.IMediaAspectRatio;com.google.android.gms.ads.MediaAspectRatio
+com.google.android.gms.ads.MediaAspectRatio;com.google.android.gms.ads.MediaAspectRatio
+Android.Gms.Ads.IMediaContent, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.MediaContent
+Android.Gms.Ads.IMediaContent;com.google.android.gms.ads.MediaContent
+com.google.android.gms.ads.MediaContent;com.google.android.gms.ads.MediaContent
+Android.Gms.Ads.IMuteThisAdListener, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.MuteThisAdListener
+Android.Gms.Ads.IMuteThisAdListener;com.google.android.gms.ads.MuteThisAdListener
+com.google.android.gms.ads.MuteThisAdListener;com.google.android.gms.ads.MuteThisAdListener
+Android.Gms.Ads.IMuteThisAdListenerImplementor, Xamarin.GooglePlayServices.Ads.Lite;mono.com.google.android.gms.ads.MuteThisAdListenerImplementor
+Android.Gms.Ads.IMuteThisAdListenerImplementor;mono.com.google.android.gms.ads.MuteThisAdListenerImplementor
+mono.com.google.android.gms.ads.MuteThisAdListenerImplementor;mono.com.google.android.gms.ads.MuteThisAdListenerImplementor
+Android.Gms.Ads.IMuteThisAdReason, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.MuteThisAdReason
+Android.Gms.Ads.IMuteThisAdReason;com.google.android.gms.ads.MuteThisAdReason
+com.google.android.gms.ads.MuteThisAdReason;com.google.android.gms.ads.MuteThisAdReason
+Android.Gms.Ads.IOnAdInspectorClosedListener, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.OnAdInspectorClosedListener
+Android.Gms.Ads.IOnAdInspectorClosedListener;com.google.android.gms.ads.OnAdInspectorClosedListener
+com.google.android.gms.ads.OnAdInspectorClosedListener;com.google.android.gms.ads.OnAdInspectorClosedListener
+Android.Gms.Ads.IOnAdInspectorClosedListenerImplementor, Xamarin.GooglePlayServices.Ads.Lite;mono.com.google.android.gms.ads.OnAdInspectorClosedListenerImplementor
+Android.Gms.Ads.IOnAdInspectorClosedListenerImplementor;mono.com.google.android.gms.ads.OnAdInspectorClosedListenerImplementor
+mono.com.google.android.gms.ads.OnAdInspectorClosedListenerImplementor;mono.com.google.android.gms.ads.OnAdInspectorClosedListenerImplementor
+Android.Gms.Ads.IOnPaidEventListener, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.OnPaidEventListener
+Android.Gms.Ads.IOnPaidEventListener;com.google.android.gms.ads.OnPaidEventListener
+com.google.android.gms.ads.OnPaidEventListener;com.google.android.gms.ads.OnPaidEventListener
+Android.Gms.Ads.IOnPaidEventListenerImplementor, Xamarin.GooglePlayServices.Ads.Lite;mono.com.google.android.gms.ads.OnPaidEventListenerImplementor
+Android.Gms.Ads.IOnPaidEventListenerImplementor;mono.com.google.android.gms.ads.OnPaidEventListenerImplementor
+mono.com.google.android.gms.ads.OnPaidEventListenerImplementor;mono.com.google.android.gms.ads.OnPaidEventListenerImplementor
+Android.Gms.Ads.IOnUserEarnedRewardListener, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.OnUserEarnedRewardListener
+Android.Gms.Ads.IOnUserEarnedRewardListener;com.google.android.gms.ads.OnUserEarnedRewardListener
+com.google.android.gms.ads.OnUserEarnedRewardListener;com.google.android.gms.ads.OnUserEarnedRewardListener
+Android.Gms.Ads.IOnUserEarnedRewardListenerImplementor, Xamarin.GooglePlayServices.Ads.Lite;mono.com.google.android.gms.ads.OnUserEarnedRewardListenerImplementor
+Android.Gms.Ads.IOnUserEarnedRewardListenerImplementor;mono.com.google.android.gms.ads.OnUserEarnedRewardListenerImplementor
+mono.com.google.android.gms.ads.OnUserEarnedRewardListenerImplementor;mono.com.google.android.gms.ads.OnUserEarnedRewardListenerImplementor
+Android.Gms.Ads.RequestConfiguration+IMaxAdContentRating, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.RequestConfiguration$MaxAdContentRating
+Android.Gms.Ads.RequestConfiguration.IMaxAdContentRating;com.google.android.gms.ads.RequestConfiguration$MaxAdContentRating
+com.google.android.gms.ads.RequestConfiguration$MaxAdContentRating;com.google.android.gms.ads.RequestConfiguration$MaxAdContentRating
+Android.Gms.Ads.RequestConfiguration+ITagForChildDirectedTreatment, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.RequestConfiguration$TagForChildDirectedTreatment
+Android.Gms.Ads.RequestConfiguration.ITagForChildDirectedTreatment;com.google.android.gms.ads.RequestConfiguration$TagForChildDirectedTreatment
+com.google.android.gms.ads.RequestConfiguration$TagForChildDirectedTreatment;com.google.android.gms.ads.RequestConfiguration$TagForChildDirectedTreatment
+Android.Gms.Ads.RequestConfiguration+ITagForUnderAgeOfConsent, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.RequestConfiguration$TagForUnderAgeOfConsent
+Android.Gms.Ads.RequestConfiguration.ITagForUnderAgeOfConsent;com.google.android.gms.ads.RequestConfiguration$TagForUnderAgeOfConsent
+com.google.android.gms.ads.RequestConfiguration$TagForUnderAgeOfConsent;com.google.android.gms.ads.RequestConfiguration$TagForUnderAgeOfConsent
+Android.Gms.Ads.Rewarded.IOnAdMetadataChangedListener, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.rewarded.OnAdMetadataChangedListener
+Android.Gms.Ads.Rewarded.IOnAdMetadataChangedListener;com.google.android.gms.ads.rewarded.OnAdMetadataChangedListener
+com.google.android.gms.ads.rewarded.OnAdMetadataChangedListener;com.google.android.gms.ads.rewarded.OnAdMetadataChangedListener
+Android.Gms.Ads.Rewarded.IOnAdMetadataChangedListenerImplementor, Xamarin.GooglePlayServices.Ads.Lite;mono.com.google.android.gms.ads.rewarded.OnAdMetadataChangedListenerImplementor
+Android.Gms.Ads.Rewarded.IOnAdMetadataChangedListenerImplementor;mono.com.google.android.gms.ads.rewarded.OnAdMetadataChangedListenerImplementor
+mono.com.google.android.gms.ads.rewarded.OnAdMetadataChangedListenerImplementor;mono.com.google.android.gms.ads.rewarded.OnAdMetadataChangedListenerImplementor
+Android.Gms.Ads.Rewarded.IRewardItem, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.rewarded.RewardItem
+Android.Gms.Ads.Rewarded.IRewardItem;com.google.android.gms.ads.rewarded.RewardItem
+com.google.android.gms.ads.rewarded.RewardItem;com.google.android.gms.ads.rewarded.RewardItem
+Android.Gms.Ads.NativeAd.INativeCustomFormatAdDisplayOpenMeasurement, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.nativead.NativeCustomFormatAd$DisplayOpenMeasurement
+Android.Gms.Ads.NativeAd.INativeCustomFormatAdDisplayOpenMeasurement;com.google.android.gms.ads.nativead.NativeCustomFormatAd$DisplayOpenMeasurement
+com.google.android.gms.ads.nativead.NativeCustomFormatAd$DisplayOpenMeasurement;com.google.android.gms.ads.nativead.NativeCustomFormatAd$DisplayOpenMeasurement
+Android.Gms.Ads.NativeAd.INativeCustomFormatAdOnCustomClickListener, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.nativead.NativeCustomFormatAd$OnCustomClickListener
+Android.Gms.Ads.NativeAd.INativeCustomFormatAdOnCustomClickListener;com.google.android.gms.ads.nativead.NativeCustomFormatAd$OnCustomClickListener
+com.google.android.gms.ads.nativead.NativeCustomFormatAd$OnCustomClickListener;com.google.android.gms.ads.nativead.NativeCustomFormatAd$OnCustomClickListener
+Android.Gms.Ads.NativeAd.INativeCustomFormatAdOnCustomClickListenerImplementor, Xamarin.GooglePlayServices.Ads.Lite;mono.com.google.android.gms.ads.nativead.NativeCustomFormatAd_OnCustomClickListenerImplementor
+Android.Gms.Ads.NativeAd.INativeCustomFormatAdOnCustomClickListenerImplementor;mono.com.google.android.gms.ads.nativead.NativeCustomFormatAd_OnCustomClickListenerImplementor
+mono.com.google.android.gms.ads.nativead.NativeCustomFormatAd_OnCustomClickListenerImplementor;mono.com.google.android.gms.ads.nativead.NativeCustomFormatAd_OnCustomClickListenerImplementor
+Android.Gms.Ads.NativeAd.INativeCustomFormatAdOnCustomFormatAdLoadedListener, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.nativead.NativeCustomFormatAd$OnCustomFormatAdLoadedListener
+Android.Gms.Ads.NativeAd.INativeCustomFormatAdOnCustomFormatAdLoadedListener;com.google.android.gms.ads.nativead.NativeCustomFormatAd$OnCustomFormatAdLoadedListener
+com.google.android.gms.ads.nativead.NativeCustomFormatAd$OnCustomFormatAdLoadedListener;com.google.android.gms.ads.nativead.NativeCustomFormatAd$OnCustomFormatAdLoadedListener
+Android.Gms.Ads.NativeAd.INativeCustomFormatAdOnCustomFormatAdLoadedListenerImplementor, Xamarin.GooglePlayServices.Ads.Lite;mono.com.google.android.gms.ads.nativead.NativeCustomFormatAd_OnCustomFormatAdLoadedListenerImplementor
+Android.Gms.Ads.NativeAd.INativeCustomFormatAdOnCustomFormatAdLoadedListenerImplementor;mono.com.google.android.gms.ads.nativead.NativeCustomFormatAd_OnCustomFormatAdLoadedListenerImplementor
+mono.com.google.android.gms.ads.nativead.NativeCustomFormatAd_OnCustomFormatAdLoadedListenerImplementor;mono.com.google.android.gms.ads.nativead.NativeCustomFormatAd_OnCustomFormatAdLoadedListenerImplementor
+Android.Gms.Ads.NativeAd.INativeCustomFormatAd, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.nativead.NativeCustomFormatAd
+Android.Gms.Ads.NativeAd.INativeCustomFormatAd;com.google.android.gms.ads.nativead.NativeCustomFormatAd
+com.google.android.gms.ads.nativead.NativeCustomFormatAd;com.google.android.gms.ads.nativead.NativeCustomFormatAd
+Android.Gms.Ads.NativeAd.NativeAd+IOnNativeAdLoadedListener, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.nativead.NativeAd$OnNativeAdLoadedListener
+Android.Gms.Ads.NativeAd.NativeAd.IOnNativeAdLoadedListener;com.google.android.gms.ads.nativead.NativeAd$OnNativeAdLoadedListener
+com.google.android.gms.ads.nativead.NativeAd$OnNativeAdLoadedListener;com.google.android.gms.ads.nativead.NativeAd$OnNativeAdLoadedListener
+Android.Gms.Ads.NativeAd.NativeAd+IOnNativeAdLoadedListenerImplementor, Xamarin.GooglePlayServices.Ads.Lite;mono.com.google.android.gms.ads.nativead.NativeAd_OnNativeAdLoadedListenerImplementor
+Android.Gms.Ads.NativeAd.NativeAd.IOnNativeAdLoadedListenerImplementor;mono.com.google.android.gms.ads.nativead.NativeAd_OnNativeAdLoadedListenerImplementor
+mono.com.google.android.gms.ads.nativead.NativeAd_OnNativeAdLoadedListenerImplementor;mono.com.google.android.gms.ads.nativead.NativeAd_OnNativeAdLoadedListenerImplementor
+Android.Gms.Ads.NativeAd.NativeAd+IUnconfirmedClickListener, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.nativead.NativeAd$UnconfirmedClickListener
+Android.Gms.Ads.NativeAd.NativeAd.IUnconfirmedClickListener;com.google.android.gms.ads.nativead.NativeAd$UnconfirmedClickListener
+com.google.android.gms.ads.nativead.NativeAd$UnconfirmedClickListener;com.google.android.gms.ads.nativead.NativeAd$UnconfirmedClickListener
+Android.Gms.Ads.NativeAd.NativeAd+IUnconfirmedClickListenerImplementor, Xamarin.GooglePlayServices.Ads.Lite;mono.com.google.android.gms.ads.nativead.NativeAd_UnconfirmedClickListenerImplementor
+Android.Gms.Ads.NativeAd.NativeAd.IUnconfirmedClickListenerImplementor;mono.com.google.android.gms.ads.nativead.NativeAd_UnconfirmedClickListenerImplementor
+mono.com.google.android.gms.ads.nativead.NativeAd_UnconfirmedClickListenerImplementor;mono.com.google.android.gms.ads.nativead.NativeAd_UnconfirmedClickListenerImplementor
+Android.Gms.Ads.NativeAd.NativeAdOptions+IAdChoicesPlacement, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.nativead.NativeAdOptions$AdChoicesPlacement
+Android.Gms.Ads.NativeAd.NativeAdOptions.IAdChoicesPlacement;com.google.android.gms.ads.nativead.NativeAdOptions$AdChoicesPlacement
+com.google.android.gms.ads.nativead.NativeAdOptions$AdChoicesPlacement;com.google.android.gms.ads.nativead.NativeAdOptions$AdChoicesPlacement
+Android.Gms.Ads.NativeAd.NativeAdOptions+INativeMediaAspectRatio, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.nativead.NativeAdOptions$NativeMediaAspectRatio
+Android.Gms.Ads.NativeAd.NativeAdOptions.INativeMediaAspectRatio;com.google.android.gms.ads.nativead.NativeAdOptions$NativeMediaAspectRatio
+com.google.android.gms.ads.nativead.NativeAdOptions$NativeMediaAspectRatio;com.google.android.gms.ads.nativead.NativeAdOptions$NativeMediaAspectRatio
+Android.Gms.Ads.Mediation.IInitializationCompleteCallback, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.mediation.InitializationCompleteCallback
+Android.Gms.Ads.Mediation.IInitializationCompleteCallback;com.google.android.gms.ads.mediation.InitializationCompleteCallback
+com.google.android.gms.ads.mediation.InitializationCompleteCallback;com.google.android.gms.ads.mediation.InitializationCompleteCallback
+Android.Gms.Ads.Mediation.IMediationAdapter, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.mediation.MediationAdapter
+Android.Gms.Ads.Mediation.IMediationAdapter;com.google.android.gms.ads.mediation.MediationAdapter
+com.google.android.gms.ads.mediation.MediationAdapter;com.google.android.gms.ads.mediation.MediationAdapter
+Android.Gms.Ads.Mediation.IMediationAdCallback, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.mediation.MediationAdCallback
+Android.Gms.Ads.Mediation.IMediationAdCallback;com.google.android.gms.ads.mediation.MediationAdCallback
+com.google.android.gms.ads.mediation.MediationAdCallback;com.google.android.gms.ads.mediation.MediationAdCallback
+Android.Gms.Ads.Mediation.IMediationAdLoadCallback, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.mediation.MediationAdLoadCallback
+Android.Gms.Ads.Mediation.IMediationAdLoadCallback;com.google.android.gms.ads.mediation.MediationAdLoadCallback
+com.google.android.gms.ads.mediation.MediationAdLoadCallback;com.google.android.gms.ads.mediation.MediationAdLoadCallback
+Android.Gms.Ads.Mediation.IMediationAdRequest, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.mediation.MediationAdRequest
+Android.Gms.Ads.Mediation.IMediationAdRequest;com.google.android.gms.ads.mediation.MediationAdRequest
+com.google.android.gms.ads.mediation.MediationAdRequest;com.google.android.gms.ads.mediation.MediationAdRequest
+Android.Gms.Ads.Mediation.IMediationBannerAd, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.mediation.MediationBannerAd
+Android.Gms.Ads.Mediation.IMediationBannerAd;com.google.android.gms.ads.mediation.MediationBannerAd
+com.google.android.gms.ads.mediation.MediationBannerAd;com.google.android.gms.ads.mediation.MediationBannerAd
+Android.Gms.Ads.Mediation.IMediationBannerAdapter, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.mediation.MediationBannerAdapter
+Android.Gms.Ads.Mediation.IMediationBannerAdapter;com.google.android.gms.ads.mediation.MediationBannerAdapter
+com.google.android.gms.ads.mediation.MediationBannerAdapter;com.google.android.gms.ads.mediation.MediationBannerAdapter
+Android.Gms.Ads.Mediation.IMediationBannerAdCallback, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.mediation.MediationBannerAdCallback
+Android.Gms.Ads.Mediation.IMediationBannerAdCallback;com.google.android.gms.ads.mediation.MediationBannerAdCallback
+com.google.android.gms.ads.mediation.MediationBannerAdCallback;com.google.android.gms.ads.mediation.MediationBannerAdCallback
+Android.Gms.Ads.Mediation.IMediationBannerListener, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.mediation.MediationBannerListener
+Android.Gms.Ads.Mediation.IMediationBannerListener;com.google.android.gms.ads.mediation.MediationBannerListener
+com.google.android.gms.ads.mediation.MediationBannerListener;com.google.android.gms.ads.mediation.MediationBannerListener
+Android.Gms.Ads.Mediation.IMediationBannerListenerImplementor, Xamarin.GooglePlayServices.Ads.Lite;mono.com.google.android.gms.ads.mediation.MediationBannerListenerImplementor
+Android.Gms.Ads.Mediation.IMediationBannerListenerImplementor;mono.com.google.android.gms.ads.mediation.MediationBannerListenerImplementor
+mono.com.google.android.gms.ads.mediation.MediationBannerListenerImplementor;mono.com.google.android.gms.ads.mediation.MediationBannerListenerImplementor
+Android.Gms.Ads.Mediation.IMediationExtrasReceiver, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.mediation.MediationExtrasReceiver
+Android.Gms.Ads.Mediation.IMediationExtrasReceiver;com.google.android.gms.ads.mediation.MediationExtrasReceiver
+com.google.android.gms.ads.mediation.MediationExtrasReceiver;com.google.android.gms.ads.mediation.MediationExtrasReceiver
+Android.Gms.Ads.Mediation.IMediationInterscrollerAd, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.mediation.MediationInterscrollerAd
+Android.Gms.Ads.Mediation.IMediationInterscrollerAd;com.google.android.gms.ads.mediation.MediationInterscrollerAd
+com.google.android.gms.ads.mediation.MediationInterscrollerAd;com.google.android.gms.ads.mediation.MediationInterscrollerAd
+Android.Gms.Ads.Mediation.IMediationInterstitialAd, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.mediation.MediationInterstitialAd
+Android.Gms.Ads.Mediation.IMediationInterstitialAd;com.google.android.gms.ads.mediation.MediationInterstitialAd
+com.google.android.gms.ads.mediation.MediationInterstitialAd;com.google.android.gms.ads.mediation.MediationInterstitialAd
+Android.Gms.Ads.Mediation.IMediationInterstitialAdapter, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.mediation.MediationInterstitialAdapter
+Android.Gms.Ads.Mediation.IMediationInterstitialAdapter;com.google.android.gms.ads.mediation.MediationInterstitialAdapter
+com.google.android.gms.ads.mediation.MediationInterstitialAdapter;com.google.android.gms.ads.mediation.MediationInterstitialAdapter
+Android.Gms.Ads.Mediation.IMediationInterstitialAdCallback, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.mediation.MediationInterstitialAdCallback
+Android.Gms.Ads.Mediation.IMediationInterstitialAdCallback;com.google.android.gms.ads.mediation.MediationInterstitialAdCallback
+com.google.android.gms.ads.mediation.MediationInterstitialAdCallback;com.google.android.gms.ads.mediation.MediationInterstitialAdCallback
+Android.Gms.Ads.Mediation.IMediationInterstitialListener, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.mediation.MediationInterstitialListener
+Android.Gms.Ads.Mediation.IMediationInterstitialListener;com.google.android.gms.ads.mediation.MediationInterstitialListener
+com.google.android.gms.ads.mediation.MediationInterstitialListener;com.google.android.gms.ads.mediation.MediationInterstitialListener
+Android.Gms.Ads.Mediation.IMediationInterstitialListenerImplementor, Xamarin.GooglePlayServices.Ads.Lite;mono.com.google.android.gms.ads.mediation.MediationInterstitialListenerImplementor
+Android.Gms.Ads.Mediation.IMediationInterstitialListenerImplementor;mono.com.google.android.gms.ads.mediation.MediationInterstitialListenerImplementor
+mono.com.google.android.gms.ads.mediation.MediationInterstitialListenerImplementor;mono.com.google.android.gms.ads.mediation.MediationInterstitialListenerImplementor
+Android.Gms.Ads.Mediation.IMediationNativeAdCallback, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.mediation.MediationNativeAdCallback
+Android.Gms.Ads.Mediation.IMediationNativeAdCallback;com.google.android.gms.ads.mediation.MediationNativeAdCallback
+com.google.android.gms.ads.mediation.MediationNativeAdCallback;com.google.android.gms.ads.mediation.MediationNativeAdCallback
+Android.Gms.Ads.Mediation.IMediationRewardedAd, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.mediation.MediationRewardedAd
+Android.Gms.Ads.Mediation.IMediationRewardedAd;com.google.android.gms.ads.mediation.MediationRewardedAd
+com.google.android.gms.ads.mediation.MediationRewardedAd;com.google.android.gms.ads.mediation.MediationRewardedAd
+Android.Gms.Ads.Mediation.IMediationRewardedAdCallback, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.mediation.MediationRewardedAdCallback
+Android.Gms.Ads.Mediation.IMediationRewardedAdCallback;com.google.android.gms.ads.mediation.MediationRewardedAdCallback
+com.google.android.gms.ads.mediation.MediationRewardedAdCallback;com.google.android.gms.ads.mediation.MediationRewardedAdCallback
+Android.Gms.Ads.Mediation.INativeMediationAdRequest, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.mediation.NativeMediationAdRequest
+Android.Gms.Ads.Mediation.INativeMediationAdRequest;com.google.android.gms.ads.mediation.NativeMediationAdRequest
+com.google.android.gms.ads.mediation.NativeMediationAdRequest;com.google.android.gms.ads.mediation.NativeMediationAdRequest
+Android.Gms.Ads.Mediation.INetworkExtras, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.mediation.NetworkExtras
+Android.Gms.Ads.Mediation.INetworkExtras;com.google.android.gms.ads.mediation.NetworkExtras
+com.google.android.gms.ads.mediation.NetworkExtras;com.google.android.gms.ads.mediation.NetworkExtras
+Android.Gms.Ads.Mediation.IOnContextChangedListener, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.mediation.OnContextChangedListener
+Android.Gms.Ads.Mediation.IOnContextChangedListener;com.google.android.gms.ads.mediation.OnContextChangedListener
+com.google.android.gms.ads.mediation.OnContextChangedListener;com.google.android.gms.ads.mediation.OnContextChangedListener
+Android.Gms.Ads.Mediation.IOnContextChangedListenerImplementor, Xamarin.GooglePlayServices.Ads.Lite;mono.com.google.android.gms.ads.mediation.OnContextChangedListenerImplementor
+Android.Gms.Ads.Mediation.IOnContextChangedListenerImplementor;mono.com.google.android.gms.ads.mediation.OnContextChangedListenerImplementor
+mono.com.google.android.gms.ads.mediation.OnContextChangedListenerImplementor;mono.com.google.android.gms.ads.mediation.OnContextChangedListenerImplementor
+Android.Gms.Ads.Mediation.IOnImmersiveModeUpdatedListener, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.mediation.OnImmersiveModeUpdatedListener
+Android.Gms.Ads.Mediation.IOnImmersiveModeUpdatedListener;com.google.android.gms.ads.mediation.OnImmersiveModeUpdatedListener
+com.google.android.gms.ads.mediation.OnImmersiveModeUpdatedListener;com.google.android.gms.ads.mediation.OnImmersiveModeUpdatedListener
+Android.Gms.Ads.Mediation.IOnImmersiveModeUpdatedListenerImplementor, Xamarin.GooglePlayServices.Ads.Lite;mono.com.google.android.gms.ads.mediation.OnImmersiveModeUpdatedListenerImplementor
+Android.Gms.Ads.Mediation.IOnImmersiveModeUpdatedListenerImplementor;mono.com.google.android.gms.ads.mediation.OnImmersiveModeUpdatedListenerImplementor
+mono.com.google.android.gms.ads.mediation.OnImmersiveModeUpdatedListenerImplementor;mono.com.google.android.gms.ads.mediation.OnImmersiveModeUpdatedListenerImplementor
+Android.Gms.Ads.Mediation.MediationAdConfiguration+ITagForChildDirectedTreatment, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.mediation.MediationAdConfiguration$TagForChildDirectedTreatment
+Android.Gms.Ads.Mediation.MediationAdConfiguration.ITagForChildDirectedTreatment;com.google.android.gms.ads.mediation.MediationAdConfiguration$TagForChildDirectedTreatment
+com.google.android.gms.ads.mediation.MediationAdConfiguration$TagForChildDirectedTreatment;com.google.android.gms.ads.mediation.MediationAdConfiguration$TagForChildDirectedTreatment
+Android.Gms.Ads.Mediation.Rtb.ISignalCallbacks, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.mediation.rtb.SignalCallbacks
+Android.Gms.Ads.Mediation.Rtb.ISignalCallbacks;com.google.android.gms.ads.mediation.rtb.SignalCallbacks
+com.google.android.gms.ads.mediation.rtb.SignalCallbacks;com.google.android.gms.ads.mediation.rtb.SignalCallbacks
+Android.Gms.Ads.Mediation.CustomEvent.ICustomEvent, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.mediation.customevent.CustomEvent
+Android.Gms.Ads.Mediation.CustomEvent.ICustomEvent;com.google.android.gms.ads.mediation.customevent.CustomEvent
+com.google.android.gms.ads.mediation.customevent.CustomEvent;com.google.android.gms.ads.mediation.customevent.CustomEvent
+Android.Gms.Ads.Mediation.CustomEvent.ICustomEventBanner, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.mediation.customevent.CustomEventBanner
+Android.Gms.Ads.Mediation.CustomEvent.ICustomEventBanner;com.google.android.gms.ads.mediation.customevent.CustomEventBanner
+com.google.android.gms.ads.mediation.customevent.CustomEventBanner;com.google.android.gms.ads.mediation.customevent.CustomEventBanner
+Android.Gms.Ads.Mediation.CustomEvent.ICustomEventBannerListener, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.mediation.customevent.CustomEventBannerListener
+Android.Gms.Ads.Mediation.CustomEvent.ICustomEventBannerListener;com.google.android.gms.ads.mediation.customevent.CustomEventBannerListener
+com.google.android.gms.ads.mediation.customevent.CustomEventBannerListener;com.google.android.gms.ads.mediation.customevent.CustomEventBannerListener
+Android.Gms.Ads.Mediation.CustomEvent.ICustomEventInterstitial, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.mediation.customevent.CustomEventInterstitial
+Android.Gms.Ads.Mediation.CustomEvent.ICustomEventInterstitial;com.google.android.gms.ads.mediation.customevent.CustomEventInterstitial
+com.google.android.gms.ads.mediation.customevent.CustomEventInterstitial;com.google.android.gms.ads.mediation.customevent.CustomEventInterstitial
+Android.Gms.Ads.Mediation.CustomEvent.ICustomEventInterstitialListener, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.mediation.customevent.CustomEventInterstitialListener
+Android.Gms.Ads.Mediation.CustomEvent.ICustomEventInterstitialListener;com.google.android.gms.ads.mediation.customevent.CustomEventInterstitialListener
+com.google.android.gms.ads.mediation.customevent.CustomEventInterstitialListener;com.google.android.gms.ads.mediation.customevent.CustomEventInterstitialListener
+Android.Gms.Ads.Mediation.CustomEvent.ICustomEventListener, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.mediation.customevent.CustomEventListener
+Android.Gms.Ads.Mediation.CustomEvent.ICustomEventListener;com.google.android.gms.ads.mediation.customevent.CustomEventListener
+com.google.android.gms.ads.mediation.customevent.CustomEventListener;com.google.android.gms.ads.mediation.customevent.CustomEventListener
+Android.Gms.Ads.Mediation.CustomEvent.ICustomEventListenerImplementor, Xamarin.GooglePlayServices.Ads.Lite;mono.com.google.android.gms.ads.mediation.customevent.CustomEventListenerImplementor
+Android.Gms.Ads.Mediation.CustomEvent.ICustomEventListenerImplementor;mono.com.google.android.gms.ads.mediation.customevent.CustomEventListenerImplementor
+mono.com.google.android.gms.ads.mediation.customevent.CustomEventListenerImplementor;mono.com.google.android.gms.ads.mediation.customevent.CustomEventListenerImplementor
+Android.Gms.Ads.Mediation.CustomEvent.ICustomEventNative, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.mediation.customevent.CustomEventNative
+Android.Gms.Ads.Mediation.CustomEvent.ICustomEventNative;com.google.android.gms.ads.mediation.customevent.CustomEventNative
+com.google.android.gms.ads.mediation.customevent.CustomEventNative;com.google.android.gms.ads.mediation.customevent.CustomEventNative
+Android.Gms.Ads.Mediation.CustomEvent.ICustomEventNativeListener, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.mediation.customevent.CustomEventNativeListener
+Android.Gms.Ads.Mediation.CustomEvent.ICustomEventNativeListener;com.google.android.gms.ads.mediation.customevent.CustomEventNativeListener
+com.google.android.gms.ads.mediation.customevent.CustomEventNativeListener;com.google.android.gms.ads.mediation.customevent.CustomEventNativeListener
+Android.Gms.Ads.Initialization.IAdapterStatus, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.initialization.AdapterStatus
+Android.Gms.Ads.Initialization.IAdapterStatus;com.google.android.gms.ads.initialization.AdapterStatus
+com.google.android.gms.ads.initialization.AdapterStatus;com.google.android.gms.ads.initialization.AdapterStatus
+Android.Gms.Ads.Initialization.IInitializationStatus, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.initialization.InitializationStatus
+Android.Gms.Ads.Initialization.IInitializationStatus;com.google.android.gms.ads.initialization.InitializationStatus
+com.google.android.gms.ads.initialization.InitializationStatus;com.google.android.gms.ads.initialization.InitializationStatus
+Android.Gms.Ads.Initialization.IOnInitializationCompleteListener, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.initialization.OnInitializationCompleteListener
+Android.Gms.Ads.Initialization.IOnInitializationCompleteListener;com.google.android.gms.ads.initialization.OnInitializationCompleteListener
+com.google.android.gms.ads.initialization.OnInitializationCompleteListener;com.google.android.gms.ads.initialization.OnInitializationCompleteListener
+Android.Gms.Ads.Initialization.IOnInitializationCompleteListenerImplementor, Xamarin.GooglePlayServices.Ads.Lite;mono.com.google.android.gms.ads.initialization.OnInitializationCompleteListenerImplementor
+Android.Gms.Ads.Initialization.IOnInitializationCompleteListenerImplementor;mono.com.google.android.gms.ads.initialization.OnInitializationCompleteListenerImplementor
+mono.com.google.android.gms.ads.initialization.OnInitializationCompleteListenerImplementor;mono.com.google.android.gms.ads.initialization.OnInitializationCompleteListenerImplementor
+Android.Gms.Ads.H5.IOnH5AdsEventListener, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.h5.OnH5AdsEventListener
+Android.Gms.Ads.H5.IOnH5AdsEventListener;com.google.android.gms.ads.h5.OnH5AdsEventListener
+com.google.android.gms.ads.h5.OnH5AdsEventListener;com.google.android.gms.ads.h5.OnH5AdsEventListener
+Android.Gms.Ads.H5.IOnH5AdsEventListenerImplementor, Xamarin.GooglePlayServices.Ads.Lite;mono.com.google.android.gms.ads.h5.OnH5AdsEventListenerImplementor
+Android.Gms.Ads.H5.IOnH5AdsEventListenerImplementor;mono.com.google.android.gms.ads.h5.OnH5AdsEventListenerImplementor
+mono.com.google.android.gms.ads.h5.OnH5AdsEventListenerImplementor;mono.com.google.android.gms.ads.h5.OnH5AdsEventListenerImplementor
+Android.Gms.Ads.AppOpen.AppOpenAd+IAppOpenAdOrientation, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.appopen.AppOpenAd$AppOpenAdOrientation
+Android.Gms.Ads.AppOpen.AppOpenAd.IAppOpenAdOrientation;com.google.android.gms.ads.appopen.AppOpenAd$AppOpenAdOrientation
+com.google.android.gms.ads.appopen.AppOpenAd$AppOpenAdOrientation;com.google.android.gms.ads.appopen.AppOpenAd$AppOpenAdOrientation
+Android.Gms.Ads.AdManager.IAppEventListener, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.admanager.AppEventListener
+Android.Gms.Ads.AdManager.IAppEventListener;com.google.android.gms.ads.admanager.AppEventListener
+com.google.android.gms.ads.admanager.AppEventListener;com.google.android.gms.ads.admanager.AppEventListener
+Android.Gms.Ads.AdManager.IAppEventListenerImplementor, Xamarin.GooglePlayServices.Ads.Lite;mono.com.google.android.gms.ads.admanager.AppEventListenerImplementor
+Android.Gms.Ads.AdManager.IAppEventListenerImplementor;mono.com.google.android.gms.ads.admanager.AppEventListenerImplementor
+mono.com.google.android.gms.ads.admanager.AppEventListenerImplementor;mono.com.google.android.gms.ads.admanager.AppEventListenerImplementor
+Android.Gms.Ads.Formats.IShouldDelayBannerRenderingListenerInvoker, Xamarin.GooglePlayServices.Ads.Lite;crc64a83014792d0a8180.IShouldDelayBannerRenderingListenerInvoker
+Android.Gms.Ads.Formats.IShouldDelayBannerRenderingListenerInvoker;crc64a83014792d0a8180.IShouldDelayBannerRenderingListenerInvoker
+android.gms.ads.formats.IShouldDelayBannerRenderingListenerInvoker;crc64a83014792d0a8180.IShouldDelayBannerRenderingListenerInvoker
+Android.Gms.Ads.Formats.INativeCustomTemplateAdDisplayOpenMeasurement, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.formats.NativeCustomTemplateAd$DisplayOpenMeasurement
+Android.Gms.Ads.Formats.INativeCustomTemplateAdDisplayOpenMeasurement;com.google.android.gms.ads.formats.NativeCustomTemplateAd$DisplayOpenMeasurement
+com.google.android.gms.ads.formats.NativeCustomTemplateAd$DisplayOpenMeasurement;com.google.android.gms.ads.formats.NativeCustomTemplateAd$DisplayOpenMeasurement
+Android.Gms.Ads.Formats.INativeCustomTemplateAdOnCustomClickListener, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.formats.NativeCustomTemplateAd$OnCustomClickListener
+Android.Gms.Ads.Formats.INativeCustomTemplateAdOnCustomClickListener;com.google.android.gms.ads.formats.NativeCustomTemplateAd$OnCustomClickListener
+com.google.android.gms.ads.formats.NativeCustomTemplateAd$OnCustomClickListener;com.google.android.gms.ads.formats.NativeCustomTemplateAd$OnCustomClickListener
+Android.Gms.Ads.Formats.INativeCustomTemplateAdOnCustomClickListenerImplementor, Xamarin.GooglePlayServices.Ads.Lite;mono.com.google.android.gms.ads.formats.NativeCustomTemplateAd_OnCustomClickListenerImplementor
+Android.Gms.Ads.Formats.INativeCustomTemplateAdOnCustomClickListenerImplementor;mono.com.google.android.gms.ads.formats.NativeCustomTemplateAd_OnCustomClickListenerImplementor
+mono.com.google.android.gms.ads.formats.NativeCustomTemplateAd_OnCustomClickListenerImplementor;mono.com.google.android.gms.ads.formats.NativeCustomTemplateAd_OnCustomClickListenerImplementor
+Android.Gms.Ads.Formats.INativeCustomTemplateAdOnCustomTemplateAdLoadedListener, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.formats.NativeCustomTemplateAd$OnCustomTemplateAdLoadedListener
+Android.Gms.Ads.Formats.INativeCustomTemplateAdOnCustomTemplateAdLoadedListener;com.google.android.gms.ads.formats.NativeCustomTemplateAd$OnCustomTemplateAdLoadedListener
+com.google.android.gms.ads.formats.NativeCustomTemplateAd$OnCustomTemplateAdLoadedListener;com.google.android.gms.ads.formats.NativeCustomTemplateAd$OnCustomTemplateAdLoadedListener
+Android.Gms.Ads.Formats.INativeCustomTemplateAdOnCustomTemplateAdLoadedListenerImplementor, Xamarin.GooglePlayServices.Ads.Lite;mono.com.google.android.gms.ads.formats.NativeCustomTemplateAd_OnCustomTemplateAdLoadedListenerImplementor
+Android.Gms.Ads.Formats.INativeCustomTemplateAdOnCustomTemplateAdLoadedListenerImplementor;mono.com.google.android.gms.ads.formats.NativeCustomTemplateAd_OnCustomTemplateAdLoadedListenerImplementor
+mono.com.google.android.gms.ads.formats.NativeCustomTemplateAd_OnCustomTemplateAdLoadedListenerImplementor;mono.com.google.android.gms.ads.formats.NativeCustomTemplateAd_OnCustomTemplateAdLoadedListenerImplementor
+Android.Gms.Ads.Formats.INativeCustomTemplateAd, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.formats.NativeCustomTemplateAd
+Android.Gms.Ads.Formats.INativeCustomTemplateAd;com.google.android.gms.ads.formats.NativeCustomTemplateAd
+com.google.android.gms.ads.formats.NativeCustomTemplateAd;com.google.android.gms.ads.formats.NativeCustomTemplateAd
+Android.Gms.Ads.Formats.IOnAdManagerAdViewLoadedListener, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.formats.OnAdManagerAdViewLoadedListener
+Android.Gms.Ads.Formats.IOnAdManagerAdViewLoadedListener;com.google.android.gms.ads.formats.OnAdManagerAdViewLoadedListener
+com.google.android.gms.ads.formats.OnAdManagerAdViewLoadedListener;com.google.android.gms.ads.formats.OnAdManagerAdViewLoadedListener
+Android.Gms.Ads.Formats.IOnAdManagerAdViewLoadedListenerImplementor, Xamarin.GooglePlayServices.Ads.Lite;mono.com.google.android.gms.ads.formats.OnAdManagerAdViewLoadedListenerImplementor
+Android.Gms.Ads.Formats.IOnAdManagerAdViewLoadedListenerImplementor;mono.com.google.android.gms.ads.formats.OnAdManagerAdViewLoadedListenerImplementor
+mono.com.google.android.gms.ads.formats.OnAdManagerAdViewLoadedListenerImplementor;mono.com.google.android.gms.ads.formats.OnAdManagerAdViewLoadedListenerImplementor
+Android.Gms.Ads.Formats.NativeAdOptions+IAdChoicesPlacement, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.formats.NativeAdOptions$AdChoicesPlacement
+Android.Gms.Ads.Formats.NativeAdOptions.IAdChoicesPlacement;com.google.android.gms.ads.formats.NativeAdOptions$AdChoicesPlacement
+com.google.android.gms.ads.formats.NativeAdOptions$AdChoicesPlacement;com.google.android.gms.ads.formats.NativeAdOptions$AdChoicesPlacement
+Android.Gms.Ads.Formats.NativeAdOptions+INativeMediaAspectRatio, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.formats.NativeAdOptions$NativeMediaAspectRatio
+Android.Gms.Ads.Formats.NativeAdOptions.INativeMediaAspectRatio;com.google.android.gms.ads.formats.NativeAdOptions$NativeMediaAspectRatio
+com.google.android.gms.ads.formats.NativeAdOptions$NativeMediaAspectRatio;com.google.android.gms.ads.formats.NativeAdOptions$NativeMediaAspectRatio
+Android.Gms.Ads.Formats.UnifiedNativeAd+IOnUnifiedNativeAdLoadedListener, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.formats.UnifiedNativeAd$OnUnifiedNativeAdLoadedListener
+Android.Gms.Ads.Formats.UnifiedNativeAd.IOnUnifiedNativeAdLoadedListener;com.google.android.gms.ads.formats.UnifiedNativeAd$OnUnifiedNativeAdLoadedListener
+com.google.android.gms.ads.formats.UnifiedNativeAd$OnUnifiedNativeAdLoadedListener;com.google.android.gms.ads.formats.UnifiedNativeAd$OnUnifiedNativeAdLoadedListener
+Android.Gms.Ads.Formats.UnifiedNativeAd+IOnUnifiedNativeAdLoadedListenerImplementor, Xamarin.GooglePlayServices.Ads.Lite;mono.com.google.android.gms.ads.formats.UnifiedNativeAd_OnUnifiedNativeAdLoadedListenerImplementor
+Android.Gms.Ads.Formats.UnifiedNativeAd.IOnUnifiedNativeAdLoadedListenerImplementor;mono.com.google.android.gms.ads.formats.UnifiedNativeAd_OnUnifiedNativeAdLoadedListenerImplementor
+mono.com.google.android.gms.ads.formats.UnifiedNativeAd_OnUnifiedNativeAdLoadedListenerImplementor;mono.com.google.android.gms.ads.formats.UnifiedNativeAd_OnUnifiedNativeAdLoadedListenerImplementor
+Android.Gms.Ads.Formats.UnifiedNativeAd+IUnconfirmedClickListener, Xamarin.GooglePlayServices.Ads.Lite;com.google.android.gms.ads.formats.UnifiedNativeAd$UnconfirmedClickListener
+Android.Gms.Ads.Formats.UnifiedNativeAd.IUnconfirmedClickListener;com.google.android.gms.ads.formats.UnifiedNativeAd$UnconfirmedClickListener
+com.google.android.gms.ads.formats.UnifiedNativeAd$UnconfirmedClickListener;com.google.android.gms.ads.formats.UnifiedNativeAd$UnconfirmedClickListener
+Android.Gms.Ads.Formats.UnifiedNativeAd+IUnconfirmedClickListenerImplementor, Xamarin.GooglePlayServices.Ads.Lite;mono.com.google.android.gms.ads.formats.UnifiedNativeAd_UnconfirmedClickListenerImplementor
+Android.Gms.Ads.Formats.UnifiedNativeAd.IUnconfirmedClickListenerImplementor;mono.com.google.android.gms.ads.formats.UnifiedNativeAd_UnconfirmedClickListenerImplementor
+mono.com.google.android.gms.ads.formats.UnifiedNativeAd_UnconfirmedClickListenerImplementor;mono.com.google.android.gms.ads.formats.UnifiedNativeAd_UnconfirmedClickListenerImplementor
+Android.Gms.Security.ProviderInstaller+IProviderInstallListener, Xamarin.GooglePlayServices.Basement;com.google.android.gms.security.ProviderInstaller$ProviderInstallListener
+Android.Gms.Security.ProviderInstaller.IProviderInstallListener;com.google.android.gms.security.ProviderInstaller$ProviderInstallListener
+com.google.android.gms.security.ProviderInstaller$ProviderInstallListener;com.google.android.gms.security.ProviderInstaller$ProviderInstallListener
+Android.Gms.Security.ProviderInstaller+IProviderInstallListenerImplementor, Xamarin.GooglePlayServices.Basement;mono.com.google.android.gms.security.ProviderInstaller_ProviderInstallListenerImplementor
+Android.Gms.Security.ProviderInstaller.IProviderInstallListenerImplementor;mono.com.google.android.gms.security.ProviderInstaller_ProviderInstallListenerImplementor
+mono.com.google.android.gms.security.ProviderInstaller_ProviderInstallListenerImplementor;mono.com.google.android.gms.security.ProviderInstaller_ProviderInstallListenerImplementor
+Android.Gms.Internal.Constants.IListAppsActivityContract, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.internal.constants.ListAppsActivityContract
+Android.Gms.Internal.Constants.IListAppsActivityContract;com.google.android.gms.common.internal.constants.ListAppsActivityContract
+com.google.android.gms.common.internal.constants.ListAppsActivityContract;com.google.android.gms.common.internal.constants.ListAppsActivityContract
+Android.Gms.Dynamite.DynamiteModule+IVersionPolicy, Xamarin.GooglePlayServices.Basement;com.google.android.gms.dynamite.DynamiteModule$VersionPolicy
+Android.Gms.Dynamite.DynamiteModule.IVersionPolicy;com.google.android.gms.dynamite.DynamiteModule$VersionPolicy
+com.google.android.gms.dynamite.DynamiteModule$VersionPolicy;com.google.android.gms.dynamite.DynamiteModule$VersionPolicy
+Android.Gms.Dynamic.IFragmentWrapper, Xamarin.GooglePlayServices.Basement;com.google.android.gms.dynamic.IFragmentWrapper
+Android.Gms.Dynamic.IFragmentWrapper;com.google.android.gms.dynamic.IFragmentWrapper
+com.google.android.gms.dynamic.IFragmentWrapper;com.google.android.gms.dynamic.IFragmentWrapper
+Android.Gms.Dynamic.ILifecycleDelegate, Xamarin.GooglePlayServices.Basement;com.google.android.gms.dynamic.LifecycleDelegate
+Android.Gms.Dynamic.ILifecycleDelegate;com.google.android.gms.dynamic.LifecycleDelegate
+com.google.android.gms.dynamic.LifecycleDelegate;com.google.android.gms.dynamic.LifecycleDelegate
+Android.Gms.Dynamic.IObjectWrapper, Xamarin.GooglePlayServices.Basement;com.google.android.gms.dynamic.IObjectWrapper
+Android.Gms.Dynamic.IObjectWrapper;com.google.android.gms.dynamic.IObjectWrapper
+com.google.android.gms.dynamic.IObjectWrapper;com.google.android.gms.dynamic.IObjectWrapper
+Android.Gms.Dynamic.IOnDelegateCreatedListener, Xamarin.GooglePlayServices.Basement;com.google.android.gms.dynamic.OnDelegateCreatedListener
+Android.Gms.Dynamic.IOnDelegateCreatedListener;com.google.android.gms.dynamic.OnDelegateCreatedListener
+com.google.android.gms.dynamic.OnDelegateCreatedListener;com.google.android.gms.dynamic.OnDelegateCreatedListener
+Android.Gms.Dynamic.IOnDelegateCreatedListenerImplementor, Xamarin.GooglePlayServices.Basement;mono.com.google.android.gms.dynamic.OnDelegateCreatedListenerImplementor
+Android.Gms.Dynamic.IOnDelegateCreatedListenerImplementor;mono.com.google.android.gms.dynamic.OnDelegateCreatedListenerImplementor
+mono.com.google.android.gms.dynamic.OnDelegateCreatedListenerImplementor;mono.com.google.android.gms.dynamic.OnDelegateCreatedListenerImplementor
+Android.Gms.Common.Util.IBiConsumer, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.util.BiConsumer
+Android.Gms.Common.Util.IBiConsumer;com.google.android.gms.common.util.BiConsumer
+com.google.android.gms.common.util.BiConsumer;com.google.android.gms.common.util.BiConsumer
+Android.Gms.Common.Util.IClock, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.util.Clock
+Android.Gms.Common.Util.IClock;com.google.android.gms.common.util.Clock
+com.google.android.gms.common.util.Clock;com.google.android.gms.common.util.Clock
+Android.Gms.Common.Util.IDynamiteApi, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.util.DynamiteApi
+Android.Gms.Common.Util.IDynamiteApi;com.google.android.gms.common.util.DynamiteApi
+com.google.android.gms.common.util.DynamiteApi;com.google.android.gms.common.util.DynamiteApi
+Android.Gms.Common.Util.IPredicate, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.util.Predicate
+Android.Gms.Common.Util.IPredicate;com.google.android.gms.common.util.Predicate
+com.google.android.gms.common.util.Predicate;com.google.android.gms.common.util.Predicate
+Android.Gms.Common.Util.IRetainForClient, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.util.RetainForClient
+Android.Gms.Common.Util.IRetainForClient;com.google.android.gms.common.util.RetainForClient
+com.google.android.gms.common.util.RetainForClient;com.google.android.gms.common.util.RetainForClient
+Android.Gms.Common.Util.IVisibleForTesting, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.util.VisibleForTesting
+Android.Gms.Common.Util.IVisibleForTesting;com.google.android.gms.common.util.VisibleForTesting
+com.google.android.gms.common.util.VisibleForTesting;com.google.android.gms.common.util.VisibleForTesting
+Android.Gms.Common.Stats.StatsEvent+ITypes, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.stats.StatsEvent$Types
+Android.Gms.Common.Stats.StatsEvent.ITypes;com.google.android.gms.common.stats.StatsEvent$Types
+com.google.android.gms.common.stats.StatsEvent$Types;com.google.android.gms.common.stats.StatsEvent$Types
+Android.Gms.Common.Providers.PooledExecutorsProvider+IPooledExecutorFactory, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.providers.PooledExecutorsProvider$PooledExecutorFactory
+Android.Gms.Common.Providers.PooledExecutorsProvider.IPooledExecutorFactory;com.google.android.gms.common.providers.PooledExecutorsProvider$PooledExecutorFactory
+com.google.android.gms.common.providers.PooledExecutorsProvider$PooledExecutorFactory;com.google.android.gms.common.providers.PooledExecutorsProvider$PooledExecutorFactory
+Android.Gms.Common.Internal.IAccountAccessor, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.internal.IAccountAccessor
+Android.Gms.Common.Internal.IAccountAccessor;com.google.android.gms.common.internal.IAccountAccessor
+com.google.android.gms.common.internal.IAccountAccessor;com.google.android.gms.common.internal.IAccountAccessor
+Android.Gms.Common.Internal.ICancelToken, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.internal.ICancelToken
+Android.Gms.Common.Internal.ICancelToken;com.google.android.gms.common.internal.ICancelToken
+com.google.android.gms.common.internal.ICancelToken;com.google.android.gms.common.internal.ICancelToken
+Android.Gms.Common.Internal.IGmsCallbacks, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.internal.IGmsCallbacks
+Android.Gms.Common.Internal.IGmsCallbacks;com.google.android.gms.common.internal.IGmsCallbacks
+com.google.android.gms.common.internal.IGmsCallbacks;com.google.android.gms.common.internal.IGmsCallbacks
+Android.Gms.Common.Internal.IHideFirstParty, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.internal.HideFirstParty
+Android.Gms.Common.Internal.IHideFirstParty;com.google.android.gms.common.internal.HideFirstParty
+com.google.android.gms.common.internal.HideFirstParty;com.google.android.gms.common.internal.HideFirstParty
+Android.Gms.Common.Internal.IReflectedParcelable, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.internal.ReflectedParcelable
+Android.Gms.Common.Internal.IReflectedParcelable;com.google.android.gms.common.internal.ReflectedParcelable
+com.google.android.gms.common.internal.ReflectedParcelable;com.google.android.gms.common.internal.ReflectedParcelable
+Android.Gms.Common.Internal.IShowFirstParty, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.internal.ShowFirstParty
+Android.Gms.Common.Internal.IShowFirstParty;com.google.android.gms.common.internal.ShowFirstParty
+com.google.android.gms.common.internal.ShowFirstParty;com.google.android.gms.common.internal.ShowFirstParty
+Android.Gms.Common.Internal.SafeParcel.ISafeParcelableClass, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.internal.safeparcel.SafeParcelable$Class
+Android.Gms.Common.Internal.SafeParcel.ISafeParcelableClass;com.google.android.gms.common.internal.safeparcel.SafeParcelable$Class
+com.google.android.gms.common.internal.safeparcel.SafeParcelable$Class;com.google.android.gms.common.internal.safeparcel.SafeParcelable$Class
+Android.Gms.Common.Internal.SafeParcel.ISafeParcelableConstructor, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.internal.safeparcel.SafeParcelable$Constructor
+Android.Gms.Common.Internal.SafeParcel.ISafeParcelableConstructor;com.google.android.gms.common.internal.safeparcel.SafeParcelable$Constructor
+com.google.android.gms.common.internal.safeparcel.SafeParcelable$Constructor;com.google.android.gms.common.internal.safeparcel.SafeParcelable$Constructor
+Android.Gms.Common.Internal.SafeParcel.ISafeParcelableField, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.internal.safeparcel.SafeParcelable$Field
+Android.Gms.Common.Internal.SafeParcel.ISafeParcelableField;com.google.android.gms.common.internal.safeparcel.SafeParcelable$Field
+com.google.android.gms.common.internal.safeparcel.SafeParcelable$Field;com.google.android.gms.common.internal.safeparcel.SafeParcelable$Field
+Android.Gms.Common.Internal.SafeParcel.ISafeParcelableIndicator, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.internal.safeparcel.SafeParcelable$Indicator
+Android.Gms.Common.Internal.SafeParcel.ISafeParcelableIndicator;com.google.android.gms.common.internal.safeparcel.SafeParcelable$Indicator
+com.google.android.gms.common.internal.safeparcel.SafeParcelable$Indicator;com.google.android.gms.common.internal.safeparcel.SafeParcelable$Indicator
+Android.Gms.Common.Internal.SafeParcel.ISafeParcelableParam, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.internal.safeparcel.SafeParcelable$Param
+Android.Gms.Common.Internal.SafeParcel.ISafeParcelableParam;com.google.android.gms.common.internal.safeparcel.SafeParcelable$Param
+com.google.android.gms.common.internal.safeparcel.SafeParcelable$Param;com.google.android.gms.common.internal.safeparcel.SafeParcelable$Param
+Android.Gms.Common.Internal.SafeParcel.ISafeParcelableReserved, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.internal.safeparcel.SafeParcelable$Reserved
+Android.Gms.Common.Internal.SafeParcel.ISafeParcelableReserved;com.google.android.gms.common.internal.safeparcel.SafeParcelable$Reserved
+com.google.android.gms.common.internal.safeparcel.SafeParcelable$Reserved;com.google.android.gms.common.internal.safeparcel.SafeParcelable$Reserved
+Android.Gms.Common.Internal.SafeParcel.ISafeParcelableVersionField, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.internal.safeparcel.SafeParcelable$VersionField
+Android.Gms.Common.Internal.SafeParcel.ISafeParcelableVersionField;com.google.android.gms.common.internal.safeparcel.SafeParcelable$VersionField
+com.google.android.gms.common.internal.safeparcel.SafeParcelable$VersionField;com.google.android.gms.common.internal.safeparcel.SafeParcelable$VersionField
+Android.Gms.Common.Internal.SafeParcel.ISafeParcelable, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.internal.safeparcel.SafeParcelable
+Android.Gms.Common.Internal.SafeParcel.ISafeParcelable;com.google.android.gms.common.internal.safeparcel.SafeParcelable
+com.google.android.gms.common.internal.safeparcel.SafeParcelable;com.google.android.gms.common.internal.safeparcel.SafeParcelable
+Android.Gms.Common.Annotations.IKeepForSdk, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.annotation.KeepForSdk
+Android.Gms.Common.Annotations.IKeepForSdk;com.google.android.gms.common.annotation.KeepForSdk
+com.google.android.gms.common.annotation.KeepForSdk;com.google.android.gms.common.annotation.KeepForSdk
+Android.Gms.Common.Annotations.IKeepForSdkWithFieldsAndMethods, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.annotation.KeepForSdkWithFieldsAndMethods
+Android.Gms.Common.Annotations.IKeepForSdkWithFieldsAndMethods;com.google.android.gms.common.annotation.KeepForSdkWithFieldsAndMethods
+com.google.android.gms.common.annotation.KeepForSdkWithFieldsAndMethods;com.google.android.gms.common.annotation.KeepForSdkWithFieldsAndMethods
+Android.Gms.Common.Annotations.IKeepForSdkWithMembers, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.annotation.KeepForSdkWithMembers
+Android.Gms.Common.Annotations.IKeepForSdkWithMembers;com.google.android.gms.common.annotation.KeepForSdkWithMembers
+com.google.android.gms.common.annotation.KeepForSdkWithMembers;com.google.android.gms.common.annotation.KeepForSdkWithMembers
+Android.Gms.Common.Annotations.IKeepName, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.annotation.KeepName
+Android.Gms.Common.Annotations.IKeepName;com.google.android.gms.common.annotation.KeepName
+com.google.android.gms.common.annotation.KeepName;com.google.android.gms.common.annotation.KeepName
+Android.Gms.Common.Annotations.INonNullApi, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.annotation.NonNullApi
+Android.Gms.Common.Annotations.INonNullApi;com.google.android.gms.common.annotation.NonNullApi
+com.google.android.gms.common.annotation.NonNullApi;com.google.android.gms.common.annotation.NonNullApi
+Android.Gms.Common.Apis.ResultCallback`1, Xamarin.GooglePlayServices.Basement;crc6450e07d0e82e86181.ResultCallback_1
+Android.Gms.Common.Apis.ResultCallback`1;crc6450e07d0e82e86181.ResultCallback_1
+android.gms.common.apis.ResultCallback_1;crc6450e07d0e82e86181.ResultCallback_1
+Android.Gms.Common.Apis.AwaitableResultCallback`1, Xamarin.GooglePlayServices.Basement;crc6450e07d0e82e86181.AwaitableResultCallback_1
+Android.Gms.Common.Apis.AwaitableResultCallback`1;crc6450e07d0e82e86181.AwaitableResultCallback_1
+android.gms.common.apis.AwaitableResultCallback_1;crc6450e07d0e82e86181.AwaitableResultCallback_1
+Android.Gms.Common.Apis.IReleasable, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.api.Releasable
+Android.Gms.Common.Apis.IReleasable;com.google.android.gms.common.api.Releasable
+com.google.android.gms.common.api.Releasable;com.google.android.gms.common.api.Releasable
+Android.Gms.Common.Apis.IResult, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.api.Result
+Android.Gms.Common.Apis.IResult;com.google.android.gms.common.api.Result
+com.google.android.gms.common.api.Result;com.google.android.gms.common.api.Result
+Android.Gms.Common.Apis.IResultCallback, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.api.ResultCallback
+Android.Gms.Common.Apis.IResultCallback;com.google.android.gms.common.api.ResultCallback
+com.google.android.gms.common.api.ResultCallback;com.google.android.gms.common.api.ResultCallback
+Android.Gms.Common.Apis.Internal.BackgroundDetector+IBackgroundStateChangeListener, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.api.internal.BackgroundDetector$BackgroundStateChangeListener
+Android.Gms.Common.Apis.Internal.BackgroundDetector.IBackgroundStateChangeListener;com.google.android.gms.common.api.internal.BackgroundDetector$BackgroundStateChangeListener
+com.google.android.gms.common.api.internal.BackgroundDetector$BackgroundStateChangeListener;com.google.android.gms.common.api.internal.BackgroundDetector$BackgroundStateChangeListener
+Android.Gms.Common.Apis.Internal.BackgroundDetector+IBackgroundStateChangeListenerImplementor, Xamarin.GooglePlayServices.Basement;mono.com.google.android.gms.common.api.internal.BackgroundDetector_BackgroundStateChangeListenerImplementor
+Android.Gms.Common.Apis.Internal.BackgroundDetector.IBackgroundStateChangeListenerImplementor;mono.com.google.android.gms.common.api.internal.BackgroundDetector_BackgroundStateChangeListenerImplementor
+mono.com.google.android.gms.common.api.internal.BackgroundDetector_BackgroundStateChangeListenerImplementor;mono.com.google.android.gms.common.api.internal.BackgroundDetector_BackgroundStateChangeListenerImplementor
+Android.Gms.Common.Apis.Internal.ILifecycleFragment, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.api.internal.LifecycleFragment
+Android.Gms.Common.Apis.Internal.ILifecycleFragment;com.google.android.gms.common.api.internal.LifecycleFragment
+com.google.android.gms.common.api.internal.LifecycleFragment;com.google.android.gms.common.api.internal.LifecycleFragment
+Android.Gms.Common.Apis.Internal.IStatusExceptionMapper, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.api.internal.StatusExceptionMapper
+Android.Gms.Common.Apis.Internal.IStatusExceptionMapper;com.google.android.gms.common.api.internal.StatusExceptionMapper
+com.google.android.gms.common.api.internal.StatusExceptionMapper;com.google.android.gms.common.api.internal.StatusExceptionMapper

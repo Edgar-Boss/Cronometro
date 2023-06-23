@@ -397,6 +397,9 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.GooglePlayServices.Ads/60.1142.1": {
+        "type": "package"
+      },
       "Cronometro/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -408,7 +411,8 @@
           "Sharpnado.Shadows": "1.2.1",
           "Syncfusion.Xamarin.SfChart": "21.2.10",
           "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Forms": "5.0.0.2196",
+          "Xamarin.GooglePlayServices.Ads": "60.1142.1"
         },
         "compile": {
           "bin/placeholder/Cronometro.dll": {}
@@ -796,6 +800,9 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.GooglePlayServices.Ads/60.1142.1": {
+        "type": "package"
+      },
       "Cronometro/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -807,7 +814,8 @@
           "Sharpnado.Shadows": "1.2.1",
           "Syncfusion.Xamarin.SfChart": "21.2.10",
           "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Forms": "5.0.0.2196",
+          "Xamarin.GooglePlayServices.Ads": "60.1142.1"
         },
         "compile": {
           "bin/placeholder/Cronometro.dll": {}
@@ -1198,6 +1206,9 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.GooglePlayServices.Ads/60.1142.1": {
+        "type": "package"
+      },
       "Cronometro/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -1209,7 +1220,8 @@
           "Sharpnado.Shadows": "1.2.1",
           "Syncfusion.Xamarin.SfChart": "21.2.10",
           "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Forms": "5.0.0.2196",
+          "Xamarin.GooglePlayServices.Ads": "60.1142.1"
         },
         "compile": {
           "bin/placeholder/Cronometro.dll": {}
@@ -1600,6 +1612,9 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.GooglePlayServices.Ads/60.1142.1": {
+        "type": "package"
+      },
       "Cronometro/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -1611,7 +1626,8 @@
           "Sharpnado.Shadows": "1.2.1",
           "Syncfusion.Xamarin.SfChart": "21.2.10",
           "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Forms": "5.0.0.2196",
+          "Xamarin.GooglePlayServices.Ads": "60.1142.1"
         },
         "compile": {
           "bin/placeholder/Cronometro.dll": {}
@@ -2359,6 +2375,19 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "Xamarin.GooglePlayServices.Ads/60.1142.1": {
+      "sha512": "ztonafv6RChuOQTIZG+bLnB9rxtVRmnwA/DsEYpGHb63AaO8z+z31VW0M1uA84b1LdgNXXZFOeO1sBwp3qF+uQ==",
+      "type": "package",
+      "path": "xamarin.googleplayservices.ads/60.1142.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MonoAndroid80/Xamarin.GooglePlayServices.Ads.targets",
+        "lib/MonoAndroid80/Xamarin.GooglePlayServices.Ads.dll",
+        "xamarin.googleplayservices.ads.60.1142.1.nupkg.sha512",
+        "xamarin.googleplayservices.ads.nuspec"
+      ]
+    },
     "Cronometro/1.0.0": {
       "type": "project",
       "path": "../Cronometro/Cronometro.csproj",
@@ -2466,5 +2495,43 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "El paquete Xamarin.GooglePlayServices.Ads 60.1142.1 no es compatible con xamarinios10 (Xamarin.iOS,Version=v1.0). El paquete Xamarin.GooglePlayServices.Ads 60.1142.1 admite: monoandroid80 (MonoAndroid,Version=v8.0)",
+      "libraryId": "Xamarin.GooglePlayServices.Ads",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "El paquete Xamarin.GooglePlayServices.Ads 60.1142.1 no es compatible con xamarinios10 (Xamarin.iOS,Version=v1.0) / win. El paquete Xamarin.GooglePlayServices.Ads 60.1142.1 admite: monoandroid80 (MonoAndroid,Version=v8.0)",
+      "libraryId": "Xamarin.GooglePlayServices.Ads",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "El paquete Xamarin.GooglePlayServices.Ads 60.1142.1 no es compatible con xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x64. El paquete Xamarin.GooglePlayServices.Ads 60.1142.1 admite: monoandroid80 (MonoAndroid,Version=v8.0)",
+      "libraryId": "Xamarin.GooglePlayServices.Ads",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win-x64"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "El paquete Xamarin.GooglePlayServices.Ads 60.1142.1 no es compatible con xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x86. El paquete Xamarin.GooglePlayServices.Ads 60.1142.1 admite: monoandroid80 (MonoAndroid,Version=v8.0)",
+      "libraryId": "Xamarin.GooglePlayServices.Ads",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
 }

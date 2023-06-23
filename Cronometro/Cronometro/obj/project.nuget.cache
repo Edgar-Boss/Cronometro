@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "+SMRLBJrKmXgt6ZRqwaunaS0Sug9hUvJ/fKe3QDfWDQZ32e/1hef5GeucOBizHJ35BI2zK/DN0jCx7mE73tNzQ==",
+  "dgSpecHash": "CgdsMX8AW5gc0YGI94hHXG/xU2FGt4SPegKktM6b0NHubPLPWZUmrgfGyGgYTzu8U6NajA9MRgbo/EywfPG85Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Edgar\\source\\repos\\Cronometro\\Cronometro\\Cronometro\\Cronometro.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Edgar\\.nuget\\packages\\cardsview\\2.8.1\\cardsview.2.8.1.nupkg.sha512",
+    "C:\\Users\\Edgar\\.nuget\\packages\\marctron.admob\\1.9.0.3\\marctron.admob.1.9.0.3.nupkg.sha512",
     "C:\\Users\\Edgar\\.nuget\\packages\\microcharts\\0.9.5.9\\microcharts.0.9.5.9.nupkg.sha512",
     "C:\\Users\\Edgar\\.nuget\\packages\\microcharts.forms\\0.9.5.9\\microcharts.forms.0.9.5.9.nupkg.sha512",
     "C:\\Users\\Edgar\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
@@ -22,8 +23,9 @@
     "C:\\Users\\Edgar\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Users\\Edgar\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
     "C:\\Users\\Edgar\\.nuget\\packages\\thomaslevesque.weakevent\\4.1.0\\thomaslevesque.weakevent.4.1.0.nupkg.sha512",
+    "C:\\Users\\Edgar\\.nuget\\packages\\xamarin.build.download\\0.11.0\\xamarin.build.download.0.11.0.nupkg.sha512",
     "C:\\Users\\Edgar\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\Edgar\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\Edgar\\.nuget\\packages\\xamarin.forms\\5.0.0.2545\\xamarin.forms.5.0.0.2545.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,0 +1,13 @@
+C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro.iOS\obj\iPhone\Debug\actool\_ProcessedImageAssetsPath.items
+C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro.iOS\obj\iPhone\Debug\ibtool\_ProcessedInterfaceDefinitionsPath.items
+C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
+C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro.iOS\obj\iPhone\Debug\coremlc\_ProcessedCoreMLModelsPath.items
+C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro.iOS\obj\iPhone\Debug\_ProcessedBundleResourcesPath.items
+C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro.iOS\obj\iPhone\Debug\_ProcessedContentPath.items
+C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro.iOS\obj\iPhone\Debug\optimized\
+C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro.iOS\obj\iPhone\Debug\Cronometro.iOS.csproj.AssemblyReference.cache
+C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro.iOS\obj\iPhone\Debug\Cronometro.iOS.csproj.CoreCompileInputs.cache

@@ -168,6 +168,10 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[5.0.0.2196, )"
+            },
+            "Xamarin.GooglePlayServices.Ads": {
+              "target": "Package",
+              "version": "[60.1142.1, )"
             }
           },
           "imports": [

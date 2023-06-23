@@ -150,7 +150,16 @@ namespace Cronometro.View
                     Fecha = fechas.ElementAt(k).ToString()
                 });
             }
-
+            if (tiempos.Count <= 0)
+            {
+                CarreteTiempos.IsVisible = false;
+                StkVacio.IsVisible = true;
+            }
+            else
+            {
+                CarreteTiempos.IsVisible = true;
+                StkVacio.IsVisible = false;
+            }
             BindingContext =new RegistrosVM(lista);
         }
 
@@ -177,6 +186,7 @@ namespace Cronometro.View
                 Mostrargrafica(tiempos.Count() - 1);
                 CarreteTiempos.SelectedIndex = tiempos.Count() - 1;
             }
+            
             
             ListaRegistros();
         }

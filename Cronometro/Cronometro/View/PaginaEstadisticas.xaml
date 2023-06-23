@@ -5,19 +5,21 @@
              x:Class="Cronometro.View.PaginaEstadisticas"
              xmlns:cardview="clr-namespace:PanCardView;assembly=PanCardView"
              xmlns:proc="clr-namespace:PanCardView.Processors;assembly=PanCardView"
+             
              NavigationPage.HasNavigationBar="False">
-    <Grid BackgroundColor="White">
-        <Grid.RowDefinitions>
-            
-            <RowDefinition Height=".4*"/>
-            <RowDefinition Height=".6*"/>
-        </Grid.RowDefinitions>
-        <microcharts:ChartView  x:Name="grafica"  
+    <StackLayout>
+        <Grid BackgroundColor="White" IsVisible="true">
+            <Grid.RowDefinitions>
+
+                <RowDefinition Height=".4*"/>
+                <RowDefinition Height=".6*"/>
+            </Grid.RowDefinitions>
+            <microcharts:ChartView  x:Name="grafica"  
                                 Grid.Row="0"
                                 HeightRequest="150"/>
 
-        
-        <cardview:CoverFlowView x:Name="CarreteTiempos"
+
+            <cardview:CoverFlowView x:Name="CarreteTiempos"
                                 IsCyclical="False" 
                                 Margin="0,50" 
                                 ItemsSource="{Binding Registros_}" 
@@ -25,37 +27,37 @@
                                 Grid.Row="1" 
                                 BackgroundColor="Transparent"
                                 ItemAppeared="CarreteTiempos_ItemAppeared" >
-            <x:Arguments>
-                <proc:CoverFlowProcessor ScaleFactor="0.65"/>
-            </x:Arguments>
-            <cardview:CoverFlowView.ItemTemplate>
-                <DataTemplate>
-                    <Grid Padding="40" Margin=" 50,0" BackgroundColor="Transparent">
-                        <Grid.RowDefinitions>
-                            <RowDefinition  Height="0.1*"/>
-                            <RowDefinition  Height="0.8*"/>
-                            <RowDefinition  Height="0.1*"/>
-                        </Grid.RowDefinitions>
-                        <StackLayout Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Center">
-                            <Label Text="{Binding Fecha}"/>
-                        </StackLayout>
-                        
-                        <Frame Grid.Row="1" CornerRadius="18" Padding="0" BackgroundColor="Transparent" HasShadow="True">
-                            <Ellipse    Fill="Transparent"
+                <x:Arguments>
+                    <proc:CoverFlowProcessor ScaleFactor="0.65"/>
+                </x:Arguments>
+                <cardview:CoverFlowView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Padding="40" Margin=" 50,0" BackgroundColor="Transparent">
+                            <Grid.RowDefinitions>
+                                <RowDefinition  Height="0.1*"/>
+                                <RowDefinition  Height="0.8*"/>
+                                <RowDefinition  Height="0.1*"/>
+                            </Grid.RowDefinitions>
+                            <StackLayout Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Center">
+                                <Label Text="{Binding Fecha}"/>
+                            </StackLayout>
+
+                            <Frame Grid.Row="1" CornerRadius="18" Padding="0" BackgroundColor="Transparent" HasShadow="True">
+                                <Ellipse    Fill="Transparent"
                                         VerticalOptions="CenterAndExpand"
                                         WidthRequest="200"
                                         HeightRequest="200"
                                         HorizontalOptions="Center"
                                         StrokeThickness="4"
                                         Stroke ="#34768C"/>
-                            
-                        </Frame>
-                        <Label  Grid.Row="1"
+
+                            </Frame>
+                            <Label  Grid.Row="1"
                                 Text="{Binding Tiempo}"
                                 HorizontalOptions="Center"
                                 VerticalOptions="Center"/>
-                        <StackLayout Grid.Row="2">
-                            <ImageButton    x:Name="BtnEliminar"
+                            <StackLayout Grid.Row="2">
+                                <ImageButton    x:Name="BtnEliminar"
                                             ClassId="{Binding Id}"
                                             Source="delete"
                                             HorizontalOptions="End"
@@ -63,12 +65,26 @@
                                             HeightRequest="30"
                                             BackgroundColor="Transparent"
                                             Clicked="BtnEliminar_Clicked"/>
-                        </StackLayout>
-                    </Grid>
-                </DataTemplate>
-            </cardview:CoverFlowView.ItemTemplate>
-        </cardview:CoverFlowView>
+                            </StackLayout>
+                        </Grid>
+                    </DataTemplate>
+                </cardview:CoverFlowView.ItemTemplate>
+            </cardview:CoverFlowView>
 
-    </Grid>
+        </Grid>
+        <StackLayout x:Name="StkVacio"
+                     IsVisible="false" 
+                     BackgroundColor="White" 
+                     HorizontalOptions="FillAndExpand" 
+                     VerticalOptions="FillAndExpand"
+                     >
+            <Label 
+                Text="Aún no hay datos para mostrar" 
+                HorizontalOptions="CenterAndExpand" 
+                VerticalOptions="CenterAndExpand"/>
+        </StackLayout>
+    </StackLayout>
+    
+    
     
 </ContentPage>
