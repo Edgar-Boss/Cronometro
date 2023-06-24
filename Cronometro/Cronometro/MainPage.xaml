@@ -8,15 +8,18 @@
         <Grid.RowDefinitions>
             <RowDefinition Height=".05*"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-        <ImageButton    x:Name="BtnEstadisticas"
-                        Source="estadisticas"
+        <StackLayout Margin="0,10,10,0">
+            <ImageButton    x:Name="BtnEstadisticas"
+                        Source="IconGrafica_1"
                         BackgroundColor="Transparent"
                         HorizontalOptions="End"
-                        HeightRequest="40"
-                        Padding="5"
-                        Clicked="BtnEstadisticas_Clicked"
-                     />
+                        HeightRequest="25"
+                        Padding="0"
+                        Clicked="BtnEstadisticas_Clicked"/>
+        </StackLayout>
+        
         <Grid Grid.Row="1" RowSpacing="0">
             <Grid.RowDefinitions>
 
@@ -47,19 +50,17 @@
                                             HeightRequest="200"
                                             HorizontalOptions="Center" 
                                             StrokeThickness="4"
-                                            Stroke ="#34768C"
+                                            Stroke ="#304861"
                                 >
 
                                     </Ellipse>
-                                    <Ellipse    Fill="#34768C"
+                                    <Ellipse    Fill="#304861"
                                             VerticalOptions="End"
                                             HorizontalOptions="Center"
                                             HeightRequest="20"
                                             WidthRequest="20"
                                             Margin="0,0,0,-7"
-                                >
-                                    </Ellipse>
-
+                                />
                                 </Grid>
                             </Frame>
                             <Frame x:Name="frm_tap" BackgroundColor="Transparent">
@@ -114,7 +115,7 @@
                                 VerticalOptions="Center"
                                 BackgroundColor="Transparent" 
                                 BorderWidth="1" 
-                                BorderColor="#34768C"
+                                BorderColor="#2366AD"
                                 CornerRadius="14"/>
                             <Button x:Name="stopButton" 
                                 Text="Stop" 
@@ -187,8 +188,15 @@
 
 
         </Grid>
-
-
+        <Frame Grid.Row="2" BackgroundColor="Transparent" HasShadow="False">
+            <controls:MTAdView   
+                            HeightRequest="60"
+                            IsEnabled="True"
+                            IsVisible="True"
+                            x:Name="MisAds"
+                            AdsId="ca-app-pub-8967169262052512/4137931223"
+                            BackgroundColor="Transparent"/>
+        </Frame>
 
     </Grid>
 </ContentPage>

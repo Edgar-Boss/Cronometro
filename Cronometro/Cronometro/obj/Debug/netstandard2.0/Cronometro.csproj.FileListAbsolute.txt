@@ -5,6 +5,8 @@ C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro\obj\Debug\netstanda
 C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro\obj\Debug\netstandard2.0\Cronometro.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro\obj\Debug\netstandard2.0\Page1.xaml.g.cs
+C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro\obj\Debug\netstandard2.0\View\PaginaEstadisticas.xaml.g.cs
 C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro\obj\Debug\netstandard2.0\Cronometro.AssemblyInfoInputs.cache
 C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro\obj\Debug\netstandard2.0\Cronometro.AssemblyInfo.cs
 C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro\obj\Debug\netstandard2.0\Cronometro.csproj.CoreCompileInputs.cache
@@ -13,4 +15,3 @@ C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro\obj\Debug\netstanda
 C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro\obj\Debug\netstandard2.0\refint\Cronometro.dll
 C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro\obj\Debug\netstandard2.0\Cronometro.pdb
 C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro\obj\Debug\netstandard2.0\ref\Cronometro.dll
-C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro\obj\Debug\netstandard2.0\View\PaginaEstadisticas.xaml.g.cs

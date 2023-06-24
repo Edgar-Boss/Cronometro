@@ -23,10 +23,14 @@ namespace Cronometro.View {
         private global::PanCardView.CoverFlowView CarreteTiempos;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.StackLayout StkVacio;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(PaginaEstadisticas));
             grafica = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Microcharts.Forms.ChartView>(this, "grafica");
             CarreteTiempos = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::PanCardView.CoverFlowView>(this, "CarreteTiempos");
+            StkVacio = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "StkVacio");
         }
     }
 }

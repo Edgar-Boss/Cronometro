@@ -247,7 +247,7 @@ namespace Cronometro
             //// Escribir datos en el archivo
             File.WriteAllLines(filePath, dateStringList);
             File.WriteAllLines(filePath_date, datetringlist_date);
-
+            DisplayAlert("Marca guardada","La marca se ha guardado correctamente","ok");
         }
 
         async private void BtnEstadisticas_Clicked(object sender, EventArgs e)
