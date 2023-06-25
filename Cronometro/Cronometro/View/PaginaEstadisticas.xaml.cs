@@ -169,26 +169,36 @@ namespace Cronometro.View
             Mostrargrafica(view.SelectedIndex);
         }
 
-        private void BtnEliminar_Clicked(object sender, EventArgs e)
+        private async void BtnEliminar_Clicked(object sender, EventArgs e)
         {
-            ImageButton btn = (ImageButton)sender;
-            tiempos.RemoveAt(int.Parse(btn.ClassId));
-            fechas.RemoveAt(int.Parse(btn.ClassId));
-            GuardarDatos();
-            if (int.Parse(btn.ClassId) < tiempos.Count())
+            var actionSheet = await DisplayActionSheet("¿Desea aliminar esta marca?", "Si","Cancelar");
+
+            switch (actionSheet)
             {
+                case "Si":
 
-                Mostrargrafica(int.Parse(btn.ClassId));
-                CarreteTiempos.SelectedIndex = int.Parse(btn.ClassId);
+                    ImageButton btn = (ImageButton)sender;
+                    tiempos.RemoveAt(int.Parse(btn.ClassId));
+                    fechas.RemoveAt(int.Parse(btn.ClassId));
+                    GuardarDatos();
+                    if (int.Parse(btn.ClassId) < tiempos.Count())
+                    {
+
+                        Mostrargrafica(int.Parse(btn.ClassId));
+                        CarreteTiempos.SelectedIndex = int.Parse(btn.ClassId);
+                    }
+                    else
+                    {
+                        Mostrargrafica(tiempos.Count() - 1);
+                        CarreteTiempos.SelectedIndex = tiempos.Count() - 1;
+                    }
+                    ListaRegistros();
+
+                    break;
+
+               
             }
-            else
-            {
-                Mostrargrafica(tiempos.Count() - 1);
-                CarreteTiempos.SelectedIndex = tiempos.Count() - 1;
-            }
-
-
-            ListaRegistros();
+            
         }
 
 

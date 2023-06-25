@@ -252,7 +252,8 @@ namespace Cronometro
 
         async private void BtnEstadisticas_Clicked(object sender, EventArgs e)
         {
-            CrossMTAdmob.Current.LoadInterstitial("ca-app-pub-8967169262052512/3216972468");
+            AnimImageBoton(sender);
+            CrossMTAdmob.Current.LoadInterstitial("ca-app-pub-8967169262052512/2052349351");
 
             await Navigation.PushAsync(new PaginaEstadisticas());
         }

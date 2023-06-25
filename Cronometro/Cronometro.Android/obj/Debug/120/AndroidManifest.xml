@@ -11,11 +11,11 @@
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <application android:label="Cronometro.Android" android:theme="@style/MainTheme" android:icon="@mipmap/icon" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true" android:extractNativeLibs="true">
-    <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-8967169262052512~8464189043" />
+    <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-8967169262052512~2706955474" />
     <activity android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:theme="@android:style/Theme.Translucent" />
     <meta-data android:name="com.google.android.gms.ads.AD_MANAGER_APP" android:value="true" />
     <uses-library android:name="org.apache.http.legacy" android:required="false" />
-    <activity android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:icon="@mipmap/iconocronometro" android:label="Cronometro" android:theme="@style/MainTheme" android:name="crc64e913f95face3bb93.MainActivity" android:exported="true">
+    <activity android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:icon="@mipmap/iconocronometro" android:label="Cronómetro" android:theme="@style/MainTheme" android:name="crc64e913f95face3bb93.MainActivity" android:exported="true">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

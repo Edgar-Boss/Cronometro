@@ -4,29 +4,33 @@
              xmlns:microcharts="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
              x:Class="Cronometro.View.PaginaEstadisticas"
              xmlns:cardview="clr-namespace:PanCardView;assembly=PanCardView"
+             xmlns:controls="clr-namespace:MarcTron.Plugin.Controls;assembly=Plugin.MtAdmob"
              xmlns:proc="clr-namespace:PanCardView.Processors;assembly=PanCardView"
              NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
-        <StackLayout>
-            <Grid BackgroundColor="White" IsVisible="true">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.9*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid BackgroundColor="Transparent" IsVisible="true">
                 <Grid.RowDefinitions>
-
                     <RowDefinition Height=".4*"/>
                     <RowDefinition Height=".6*"/>
                 </Grid.RowDefinitions>
                 <microcharts:ChartView  x:Name="grafica"  
-                                Grid.Row="0"
-                                HeightRequest="150"/>
-
-
+                                        Grid.Row="0"
+                                        HeightRequest="150"
+                                        />
                 <cardview:CoverFlowView x:Name="CarreteTiempos"
-                                IsCyclical="False" 
-                                Margin="0,50" 
-                                ItemsSource="{Binding Registros_}" 
-                                PositionShiftValue="150" 
-                                Grid.Row="1" 
-                                BackgroundColor="Transparent"
-                                ItemAppeared="CarreteTiempos_ItemAppeared" >
+                                        Padding="0"
+                                        IsCyclical="False" 
+                                        Margin="0,0" 
+                                        ItemsSource="{Binding Registros_}" 
+                                        PositionShiftValue="150" 
+                                        Grid.Row="1" 
+                                        BackgroundColor="Transparent"
+                                        ItemAppeared="CarreteTiempos_ItemAppeared" >
                     <x:Arguments>
                         <proc:CoverFlowProcessor ScaleFactor="0.65"/>
                     </x:Arguments>
@@ -70,8 +74,18 @@
                         </DataTemplate>
                     </cardview:CoverFlowView.ItemTemplate>
                 </cardview:CoverFlowView>
-
             </Grid>
+            <StackLayout Grid.Row="1">
+                <Frame  BackgroundColor="Transparent" HasShadow="False">
+                    <controls:MTAdView   
+                            HeightRequest="60"
+                            IsEnabled="True"
+                            IsVisible="True"
+                            x:Name="MisAds"
+                            AdsId="ca-app-pub-8967169262052512/8567401211"
+                            BackgroundColor="Transparent"/>
+                </Frame>
+            </StackLayout>
             <StackLayout x:Name="StkVacio"
                      IsVisible="false" 
                      BackgroundColor="White" 
@@ -83,7 +97,7 @@
                 HorizontalOptions="CenterAndExpand" 
                 VerticalOptions="CenterAndExpand"/>
             </StackLayout>
-        </StackLayout>
+        </Grid>
 
     </ContentPage.Content>
     

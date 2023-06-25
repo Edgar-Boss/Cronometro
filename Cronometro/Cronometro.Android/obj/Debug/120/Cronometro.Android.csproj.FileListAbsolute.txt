@@ -84,7 +84,6 @@ C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro.Android\obj\Debug\1
 C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro.Android\obj\Debug\120\res\drawable\estadisticas.png
 C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro.Android\obj\Debug\120\res\drawable\delete.png
 C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro.Android\obj\Debug\120\res\drawable\icongrafica.png
-C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro.Android\obj\Debug\120\res\drawable\icongrafica_1.png
 C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro.Android\obj\Debug\120\uploadflags.txt
 C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro.Android\obj\Debug\120\resolvedassemblies.hash
 C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro.Android\obj\Debug\120\android\assets\Cronometro.Android.dll
@@ -872,3 +871,4 @@ C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro.Android\obj\Debug\1
 C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro.Android\obj\Debug\120\res\mipmap-xhdpi\iconocronometro.png
 C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro.Android\obj\Debug\120\res\mipmap-xxhdpi\iconocronometro.png
 C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro.Android\obj\Debug\120\res\mipmap-xxxhdpi\iconocronometro.png
+C:\Users\Edgar\source\repos\Cronometro\Cronometro\Cronometro.Android\obj\Debug\120\res\drawable\icongrafica_.png
